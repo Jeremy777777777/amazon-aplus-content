@@ -19,7 +19,7 @@ Listing 仓库管理标题、五点描述、产品参数与 Listing 图片；本
 
 1. 提供 Listing 信息、Listing 链接 / ASIN 或 ERP 产品链接；从已有资料提取 SKU、站点、规格与图片。
 2. 收集确认过的规格、产品原图、品牌标识、卖点及已有 Listing 文案。
-3. 复制 `templates/product-project.md` 为 `products/<SKU>/<marketplace>/project.md`。
+3. 复制 `templates/product-project.md` 为 `products/<Virtual-ID>/<marketplace>/project.md`。
 4. 先确认共享的卖点和视觉方向，再分别制作 Basic 与 Premium 版本。
 5. 检查事实、文案、图片和移动端阅读效果，整理交付包。
 6. 记录实际选择的版本、应用 ASIN、提交日期及审核结果。
@@ -27,7 +27,7 @@ Listing 仓库管理标题、五点描述、产品参数与 Listing 图片；本
 ## 产品目录约定
 
 ```text
-products/<SKU>/<marketplace>/
+products/<Virtual-ID>/<marketplace>/
   project.md             # 产品资料、来源、状态和两套内容规划
   source/                # Listing 快照、规格、授权产品图片
   shared/                # 共用品牌素材和已确认的卖点
@@ -56,3 +56,4 @@ products/<SKU>/<marketplace>/
 ## 当前状态
 
 仓库与模板已初始化，等待第一个已有 Listing 的产品资料。当前没有产品专属内容，也没有自动发布到 Amazon 的程序。
+
