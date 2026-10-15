@@ -1,9 +1,11 @@
 # 产品 A+ 项目模板
 
-复制到 `products/<SKU>/<marketplace>/project.md`，将所有待填写项替换为确认资料。
+复制到 `products/<Virtual-ID>/<marketplace>/project.md`，将所有待填写项替换为确认资料。
 
 ## 基础资料与来源
 
+- ERP Virtual ID（文件夹命名依据）：待核实
+- ERP 产品链接 / 记录 ID：待填写
 - SKU：待填写
 - 品牌 / 产品名称：待填写
 - ASIN / 变体及适用范围：待填写
@@ -16,6 +18,7 @@
 - Premium A+ 后台权限：待核实
 - 可用模块、尺寸与字段限制核实日期：待填写
 - 状态：资料收集
+- 归档规则：确认 ERP Virtual ID 后创建正式目录；该 ID 下保存本产品全部 Basic、Premium、视频脚本和交付文件。
 
 ## 共用内容策略
 
