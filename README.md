@@ -1,6 +1,15 @@
 # Amazon A+ Content
 
-从已经完成的 Amazon Listing 出发，为同一产品制作 Basic A+（普通 A+）和 Premium A+（A++）两套内容。
+从已有 Listing 信息或 ERP 产品链接出发，为同一产品制作 Basic A+（普通 A+）和 Premium A+（A++）两套内容。
+
+## 工作流与模板入口
+
+- [完整制作工作流](WORKFLOW.md)：Listing / ERP → 事实核对 → 参考分析 → 两套 A+ 图文 → 视频 AI 脚本 → 验收与交付。
+- [产品项目模板](templates/product-project.md)。
+- [视频 AI 脚本模板](templates/video-ai-script.md)：时间轴、逐镜头提示词、产品外观约束、字幕、旁白稿与剪辑说明。
+- [PCOnline 与 IST Computers 参考店铺](references/sellers.md)。
+
+已确认默认设置：美国站、英文买家文案、中文制作说明、约 30 秒视频；视频 AI 未选定，先使用通用格式。
 
 ## 项目定位
 
@@ -8,7 +17,7 @@ Listing 仓库管理标题、五点描述、产品参数与 Listing 图片；本
 
 ## 开始一个产品项目
 
-1. 提供 Listing 链接或 ASIN、SKU、销售站点和内容语言。
+1. 提供 Listing 信息、Listing 链接 / ASIN 或 ERP 产品链接；从已有资料提取 SKU、站点、规格与图片。
 2. 收集确认过的规格、产品原图、品牌标识、卖点及已有 Listing 文案。
 3. 复制 `templates/product-project.md` 为 `products/<SKU>/<marketplace>/project.md`。
 4. 先确认共享的卖点和视觉方向，再分别制作 Basic 与 Premium 版本。
@@ -28,7 +37,7 @@ products/<SKU>/<marketplace>/
   premium/
     copy.md              # Premium A+ 模块与文案
     assets/              # 大图、轮播、热点素材
-    video/               # 脚本、分镜及视频文件或存储链接
+  video/                 # 通用视频 AI 脚本、分镜、提示词、旁白与字幕
   delivery/              # 最终上传素材和模块映射清单
   review/                # 预览、修改记录与审核结果
 ```
