@@ -1,2 +1,49 @@
-# amazon-aplus-content
-Create Basic A+ and Premium A+ content from existing Amazon listings: briefs, copy, design assets, and delivery packages.
+# Amazon A+ Content
+
+从已经完成的 Amazon Listing 出发，为同一产品制作 Basic A+（普通 A+）和 Premium A+（A++）两套内容。
+
+## 项目定位
+
+Listing 仓库管理标题、五点描述、产品参数与 Listing 图片；本仓库管理 A+ 的内容规划、文案、视觉设计与最终上传素材。产品事实以已确认的 Listing 和原始规格为依据，每个项目记录来源链接与版本。
+
+## 开始一个产品项目
+
+1. 提供 Listing 链接或 ASIN、SKU、销售站点和内容语言。
+2. 收集确认过的规格、产品原图、品牌标识、卖点及已有 Listing 文案。
+3. 复制 `templates/product-project.md` 为 `products/<SKU>/<marketplace>/project.md`。
+4. 先确认共享的卖点和视觉方向，再分别制作 Basic 与 Premium 版本。
+5. 检查事实、文案、图片和移动端阅读效果，整理交付包。
+6. 记录实际选择的版本、应用 ASIN、提交日期及审核结果。
+
+## 产品目录约定
+
+```text
+products/<SKU>/<marketplace>/
+  project.md             # 产品资料、来源、状态和两套内容规划
+  source/                # Listing 快照、规格、授权产品图片
+  shared/                # 共用品牌素材和已确认的卖点
+  basic/
+    copy.md              # 普通 A+ 模块与文案
+    assets/              # 普通 A+ 图片
+  premium/
+    copy.md              # Premium A+ 模块与文案
+    assets/              # 大图、轮播、热点素材
+    video/               # 脚本、分镜及视频文件或存储链接
+  delivery/              # 最终上传素材和模块映射清单
+  review/                # 预览、修改记录与审核结果
+```
+
+以上为新产品的目录约定；在确认第一个产品后按需创建实际文件。
+
+## 两套版本的制作原则
+
+- Basic：使用后台提供的标准图文和对比模块，清楚说明核心卖点、细节及使用场景。
+- Premium：共用已确认的产品事实和品牌风格，按后台实际权限扩展大图、轮播、热点、视频和 Q&A。
+- 图片尺寸、模块数量、字段限制和可用模块，在制作时按目标站点的 A+ Content Manager 核实，并记录核实日期。
+- 不编造规格、认证、性能、兼容性或买家评价；缺少依据的内容标记待确认。
+- 项目工作说明可用中文；面向买家的文案按目标站点语言输出。
+- 大型视频、可编辑设计源文件可用受控存储链接记录，避免把大型二进制文件反复提交到 Git。
+
+## 当前状态
+
+仓库与模板已初始化，等待第一个已有 Listing 的产品资料。当前没有产品专属内容，也没有自动发布到 Amazon 的程序。
