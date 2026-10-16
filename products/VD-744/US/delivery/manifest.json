@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "productId": "VD-744",
+  "asin": "B0HMY74CHD",
+  "marketplace": "US",
+  "date": "2026-10-16",
+  "generator": "built-in imagegen",
+  "contentStatus": "CONTENT_V1_REVIEW_READY",
+  "backendStatus": "BACKEND_ADAPTATION_PENDING",
+  "videoStatus": "SCRIPT_ONLY_NOT_GENERATED",
+  "originalPhotosUnchanged": true,
+  "assets": [
+    {
+      "file": "shared/assets/01-hero-v1.png",
+      "width": 2172,
+      "height": 724,
+      "format": "PNG",
+      "bytes": 1473882,
+      "sha256": "b4832bb50e369a305c5e65056097f2084fcf0f3ff61f0da5e88f556a24a846c2",
+      "state": "CREATIVE_V1_REVIEW_READY",
+      "backendAdapted": false
+    },
+    {
+      "file": "shared/assets/02-workday-v1.png",
+      "width": 2172,
+      "height": 724,
+      "format": "PNG",
+      "bytes": 1419027,
+      "sha256": "43e1a0768c7bd3fc8611a05c3f02ddc6cdf9ae90be53218cf90cc6e253bc88c5",
+      "state": "CREATIVE_V1_REVIEW_READY",
+      "backendAdapted": false
+    },
+    {
+      "file": "shared/assets/03-business-v1.png",
+      "width": 2172,
+      "height": 724,
+      "format": "PNG",
+      "bytes": 1610933,
+      "sha256": "0bbe6364bad36a1a59a05167c3e5febdbff94d7af23da2c4abb8f09ed958f47e",
+      "state": "CREATIVE_V1_REVIEW_READY",
+      "backendAdapted": false
+    },
+    {
+      "file": "shared/assets/04-home-office-v1.png",
+      "width": 2170,
+      "height": 725,
+      "format": "PNG",
+      "bytes": 1663778,
+      "sha256": "90bd6f52b7983f0573e37aae51dc8075d9baf25427595132f32772cdef5261e5",
+      "state": "CREATIVE_V1_REVIEW_READY",
+      "backendAdapted": false
+    },
+    {
+      "file": "shared/assets/05-connections-v1.png",
+      "width": 2172,
+      "height": 724,
+      "format": "PNG",
+      "bytes": 1383733,
+      "sha256": "bde743590b83930b5b96b95f59e84a332f2dca98b0603b08d7d4ac8be117ca6b",
+      "state": "CREATIVE_V1_REVIEW_READY",
+      "backendAdapted": false
+    },
+    {
+      "file": "shared/assets/06-configuration-v1.png",
+      "width": 2170,
+      "height": 725,
+      "format": "PNG",
+      "bytes": 1510794,
+      "sha256": "6d18395fe70ab75ab1ae9e49b19f598b1f11e119b3c71defce5b5fe892a204c5",
+      "state": "CREATIVE_V1_REVIEW_READY",
+      "backendAdapted": false
+    }
+  ],
+  "sources": [
+    {
+      "file": "shared/source/dell-logo.png",
+      "sha256": "7022f17d03a2277b67ef40d26e30a7b7476daf7edbb450879c81ddd82e6f78d1",
+      "purpose": "Authorized exact-model or OEM-logo reference reused from create-custom-pc-listing",
+      "verification": "Source record and user instructions; not independent sold-unit inspection"
+    },
+    {
+      "file": "shared/source/dell-qcm1250-angle.png",
+      "sha256": "a60d609b269619d3a047cf7667e94e8c777b3d502e2f55ef99ac60aa27f312fe",
+      "purpose": "Authorized exact-model or OEM-logo reference reused from create-custom-pc-listing",
+      "verification": "Source record and user instructions; not independent sold-unit inspection"
+    },
+    {
+      "file": "shared/source/dell-qcm1250-front.png",
+      "sha256": "8595c94bbf9a1efbaf502a561e0bde1cdbe3eec3125aa263ea6a146f51f70130",
+      "purpose": "Authorized exact-model or OEM-logo reference reused from create-custom-pc-listing",
+      "verification": "Source record and user instructions; not independent sold-unit inspection"
+    },
+    {
+      "file": "shared/source/dell-qcm1250-rear.png",
+      "sha256": "7871f4056651112d31936e4a599bcf63bee3627ea8ed388582e75ef1bb452dad",
+      "purpose": "Authorized exact-model or OEM-logo reference reused from create-custom-pc-listing",
+      "verification": "Source record and user instructions; not independent sold-unit inspection"
+    }
+  ]
+}

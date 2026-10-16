@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:04,000
+Make Room for What Matters.
+
+2
+00:00:04,000 --> 00:00:09,000
+Intel Core Ultra 7 265T
+
+3
+00:00:09,000 --> 00:00:14,000
+Business Workspace
+
+4
+00:00:14,000 --> 00:00:19,000
+Home Office
+
+5
+00:00:19,000 --> 00:00:22,000
+Everyday Connections
+
+6
+00:00:22,000 --> 00:00:25,000
+RAM & SSD Options
+
+7
+00:00:25,000 --> 00:00:30,000
+Dell Pro Micro QCM1250
+Customized by MegaPC
