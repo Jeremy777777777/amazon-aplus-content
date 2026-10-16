@@ -4,10 +4,12 @@
 
 | 卖家 | 用户确认的 Amazon 店铺 | 站点 | 分析状态 |
 |---|---|---|---|
-| PCOnline | https://www.amazon.com/stores/PCOnline/page/A207A48D-D145-4C5A-97EC-3316A9BA796B | 美国 | 待选同类代表商品并分析 |
-| IST Computers | https://www.amazon.com/stores/ISTComputers/page/C7DDE592-B3BF-4748-883A-1988837CDED0 | 美国 | 待选同类代表商品并分析 |
+| PCOnline | https://www.amazon.com/stores/PCOnline/page/A207A48D-D145-4C5A-97EC-3316A9BA796B | 美国 | VD-744 已分析同机型 B0GZZDDLMT |
+| IST Computers | https://www.amazon.com/stores/ISTComputers/page/C7DDE592-B3BF-4748-883A-1988837CDED0 | 美国 | VD-744 已分析同机型 B0FQBKV3D5 |
 
 2026-10-15 尝试通过网页读取工具访问这两个店铺，均返回 HTTP 503。没有将页面不可访问解释为没有 A+ 或视频，也没有据此推断卖家风格。后续可在浏览器中读取，或由用户提供同类代表商品链接。
+
+后续访问更新：同日通过浏览器成功打开两家店铺，在店内搜索 QCM1250，并读取 PCOnline [B0GZZDDLMT](https://www.amazon.com/dp/B0GZZDDLMT) 与 IST [B0FQBKV3D5](https://www.amazon.com/dp/B0FQBKV3D5) 的 A+。已观察商品页面、A+ 图文与轮播；未完整播放竞品视频。具体观察、适用范围及不可迁移的参数见 [VD-744 参考分析](../products/VD-744/US/reference-analysis.md)。之前的 503 记录保留为访问历史，不再代表当前无法分析。
 
 用户原始链接中的 `lp_asin` 分别为 `B0H2V3GLZS` 和 `B01N4C1TH4`；这些只是店铺链接附带的来源商品标识，尚未认定为最终参考商品。
 
