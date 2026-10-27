@@ -6,8 +6,18 @@
 
 ## hero
 
+以下为 2026-10-16 的初始生成记录；当前交付图已按下面的修改记录移除底部 MegaPC 文字。
+
 ```text
 Create ONE finished premium Amazon A+ product banner, wide 3:1 landscape, ideally 1800x600 or 1536x512, no collage. Reference image 1 is the exact Dell Pro Micro QCM1250 black micro desktop; preserve its exact silhouette, proportions, front power button, headset jack, one USB-A above one USB-C, lower vertical grille, authentic Dell mark, side fasteners. Use its photographed angle without inventing another view. Reference image 2 is an authorized original Dell blue circle logo, place it small in upper-left white space with original shape. Product on right 45% of banner, large but fully contained, soft realistic contact shadow on cool white surface. Left 48% spacious clean editorial typography. Polished restrained business technology art direction: white, deep navy #10243A, blue #246DDB, subtle pale-blue architectural sweep, no noisy patterns. Exact text only, clear sans-serif: top small 'DELL PRO MICRO QCM1250'; main heading split across two lines 'Make Room for' / 'What Matters.'; supporting line 'Compact design. Focused workspace.'; bottom small 'Customized by MegaPC'. Do NOT print additional text on the computer. Do not add any numeric specifications, monitor, keyboard, mouse, cables, accessories, people, warranty, Windows or Intel logo. This is a real business micro desktop, not a gaming tower. Professional conversion-oriented hero, exquisite crisp finish and balanced whitespace.
+```
+
+### hero · 2026-10-27 局部修改记录
+
+工具：内置 imagegen，单图编辑；输入为现有 `shared/assets/01-hero-v1.png`。保持原交付路径，旧图可从 Git 历史恢复。
+
+```text
+Use case: precise-object-edit. Edit target: the supplied finished 2172 x 724 wide Dell Pro Micro QCM1250 hero banner. Make exactly one small edit: remove the entire lower-left footer text 'Customized by MegaPC' and restore the clean white / very pale blue background underneath it seamlessly. Leave that lower-left footer area blank. Preserve the original canvas dimensions and 3:1 composition. Keep all remaining elements unchanged: the upper-left Dell blue circle logo, 'DELL PRO MICRO QCM1250', the two-line heading 'Make Room for' / 'What Matters.', 'Compact design. Focused workspace.', the exact computer appearance, ports, grille, logos, position and scale, lighting, shadows, blue background sweep, colors, spacing and typography. Do not replace the removed phrase with any text. Do not redesign, reframe, crop, move or add anything. Only remove the specified footer phrase.
 ```
 
 ## features
