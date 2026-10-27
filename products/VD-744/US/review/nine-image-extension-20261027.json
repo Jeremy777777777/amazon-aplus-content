@@ -1,0 +1,250 @@
+{
+  "productId": "VD-744",
+  "marketplace": "US",
+  "date": "2026-10-27",
+  "baselineRevision": "05f7fbab758b04d328437a94584cd933f0d1a301",
+  "targetImageCount": 9,
+  "currentDeliveredCount": 7,
+  "status": "USER_APPROVED_NINE_IMAGE_DELIVERY",
+  "request": "User requested converting supplied in-hand micro PC image concept into an A+ image and a total of nine images. Keep current seven; add pt08 in-hand form and pt09 everyday office tasks.",
+  "identity": {
+    "basis": "Current main project.md identifies VD-744 as Dell Pro Micro QCM1250; exact-model original angle photograph is present.",
+    "serial": "No serial/service tag in this project's sanitized inputs. No serial lookup attempted or raw serial used for this model-chassis-only comparison.",
+    "scope": "OEM external chassis geometry for the identified model, not a new sold-unit configuration or physical measurement certification."
+  },
+  "attributes": [
+    {
+      "attribute": "chassis_height",
+      "value": 182,
+      "unit": "mm",
+      "inches": 7.17,
+      "scope": "OEM exact-model chassis",
+      "status": "OFFICIAL_MODEL_VERIFIED",
+      "source": "dell_dimensions",
+      "accessDate": "2026-10-27",
+      "conflicts": [],
+      "resolution": "Use matching OEM dimension; previous project only recorded that ERP lacked dimensions, which is absence rather than conflicting evidence.",
+      "limitation": "No independent physical measurement of this sellable unit."
+    },
+    {
+      "attribute": "chassis_width",
+      "value": 36,
+      "unit": "mm",
+      "inches": 1.42,
+      "scope": "OEM exact-model chassis",
+      "status": "OFFICIAL_MODEL_VERIFIED",
+      "source": "dell_dimensions",
+      "accessDate": "2026-10-27",
+      "conflicts": [],
+      "resolution": "Use matching OEM dimension; previous project only recorded that ERP lacked dimensions, which is absence rather than conflicting evidence.",
+      "limitation": "No independent physical measurement of this sellable unit."
+    },
+    {
+      "attribute": "chassis_depth",
+      "value": 178,
+      "unit": "mm",
+      "inches": 7.01,
+      "scope": "OEM exact-model chassis",
+      "status": "OFFICIAL_MODEL_VERIFIED",
+      "source": "dell_dimensions",
+      "accessDate": "2026-10-27",
+      "conflicts": [],
+      "resolution": "Use matching OEM dimension; previous project only recorded that ERP lacked dimensions, which is absence rather than conflicting evidence.",
+      "limitation": "No independent physical measurement of this sellable unit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "dell_dimensions",
+      "priority": "manufacturer official",
+      "title": "Dell Pro Micro QCM1250 Owner's Manual — Dimensions and weight",
+      "url": "https://www.dell.com/support/manuals/en-us/dell-pro-qcm1250-micro/dell_pro_micro_qcm1250_om/dimensions-and-weight?guid=guid-476edaac-b30e-4ef6-b273-319a3db074b1&lang=en-us",
+      "observedRegionalRedirect": "https://www.dell.com/support/manuals/en-in/dell-pro-qcm1250-micro/dell_pro_micro_qcm1250_om/dimensions-and-weight?guid=guid-476edaac-b30e-4ef6-b273-319a3db074b1&lang=en-us",
+      "section": "Dimensions and weight table",
+      "excerpt": "Height 182.00 mm (7.17 in.); Width 36.00 mm (1.42 in.); Depth 178.00 mm (7.01 in.)",
+      "accessDate": "2026-10-27"
+    }
+  ],
+  "researchScope": "Reuse current established exact-model chassis evidence and office-use copy. Do not infer current weight, lifting force, included paid software, accessory SKU/pack-out or extra hardware capabilities from creative images.",
+  "newImages": [
+    {
+      "id": "pt08",
+      "topic": "Compact in-hand form",
+      "userReference": {
+        "fileName": "codex-clipboard-0a7df734-5611-42ec-8ad7-39f3861a4f3d.png",
+        "sha256": "caec0ff37e227349175d0d828fd0a7fcecc090497aec3434b24c98e6fd7061e2",
+        "scope": "Pose/size impression only, not model identity authority. Use original QCM1250 front/angle photos for hardware. User screenshot will not be republished."
+      },
+      "claimScope": "Compact chassis only. No lightweight, exact weight, finger-support force, portability or physical-test claim.",
+      "status": "USER_STYLE_APPROVED_FOR_GITHUB_DELIVERY",
+      "selectedPreview": {
+        "file": "shared/assets/pt08.png",
+        "width": 2170,
+        "height": 725,
+        "bytes": 1752110,
+        "sha256": "065108bba792a76c64bbcd3b6819e883ea6c42f900791f721b55616b9603a5ca"
+      },
+      "visualReview": "Viewed: horizontal black micro chassis held naturally by an adult hand, model and headline text readable; visible power/headset/USB-A/USB-C order and front grille checked at visual level. Illustration is not an actual unit weighing/force test or pixel-exact factory marking certification. No numeric weight, lightweight claim, accessory, fixed capacity or performance claim printed."
+    },
+    {
+      "id": "pt09",
+      "topic": "Everyday office tasks",
+      "basis": "Current basic/copy.md B02 already states everyday office applications; current project strategy is business/home-office.",
+      "claimScope": "Generic documents, spreadsheets and web browsing; no branded paid software, included app, quantified speed, performance or multi-display promise.",
+      "status": "USER_STYLE_APPROVED_FOR_GITHUB_DELIVERY",
+      "selectedPreview": {
+        "file": "shared/assets/pt09.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1732469,
+        "sha256": "c9176d0e136f58e5db1038a7a4fa9d6ae545723f07879a2b4f0e75b04ba8f234"
+      },
+      "visualReview": "Viewed: office work moment, micro PC left of monitor, black keyboard/mouse, natural forearms/hands and generic unbranded document/spreadsheet/browser screens. Product remains clear; model, task labels and illustrative-workspace/accessory exclusion footer read correctly. No performance figures, fixed capacities, paid app logos or included-software promises."
+    }
+  ],
+  "originalAssets": [
+    {
+      "file": "shared/assets/01-hero-v1.png",
+      "width": 2172,
+      "height": 724,
+      "format": "PNG",
+      "bytes": 1581632,
+      "sha256": "82a5389fcb280f8e8363d8dd5179e7c0f8fcf1aee8e51c93454e9af2423611b0",
+      "revisionDate": "2026-10-27",
+      "revision": "Removed the lower-left Customized by MegaPC footer at user request using built-in imagegen; retained the existing delivery path and 2172x724 canvas.",
+      "state": "CREATIVE_V1_REVIEW_READY",
+      "backendAdapted": false
+    },
+    {
+      "file": "shared/assets/02-workday-v1.png",
+      "width": 2172,
+      "height": 724,
+      "format": "PNG",
+      "bytes": 1419027,
+      "sha256": "43e1a0768c7bd3fc8611a05c3f02ddc6cdf9ae90be53218cf90cc6e253bc88c5",
+      "state": "CREATIVE_V1_REVIEW_READY",
+      "backendAdapted": false
+    },
+    {
+      "file": "shared/assets/03-business-v1.png",
+      "width": 2172,
+      "height": 724,
+      "format": "PNG",
+      "bytes": 1610933,
+      "sha256": "0bbe6364bad36a1a59a05167c3e5febdbff94d7af23da2c4abb8f09ed958f47e",
+      "state": "CREATIVE_V1_REVIEW_READY",
+      "backendAdapted": false
+    },
+    {
+      "file": "shared/assets/04-home-office-v1.png",
+      "width": 2170,
+      "height": 725,
+      "format": "PNG",
+      "bytes": 1663778,
+      "sha256": "90bd6f52b7983f0573e37aae51dc8075d9baf25427595132f32772cdef5261e5",
+      "state": "CREATIVE_V1_REVIEW_READY",
+      "backendAdapted": false
+    },
+    {
+      "file": "shared/assets/05-connections-v1.png",
+      "width": 2172,
+      "height": 724,
+      "format": "PNG",
+      "bytes": 1383733,
+      "sha256": "bde743590b83930b5b96b95f59e84a332f2dca98b0603b08d7d4ac8be117ca6b",
+      "state": "CREATIVE_V1_REVIEW_READY",
+      "backendAdapted": false
+    },
+    {
+      "file": "shared/assets/06-configuration-v1.png",
+      "width": 2170,
+      "height": 725,
+      "format": "PNG",
+      "bytes": 1510794,
+      "sha256": "6d18395fe70ab75ab1ae9e49b19f598b1f11e119b3c71defce5b5fe892a204c5",
+      "state": "CREATIVE_V1_REVIEW_READY",
+      "backendAdapted": false
+    },
+    {
+      "id": "pt07",
+      "file": "shared/assets/pt07.png",
+      "width": 2171,
+      "height": 724,
+      "format": "PNG",
+      "bytes": 1672278,
+      "sha256": "522c6a61e900541f5b030e83bc694463ca64b202f4ed5ab76d9fc4a2d2b980c4",
+      "date": "2026-10-27",
+      "state": "USER_STYLE_APPROVED",
+      "userApproval": "2026-10-27: User selected the left-of-monitor arrangement and approved the resulting preview for GitHub replacement: 帮我更新上去吧.",
+      "backendAdapted": false,
+      "purpose": "Natural office size context: micro PC left of a representative monitor, keyboard centered in front, mouse to right. Monitor, keyboard and mouse are contextual props, not included accessories.",
+      "evidence": "review/pt07-office-comparison-20261027.json",
+      "prompts": "review/pt07-office-generation-prompts.txt"
+    }
+  ],
+  "promptRecords": "review/pt08-pt09-generation-prompts-20261027.txt",
+  "qa": {
+    "styleApproval": "APPROVED_2026-10-27: 上传把，然后帮我查看每一张图有没有突出每张图的宣传效果，如果有重复或者没有突出这个pc的特点，你反馈给我",
+    "originalSevenImages": "UNCHANGED",
+    "amazonBackendAdaptation": "NOT_PERFORMED",
+    "githubDeliveryAuthorization": "User explicitly authorized uploading both shown new images to complete nine; remote exact bytes verified after push."
+  },
+  "previewOrder": [
+    {
+      "position": 1,
+      "file": "shared/assets/01-hero-v1.png",
+      "sha256": "82a5389fcb280f8e8363d8dd5179e7c0f8fcf1aee8e51c93454e9af2423611b0",
+      "state": "EXISTING_GITHUB_DELIVERY_UNCHANGED"
+    },
+    {
+      "position": 2,
+      "file": "shared/assets/02-workday-v1.png",
+      "sha256": "43e1a0768c7bd3fc8611a05c3f02ddc6cdf9ae90be53218cf90cc6e253bc88c5",
+      "state": "EXISTING_GITHUB_DELIVERY_UNCHANGED"
+    },
+    {
+      "position": 3,
+      "file": "shared/assets/03-business-v1.png",
+      "sha256": "0bbe6364bad36a1a59a05167c3e5febdbff94d7af23da2c4abb8f09ed958f47e",
+      "state": "EXISTING_GITHUB_DELIVERY_UNCHANGED"
+    },
+    {
+      "position": 4,
+      "file": "shared/assets/04-home-office-v1.png",
+      "sha256": "90bd6f52b7983f0573e37aae51dc8075d9baf25427595132f32772cdef5261e5",
+      "state": "EXISTING_GITHUB_DELIVERY_UNCHANGED"
+    },
+    {
+      "position": 5,
+      "file": "shared/assets/05-connections-v1.png",
+      "sha256": "bde743590b83930b5b96b95f59e84a332f2dca98b0603b08d7d4ac8be117ca6b",
+      "state": "EXISTING_GITHUB_DELIVERY_UNCHANGED"
+    },
+    {
+      "position": 6,
+      "file": "shared/assets/06-configuration-v1.png",
+      "sha256": "6d18395fe70ab75ab1ae9e49b19f598b1f11e119b3c71defce5b5fe892a204c5",
+      "state": "EXISTING_GITHUB_DELIVERY_UNCHANGED"
+    },
+    {
+      "position": 7,
+      "file": "shared/assets/pt07.png",
+      "sha256": "522c6a61e900541f5b030e83bc694463ca64b202f4ed5ab76d9fc4a2d2b980c4",
+      "state": "EXISTING_GITHUB_DELIVERY_UNCHANGED"
+    },
+    {
+      "position": 8,
+      "id": "pt08",
+      "file": "shared/assets/pt08.png",
+      "sha256": "065108bba792a76c64bbcd3b6819e883ea6c42f900791f721b55616b9603a5ca",
+      "state": "USER_STYLE_APPROVED_FOR_GITHUB_DELIVERY"
+    },
+    {
+      "position": 9,
+      "id": "pt09",
+      "file": "shared/assets/pt09.png",
+      "sha256": "c9176d0e136f58e5db1038a7a4fa9d6ae545723f07879a2b4f0e75b04ba8f234",
+      "state": "USER_STYLE_APPROVED_FOR_GITHUB_DELIVERY"
+    }
+  ]
+}
