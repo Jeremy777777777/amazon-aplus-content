@@ -22,6 +22,9 @@
 
 ## 共用内容策略
 
+- 九图相似风格时使用 [九图规范](../references/nine-image-business-pc.md)、[制作简报](nine-image-brief.md) 与 [提示词模板](nine-image-prompts.md)；复制到产品目录后更新这些相对链接。
+- 九图主题／逐图文案与事实证据／版式／预览批准记录：填写在本产品 `nine-image-brief.md`，不要直接沿用 VD-744 参数或历史图片文件名含义。
+- 本产品 style lock／机器可读参数／实际生成提示词：待填写
 - 目标买家：待填写
 - 主要使用场景：待填写
 - 核心购买理由：待填写

@@ -5,6 +5,8 @@
 ## 工作流与模板入口
 
 - [完整制作工作流](WORKFLOW.md)：Listing / ERP → 事实核对 → 参考分析 → 两套 A+ 图文 → 视频 AI 脚本 → 验收与交付。
+- [复用 VD-744 九图内容与视觉规范](references/nine-image-business-pc.md)：九图分工、配色、字号、图文占比、规格网格、配置表、自然办公摆位和逐图检查。
+- [九图项目简报](templates/nine-image-brief.md) · [九张英文提示词模板](templates/nine-image-prompts.md) · [设计参数 JSON](assets/nine-image-business-pc-style.json)。
 - [产品项目模板](templates/product-project.md)。
 - [视频 AI 脚本模板](templates/video-ai-script.md)：时间轴、逐镜头提示词、产品外观约束、字幕、旁白稿与剪辑说明。
 - [PCOnline 与 IST Computers 参考店铺](references/sellers.md)。
@@ -16,6 +18,8 @@
 Listing 仓库管理标题、五点描述、产品参数与 Listing 图片；本仓库管理 A+ 的内容规划、文案、视觉设计与最终上传素材。产品事实以已确认的 Listing 和原始规格为依据，每个项目记录来源链接与版本。
 
 ## 开始一个产品项目
+
+下次可直接说：**“为 `<产品ID／Listing链接>` 按 VD-744 的九图商务风格制作 A+，先核实当前产品和实际销售档位，展示风格预览，再按确认结果完成九图。”** AI 按本仓库 workflow 读取规范并填项目简报；无需重述每张图的布局。品牌、硬件数值和档位重新核实，新产品风格仍由你判断。
 
 1. 提供 Listing 信息、Listing 链接 / ASIN 或 ERP 产品链接；从已有资料提取 SKU、站点、规格与图片。
 2. 收集确认过的规格、产品原图、品牌标识、卖点及已有 Listing 文案。
@@ -31,6 +35,8 @@ products/<Virtual-ID>/<marketplace>/
   project.md             # 产品资料、来源、状态和两套内容规划
   source/                # Listing 快照、规格、授权产品图片
   shared/                # 共用品牌素材和已确认的卖点
+    assets/              # 共用九图母版；版本专用导出另按需要保存
+    source/              # 实际使用的精确产品原图和品牌来源
   basic/
     copy.md              # 普通 A+ 模块与文案
     assets/              # 普通 A+ 图片

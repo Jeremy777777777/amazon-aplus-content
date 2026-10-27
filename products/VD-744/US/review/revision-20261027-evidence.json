@@ -296,6 +296,7 @@
     "limitations": "No guarantee all16 RAM/SSD pairings stocked; no current-unit drive layout/installed capacity certification; generic Wi-Fi/Bluetooth only; USB props not included.",
     "backend": "BACKEND_ADAPTATION_PENDING",
     "amazonPublication": "NOT_PERFORMED",
-    "github": "Release candidate; publication confirmed separately against remote Git blobs after push."
+    "github": "Release candidate; publication confirmed separately against remote Git blobs after push.",
+    "promptRecordLimitation": "2026-10-27 workflow extraction found image08 revision prompt body stored as literal undefined. Original call not recovered; gap now documented. New generic prompt template is separately labelled, not historical reconstruction. Approved image bytes unchanged."
   }
 }

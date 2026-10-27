@@ -1,5 +1,7 @@
 # VD-744 · A+ / Premium A+ 设计方案 v1
 
+**历史方案说明（2026-10-27）：**下文为原六图／五主题初稿，保留制作历史。当前九图以 [交付页](delivery/README.md) 与 [已批准修订证据](review/revision-20261027-evidence.json) 为准；复用方法见 [九图 workflow 规范](../../../references/nine-image-business-pc.md)。当前 03 为处理器、04 为整机速览、06 列实际选项，不按下文旧场景名恢复图片。
+
 状态：**DESIGN_PLAN_COMPLETE / BACKEND_ADAPTATION_PENDING**。这是内容、布局与图片制作方案；不是已经生成的最终图片、视频或可直接上传的后台包。用户于 2026-10-15 明确先完成设计方案、后续适配。
 
 ## 已确认方向

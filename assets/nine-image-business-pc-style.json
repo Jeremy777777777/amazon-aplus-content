@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "profileId": "nine-image-business-pc-v1",
+  "versionDate": "2026-10-27",
+  "purpose": "Reusable content/design guide derived from user-approved VD-744 nine-image set; new products require matching facts and per-product style preview approval.",
+  "guide": "references/nine-image-business-pc.md",
+  "briefTemplate": "templates/nine-image-brief.md",
+  "promptTemplate": "templates/nine-image-prompts.md",
+  "referenceCommit": "84bb002e4f1d8c064bba3df694aa920cca43c280",
+  "valueSemantics": "New-production recommendations unless explicitly labelled actualReference; not measured font properties or Amazon upload specifications.",
+  "reuse": [
+    "buyer-question roles",
+    "visual hierarchy",
+    "restrained office photography",
+    "layout starting points",
+    "per-image review"
+  ],
+  "reverifyForEveryProduct": [
+    "identity",
+    "manufacturer",
+    "CPU facts",
+    "RAM type and offered labels",
+    "SSD offered labels",
+    "OS",
+    "wireless versions",
+    "ports",
+    "dimensions",
+    "pack-out",
+    "source rights"
+  ],
+  "canvas": {
+    "targetWidth": 2172,
+    "targetHeight": 724,
+    "approximateAspectRatio": "3:1",
+    "format": "PNG",
+    "colorSpace": "sRGB",
+    "opaqueBackground": true,
+    "preserveApprovedOriginalBytes": true,
+    "backendAdaptation": "VERIFY_CURRENT_TARGET_MODULE_SEPARATELY"
+  },
+  "palette": {
+    "background": "#FFFFFF",
+    "navy": "#10243A",
+    "accentBlue": "#246DDB",
+    "suggestedCard": "#EAF4FF",
+    "suggestedDivider": "#D5E4F2",
+    "override": "Use product existing approved palette and correct OEM logo when different."
+  },
+  "typography": {
+    "family": [
+      "Arial",
+      "Helvetica",
+      "available system sans-serif"
+    ],
+    "headlinePx": [
+      84,
+      132
+    ],
+    "modelPx": [
+      26,
+      34
+    ],
+    "supportPx": [
+      32,
+      48
+    ],
+    "cardLabelPx": [
+      34,
+      52
+    ],
+    "keyValuePx": [
+      64,
+      104
+    ],
+    "qualifierPx": [
+      22,
+      28
+    ],
+    "headlineMaxLines": 2,
+    "headlineLineHeight": [
+      1.0,
+      1.15
+    ],
+    "note": "Starting values at target master size; inspect actual output. Do not compress long copy or infer mobile readability."
+  },
+  "spacing": {
+    "safeHorizontalPx": 64,
+    "safeVerticalPx": 32,
+    "gapPx": [
+      24,
+      36
+    ],
+    "cardRadiusPx": [
+      18,
+      28
+    ],
+    "cardBorderPx": [
+      2,
+      3
+    ]
+  },
+  "photography": {
+    "setting": "light-oak normal office desk, neutral walls, soft window daylight",
+    "scaleArrangement": "PC left of normal monitor, keyboard centered in front, mouse right",
+    "physicalChecks": [
+      "exact chassis and ports",
+      "one desk plane",
+      "coherent perspective",
+      "shared light direction",
+      "contact shadows",
+      "natural hands and proportions"
+    ],
+    "sizeComparisonProps": [
+      "normal office monitor",
+      "full-size keyboard",
+      "mouse"
+    ],
+    "excludeFromSizeComparison": [
+      "beverage cans",
+      "drink containers",
+      "clutter"
+    ],
+    "accessoryScope": "Same-brand representative styling can be used; appearance does not prove supplied SKU, connection or pack-out."
+  },
+  "copy": {
+    "onePrimaryBuyerQuestionPerImage": true,
+    "automaticSellerFooter": false,
+    "osRole": "one specification tile unless separately requested",
+    "optionsAre": "independent seller-confirmed choice lists",
+    "doNotInfer": [
+      "default installed capacity",
+      "OEM storage maximum",
+      "single drive layout",
+      "all option pairings in stock"
+    ],
+    "preserveOriginalOptionLabels": true,
+    "correctScaleFooter": "Monitor, keyboard and mouse shown for scale. Not included."
+  },
+  "review": {
+    "thumbnailCheckWidthsPx": [
+      375,
+      390
+    ],
+    "thumbnailCheckIsBackendApproval": false,
+    "separateStatuses": [
+      "research",
+      "source-rights",
+      "visual-defects",
+      "user-style-approval",
+      "file-structure",
+      "mobile/backend-adaptation",
+      "GitHub-delivery",
+      "Amazon-publication"
+    ],
+    "newProductStyleApproval": "EXPLICIT_USER_PREVIEW_APPROVAL",
+    "historicalKnownLimitations": [
+      "pt07 printed sale instead of scale; do not repeat typo",
+      "pt08 tiny OEM legends contain generation artifacts",
+      "historical pt08 revision prompt body missing; new template is not recovered original"
+    ]
+  },
+  "caseReferences": [
+    {
+      "position": 1,
+      "role": "product_identity",
+      "layoutStartingPoint": "left_text48_right_product45",
+      "referenceFile": "products/VD-744/US/shared/assets/01-hero-v1.png",
+      "referenceSha256": "82a5389fcb280f8e8363d8dd5179e7c0f8fcf1aee8e51c93454e9af2423611b0",
+      "actualReferenceWidth": 2172,
+      "actualReferenceHeight": 724
+    },
+    {
+      "position": 2,
+      "role": "front_access_use",
+      "layoutStartingPoint": "left_text40_right_scene55to60",
+      "referenceFile": "products/VD-744/US/shared/assets/02-workday-v1.png",
+      "referenceSha256": "a5e20a0af9f7c3ade3b5761313ee3e4cf8b1e94ba4256dc2f8d5f296fc0c03ef",
+      "actualReferenceWidth": 2170,
+      "actualReferenceHeight": 725
+    },
+    {
+      "position": 3,
+      "role": "processor_detail",
+      "layoutStartingPoint": "left_facts58_right_product35to38",
+      "referenceFile": "products/VD-744/US/shared/assets/03-business-v1.png",
+      "referenceSha256": "6400151ff5f1054629bdf16340057aae55eac56ddbf0c8899d2758e8da916502",
+      "actualReferenceWidth": 2172,
+      "actualReferenceHeight": 724
+    },
+    {
+      "position": 4,
+      "role": "specification_overview",
+      "layoutStartingPoint": "header24_two_row_tile_grid",
+      "referenceFile": "products/VD-744/US/shared/assets/04-home-office-v1.png",
+      "referenceSha256": "891e9e674cdfcfa95f519ffc502299cd6f8482209161b313a04b5b75d19a98b7",
+      "actualReferenceWidth": 2172,
+      "actualReferenceHeight": 724
+    },
+    {
+      "position": 5,
+      "role": "connection_evidence",
+      "layoutStartingPoint": "left_front_rear48_right_text47",
+      "referenceFile": "products/VD-744/US/shared/assets/05-connections-v1.png",
+      "referenceSha256": "bde743590b83930b5b96b95f59e84a332f2dca98b0603b08d7d4ac8be117ca6b",
+      "actualReferenceWidth": 2172,
+      "actualReferenceHeight": 724
+    },
+    {
+      "position": 6,
+      "role": "seller_options",
+      "layoutStartingPoint": "left_product18to20_right_table75",
+      "referenceFile": "products/VD-744/US/shared/assets/06-configuration-v1.png",
+      "referenceSha256": "4574eb9ca58f808e600d2e7728b665ff1d2de3e59fd28c607eb9ac2bbb12a2bd",
+      "actualReferenceWidth": 2170,
+      "actualReferenceHeight": 725
+    },
+    {
+      "position": 7,
+      "role": "office_scale",
+      "layoutStartingPoint": "left_text35to38_right_scene60",
+      "referenceFile": "products/VD-744/US/shared/assets/pt07.png",
+      "referenceSha256": "522c6a61e900541f5b030e83bc694463ca64b202f4ed5ab76d9fc4a2d2b980c4",
+      "actualReferenceWidth": 2171,
+      "actualReferenceHeight": 724
+    },
+    {
+      "position": 8,
+      "role": "close_form",
+      "layoutStartingPoint": "left_text38to40_right_hand58to60",
+      "referenceFile": "products/VD-744/US/shared/assets/pt08.png",
+      "referenceSha256": "3eee2d2436319eeeb988493fb1d197a3bd5de3d34d6a595e202d5751f4719898",
+      "actualReferenceWidth": 2170,
+      "actualReferenceHeight": 725
+    },
+    {
+      "position": 9,
+      "role": "office_tasks",
+      "layoutStartingPoint": "left_text36to38_right_tasks60",
+      "referenceFile": "products/VD-744/US/shared/assets/pt09.png",
+      "referenceSha256": "c9176d0e136f58e5db1038a7a4fa9d6ae545723f07879a2b4f0e75b04ba8f234",
+      "actualReferenceWidth": 2172,
+      "actualReferenceHeight": 724
+    }
+  ]
+}
