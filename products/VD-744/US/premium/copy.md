@@ -1,6 +1,6 @@
 # VD-744 · Premium A+ / A++ 内容 v1
 
-状态：CONTENT_V1_REVIEW_READY / BACKEND_ADAPTATION_PENDING。以下为内容顺序与候选呈现形式，不保证当前账号权限、后台模块名或数量。与 Basic 共享同一组事实与六张图片母版，采用轮播、热点和 Q&A 的阅读逻辑；后续适配可单独重排画面与文字。
+状态：NINE_IMAGE_USER_APPROVED_REVISION_20261027 / BACKEND_ADAPTATION_PENDING。以下为内容顺序与候选呈现形式，不保证当前账号权限、后台模块名或数量。与 Basic 共享同一组事实与九张图片母版，采用轮播、热点和 Q&A 的阅读逻辑；后续适配可单独重排画面与文字。
 
 ## P01 · 产品识别／视频入口
 
@@ -12,33 +12,31 @@
 
 Alt：Black Dell Pro Micro QCM1250 micro desktop on a blue and white background.
 
-## P02 · 三个购买理由
+## P02 · 前置接口使用
 
-**Headline:** The Essentials for Your Workday.
+**Headline:** Connections Within Reach.
 
-**Body:** Intel Core Ultra 7 265T processing. Micro desktop design. Windows 11 Pro supplied by the seller.
+**Body:** Front-panel access for everyday devices, with USB-A, USB-C and a headset jack. Illustrative use; USB drive and accessories are not included.
 
-图片：[02-workday-v1.png](../shared/assets/02-workday-v1.png)。候选：宽幅图文／三个信息区域。只解释已确认功能，不加入未实测性能、软件权益或平台最大值。
+图片：[02-workday-v1.png](../shared/assets/02-workday-v1.png)。Alt：A hand holds a USB drive near the front USB-A port of the Dell micro desktop. 不新增速度或充电承诺。
 
-Alt：Processor, compact form factor and operating-system highlights for the Dell micro desktop.
+## P03 · 处理器与规格轮播候选
 
-## P03 · 场景轮播候选
+**Headline:** Processing and Specifications, Clearly Explained.
 
-**Headline:** Business Workspace. Home Office.
+Slide 1 title：**20-Core Processing.**
 
-Slide 1 title：**Business Workspace**
-
-Slide 1 body：**A compact desktop for everyday office work.**
+Slide 1 body：**Intel Core Ultra 7 265T. 20 total cores. 8P + 12E. Up to 5.3 GHz maximum single-core Turbo frequency. Actual performance varies.**
 
 Slide 1 image：[03-business-v1.png](../shared/assets/03-business-v1.png)
 
-Slide 2 title：**Home Office**
+Slide 2 title：**Your PC, at a Glance.**
 
-Slide 2 body：**A restrained fit for your working day.**
+Slide 2 body：**Processor, USB-A and USB-C, Windows 11 Pro, Wi-Fi and Bluetooth. Seller-configurable options include DDR5 RAM up to 64GB and SSD storage up to 4TB. Confirm your selected configuration before ordering.**
 
 Slide 2 image：[04-home-office-v1.png](../shared/assets/04-home-office-v1.png)
 
-图片替代文本沿用 Basic 的场景描述；两张均不展示作为套装出售的外设。
+Alt 沿用 Basic 对处理器与规格网格的描述。Windows 只占速览中的一项。容量为卖家选项，不作为原厂存储上限或当前实机安装状态；具体轮播模块与移动端呈现待适配。
 
 ## P04 · 连接热点候选
 
@@ -57,13 +55,11 @@ Slide 2 image：[04-home-office-v1.png](../shared/assets/04-home-office-v1.png)
 
 ## P05 · 配置选择
 
-**Headline:** Your Configuration, Clearly Chosen.
+**Headline:** Customize Your Configuration.
 
-**Body:** Review the RAM and SSD options currently available, and confirm your selected configuration before ordering.
+**Body:** DDR5 RAM options: 8GB, 16GB, 32GB or 64GB. SSD storage options: 0.5TB, 1TB, 2TB or 4TB. Seller-configurable options; confirm your selected RAM and SSD combination before ordering.
 
-图片：[06-configuration-v1.png](../shared/assets/06-configuration-v1.png)。候选：宽幅图片／选择说明。没有验证组合矩阵之前，不制作具体容量或跨 SKU 比较表。
-
-Alt：RAM and SSD option symbols beside the Dell micro desktop.
+图片：[06-configuration-v1.png](../shared/assets/06-configuration-v1.png)。Alt：Two independent rows of seller-confirmed RAM and SSD capacity options. 不保证全部 16 种组合在售，不推断单盘容量结构，不展示价格。旧标题差异见 [证据记录](../review/revision-20261027-evidence.json)。
 
 ## P06 · 基础机器与定制销售身份
 
@@ -83,7 +79,7 @@ A: Intel Core Ultra 7 265T.
 
 **Q: Can I select the RAM and SSD?**
 
-A: Review the customization options currently available on the listing and confirm your selected configuration before ordering.
+A: Choose from 8GB, 16GB, 32GB or 64GB DDR5 RAM and 0.5TB, 1TB, 2TB or 4TB SSD storage. Confirm your selected combination before ordering; available combinations may vary.
 
 **Q: What operating system is supplied?**
 
@@ -94,3 +90,8 @@ A: Windows 11 Pro is the seller-delivered operating system.
 A: Wi-Fi and Bluetooth are listed for this product. Wireless versions are not specified in this content.
 
 候选：Q&A 模块或原生图文。后台数量不足时，可把 P06 融入 P01 身份说明，减少重复。保修、配件承诺、优惠、评价和未证实的性能宣称均不纳入。
+
+
+## 补充素材 · 后台归并待适配
+
+[pt07 办公设备大小对比](../shared/assets/pt07.png)、[pt08 手托紧凑形态](../shared/assets/pt08.png)、[pt09 日常办公用途](../shared/assets/pt09.png) 沿用 Basic 的事实与外设说明，实际模块归并待适配，不据九张图片保证九个后台模块。

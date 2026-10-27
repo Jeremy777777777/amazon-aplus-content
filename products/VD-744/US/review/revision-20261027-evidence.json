@@ -1,0 +1,301 @@
+{
+  "productId": "VD-744",
+  "asin": "B0HMY74CHD",
+  "marketplace": "US",
+  "date": "2026-10-27",
+  "status": "USER_APPROVED_RELEASE_CONTENT",
+  "baselineRevision": "1df588f37a58e1a13c9b31adcdbf60c0ecf97b62",
+  "approval": {
+    "quote": "帮我做个替换把现在",
+    "scope": "Replace approved02/03/04/06/08; keep nine images and other four image bytes unchanged."
+  },
+  "identity": {
+    "model": "Dell Pro Micro QCM1250",
+    "cpu": "Intel Core Ultra 7 265T",
+    "os": "Seller-delivered Windows 11 Pro",
+    "basis": [
+      "project.md existing direct-ERP identity record",
+      "source/listing-snapshot-20261015.json existing seller-delivery assertions"
+    ],
+    "scope": "Reuse existing linked CPU identity and settled seller OS assertion; newly verify manufacturer specifications/capabilities, not physical inspection of a newly sampled unit.",
+    "serial": "No serial/service tag available in sanitized repository inputs. No serial submitted or serial lookup claimed.",
+    "limitation": "Existing target identity reused; exact-ASIN public metadata and seller offer choices reconciled2026-10-27. Current ERP unavailable (410); no current serial/BOM lookup or physical inspection. Seller upgrades and installed module layout remain distinct from factory capability."
+  },
+  "sourcePriority": "Matching Dell model documentation governs machine applicability; Intel exact-SKU data corroborates processor properties; Microsoft official docs govern OS feature meaning. Existing ERP/Listing links establish target identity/seller-delivered scope, not superior technical authority.",
+  "sellerCatalog": {
+    "ramGB": [
+      8,
+      16,
+      32,
+      64
+    ],
+    "ssdLabels": [
+      "0.5TB",
+      "1TB",
+      "2TB",
+      "4TB"
+    ],
+    "confirmation": "User: 这是我的实际销售的档位",
+    "sourceFileName": "codex-clipboard-405f3d0e-b5ad-47b4-a77c-e9ca48456208.png",
+    "sourceSha256": "cab1556be51eea56e30df2f34cb1c7e7ebf59998e677177aa92d94ad0e11f8a2",
+    "sourceScope": "Seller-confirmed offered choices for this listing, not one simultaneously installed configuration, an OEM as-shipped maximum or a claim about a single4TB drive.",
+    "pricing": "Not transcribed or used in artwork",
+    "conversion": "Retain0.5TB exactly, not automatically converted to512GB or500GB",
+    "combinations": "No guarantee all16 pairings are in stock; confirm chosen combination on listing"
+  },
+  "sources": [
+    {
+      "id": "dell_cpu",
+      "url": "https://www.dell.com/support/manuals/en-sg/dell-pro-qcm1250-micro/dell_pro_micro_qcm1250_om/processor?guid=guid-8c791960-46f7-4d96-9558-a713baa7821b&lang=en-us",
+      "accessDate": "2026-10-27",
+      "section": "Processor table, Option one",
+      "excerpt": "Intel Core Ultra 7 265T vPro; 20 cores; 8 performance cores; 12 efficient cores; up to 5.3 GHz",
+      "scope": "Exact Dell model supported-processor configuration, not a current serial lookup"
+    },
+    {
+      "id": "intel_265t",
+      "url": "https://www.intel.com/content/www/us/en/products/sku/241065/intel-core-ultra-7-processor-265t-30m-cache-up-to-5-30-ghz/specifications.html",
+      "accessDate": "2026-10-27",
+      "section": "CPU Specifications and Max Turbo footnote",
+      "excerpt": "Total Cores 20; Performance-cores 8; Efficient-cores 12; Max Turbo Frequency 5.3 GHz",
+      "scope": "Exact component SKU specs; Max Turbo is maximum single-core frequency, not all-core sustained performance"
+    },
+    {
+      "id": "amazon_live",
+      "url": "https://www.amazon.com/dp/B0HMY74CHD",
+      "accessDate": "2026-10-27",
+      "access": "Browser read successful after web fetch500 and no indexed exact-ASIN search results",
+      "identity": "Exact title Dell Pro Micro QCM1250, Intel Core Ultra7 265T, Brand MegaPC",
+      "titleCapacityText": "16GB/32GB/64GB DDR5 RAM,256GB/512GB/1TB/2TB/4TB SSD",
+      "customizationTable": "RAM Memory Installed:16,32,64,8; Hard Disk Size:0.5,1,2,4",
+      "scope": "Public exact-listing seller metadata; screenshot and direct seller clarification resolve which offered choices to depict. No checkout, purchase, pricing or account details used."
+    },
+    {
+      "id": "dell_memory",
+      "url": "https://www.dell.com/support/manuals/en-sg/dell-pro-qcm1250-micro/dell_pro_micro_qcm1250_om/memory?guid=guid-e9d2ea83-38a4-431d-803c-96d63c1dbc34&lang=en-us",
+      "accessDate": "2026-10-27",
+      "section": "Memory specifications and CoreUltra7/5 configurations",
+      "summary": "DDR5. Minimum8GB and maximum64GB.8,16,32,64GB configurations listed.",
+      "scope": "Exact-model family capability; not evidence for each current sellable upgraded unit or memory speed."
+    },
+    {
+      "id": "dell_storage",
+      "url": "https://www.dell.com/support/manuals/en-sg/dell-pro-qcm1250-micro/dell_pro_micro_qcm1250_om/storage?guid=guid-35211989-724e-449a-b449-700508629246&lang=en-us",
+      "accessDate": "2026-10-27",
+      "section": "Storage matrix and specifications",
+      "summary": "Single or dual M.2 SSD configurations. Current OEM table lists factory drive capacities up to1TB in several rows plus512GB/256GB entries.",
+      "scope": "OEM original/family configurations; does not certify seller aftermarket2TB/4TB implementation. Do not label seller option list as Dell factory-supported maximum or specific drive layout."
+    }
+  ],
+  "attributes": [
+    {
+      "attribute": "cpu_total_cores",
+      "value": 20,
+      "scope": "Exact CPU SKU linked by existing target identity",
+      "sources": [
+        "dell_cpu",
+        "intel_265t"
+      ],
+      "status": "OFFICIAL_SPECS_CONFIRMED_WITH_EXISTING_IDENTITY_LINKAGE",
+      "conflicts": [],
+      "resolution": "Printed as total core count, not a benchmark"
+    },
+    {
+      "attribute": "cpu_core_mix",
+      "value": "8P + 12E",
+      "scope": "Exact CPU SKU design",
+      "sources": [
+        "dell_cpu",
+        "intel_265t"
+      ],
+      "status": "OFFICIAL_SPECS_CONFIRMED",
+      "conflicts": [],
+      "resolution": "No per-core clock printed"
+    },
+    {
+      "attribute": "max_turbo",
+      "value": "Up to 5.3 GHz",
+      "scope": "Maximum single-core Turbo, not all-core sustained result",
+      "sources": [
+        "dell_cpu",
+        "intel_265t"
+      ],
+      "status": "OFFICIAL_SPECS_CONFIRMED",
+      "conflicts": [],
+      "resolution": "Footer explicitly says maximum single-core frequency and performance varies"
+    }
+  ],
+  "conflictsAndResolutions": [
+    {
+      "field": "RAM sale tiers",
+      "conflict": "Listing title omits8GB, customization table includes8GB.",
+      "resolution": "User explicitly confirms actual8/16/32/64GB sales choices; display all four as seller options. Preserve earlier title as discrepant historical metadata."
+    },
+    {
+      "field": "SSD sale tiers",
+      "conflict": "Listing title includes256GB and512GB, live customization table/seller screenshot instead shows0.5/1/2/4TB.",
+      "resolution": "Display seller-confirmed0.5/1/2/4TB choices; do not include256GB or silently rename0.5TB."
+    },
+    {
+      "field": "OEM versus seller storage",
+      "conflict": "OEM table describes factory options; seller offers larger2/4TB choices.",
+      "resolution": "Keep scopes separate. Artwork says SSD STORAGE OPTIONS and seller-configurable choices, not factory capacity or maximum hardware compatibility. Actual module layout/current installed state remains unverified."
+    },
+    {
+      "field": "Reference image facts",
+      "conflict": "User design example shows Ultra5-235T,4TypeA/2TypeC,Wi-Fi6 and2TB.",
+      "resolution": "Layout only. Use linked Ultra7-265T; omit port counts/Wi-Fi version; use confirmed seller maximum4TB in OPTIONS card."
+    },
+    {
+      "attribute": "P-core maximum Turbo wording",
+      "dell": "Option-one P-core maximum Turbo row lists 5.3 GHz.",
+      "intel": "P-core Max Turbo lists 5.2 GHz, Turbo Boost Max3.0 lists 5.3 GHz.",
+      "resolution": "Do not publish a P-core-specific clock claim. General Max Turbo up to5.3GHz is supported by both, with Intel's maximum single-core definition. No claim that every core operates at5.3GHz."
+    }
+  ],
+  "routes": [
+    {
+      "query": "site.dell.com QCM1250 265T 5.3 20",
+      "result": "Opened matching Dell owner-manual processor table, Option one."
+    },
+    {
+      "query": "site.intel.com Core Ultra 7 265T 20 cores 5.3 GHz",
+      "result": "Opened exact Intel SKU241065 CPU specs and maximum-Turbo definition."
+    },
+    {
+      "route": "Exact-ASIN public browser page",
+      "result": "Read current title, details and expanded Customizations table."
+    },
+    {
+      "route": "ERP established exact-ID search entry",
+      "url": "https://erp-git-feat-part-serial-numbers-overhaul-jtechdigital.vercel.app/computers/virtual?s=-createdAt",
+      "result": "HTTP410 GONE: deployment removed. No current ERP search possible; not proof of missing product data."
+    },
+    {
+      "route": "Dell exact-model memory/storage manuals",
+      "result": "Read family technical scope and retain distinction from seller upgrade offerings."
+    }
+  ],
+  "sourceOfVisual08Legends": {
+    "files": [
+      "shared/source/dell-qcm1250-front.png",
+      "shared/source/dell-qcm1250-angle.png"
+    ],
+    "scope": "5Gbps and10Gbps are restoration targets for visible original small OEM legends, not new headline speed promises or a current-unit USB performance test."
+  },
+  "activeMessageRoles": [
+    "01 brand/model",
+    "02 front-panel practical access",
+    "03 processor detail",
+    "04 specification overview with Windows as one tile",
+    "05 full connectivity",
+    "06 explicit seller choices",
+    "07 dimensions/desk scale",
+    "08 tactile compact form",
+    "09 office tasks"
+  ],
+  "approvedReplacements": [
+    {
+      "position": 2,
+      "file": "shared/assets/02-workday-v1.png",
+      "width": 2170,
+      "height": 725,
+      "bytes": 1707359,
+      "sha256": "a5e20a0af9f7c3ade3b5761313ee3e4cf8b1e94ba4256dc2f8d5f296fc0c03ef",
+      "visualReview": "Viewed: natural office front-access scene, USB drive near USB-A with visible actual front layout, correct model and three front connector labels. Accessories exclusion footer present. Close approach is illustrative, not a demonstrated connected-state or measured transfer test.",
+      "styleApproval": "USER_APPROVED"
+    },
+    {
+      "position": 3,
+      "file": "shared/assets/03-business-v1.png",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1487952,
+      "sha256": "6400151ff5f1054629bdf16340057aae55eac56ddbf0c8899d2758e8da916502",
+      "visualReview": "Viewed: 20 total cores, 8P+12E, up to5.3GHz, exact265T name and single-core Turbo qualifier all printed correctly; product front order and silhouette visually checked.",
+      "styleApproval": "USER_APPROVED"
+    },
+    {
+      "position": 4,
+      "file": "shared/assets/04-home-office-v1.png",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1398019,
+      "sha256": "891e9e674cdfcfa95f519ffc502299cd6f8482209161b313a04b5b75d19a98b7",
+      "visualReview": "Viewed: correct CoreUltra7-265T, USB-A+USB-C without count, Windows11Pro, RAM options up to64GB and SSD storage options up to4TB, generic Wi-Fi/Bluetooth with no generation. Footer says options vary by selection. No reference Ultra5,235T,Wi-Fi6 or2TB ceiling copied.",
+      "styleApproval": "USER_APPROVED"
+    },
+    {
+      "position": 6,
+      "file": "shared/assets/06-configuration-v1.png",
+      "width": 2170,
+      "height": 725,
+      "bytes": 1536951,
+      "sha256": "4574eb9ca58f808e600d2e7728b665ff1d2de3e59fd28c607eb9ac2bbb12a2bd",
+      "visualReview": "Viewed: two independent choice rows list8/16/32/64GB DDR5 RAM and0.5/1/2/4TB SSD storage exactly. No256GB,512GB conversion, prices or surcharges. Footer explicitly seller-configurable options and confirms selected combination.",
+      "styleApproval": "USER_APPROVED"
+    },
+    {
+      "position": 8,
+      "file": "shared/assets/pt08.png",
+      "width": 2170,
+      "height": 725,
+      "bytes": 1681731,
+      "sha256": "3eee2d2436319eeeb988493fb1d197a3bd5de3d34d6a595e202d5751f4719898",
+      "visualReview": "Viewed: repeated desk-space sentence removed; hand/support composition and compact headline preserved. Tiny USB legends improved toward source labels; do not claim pixel-perfect OEM lettering or current-unit throughput certification.",
+      "styleApproval": "USER_APPROVED"
+    }
+  ],
+  "nineImageOrder": [
+    {
+      "file": "shared/assets/01-hero-v1.png",
+      "sha256": "82a5389fcb280f8e8363d8dd5179e7c0f8fcf1aee8e51c93454e9af2423611b0"
+    },
+    {
+      "file": "shared/assets/02-workday-v1.png",
+      "sha256": "a5e20a0af9f7c3ade3b5761313ee3e4cf8b1e94ba4256dc2f8d5f296fc0c03ef"
+    },
+    {
+      "file": "shared/assets/03-business-v1.png",
+      "sha256": "6400151ff5f1054629bdf16340057aae55eac56ddbf0c8899d2758e8da916502"
+    },
+    {
+      "file": "shared/assets/04-home-office-v1.png",
+      "sha256": "891e9e674cdfcfa95f519ffc502299cd6f8482209161b313a04b5b75d19a98b7"
+    },
+    {
+      "file": "shared/assets/05-connections-v1.png",
+      "sha256": "bde743590b83930b5b96b95f59e84a332f2dca98b0603b08d7d4ac8be117ca6b"
+    },
+    {
+      "file": "shared/assets/06-configuration-v1.png",
+      "sha256": "4574eb9ca58f808e600d2e7728b665ff1d2de3e59fd28c607eb9ac2bbb12a2bd"
+    },
+    {
+      "file": "shared/assets/pt07.png",
+      "sha256": "522c6a61e900541f5b030e83bc694463ca64b202f4ed5ab76d9fc4a2d2b980c4"
+    },
+    {
+      "file": "shared/assets/pt08.png",
+      "sha256": "3eee2d2436319eeeb988493fb1d197a3bd5de3d34d6a595e202d5751f4719898"
+    },
+    {
+      "file": "shared/assets/pt09.png",
+      "sha256": "c9176d0e136f58e5db1038a7a4fa9d6ae545723f07879a2b4f0e75b04ba8f234"
+    }
+  ],
+  "historicalMarketingReview": "review/nine-image-marketing-review-20261027.json",
+  "addressedReview": "03 replaces generic business scene with CPU detail;04 replaces generic home scene with complete specification overview rather than dedicated Windows page;02 front-access use avoids repeating04;06 shows seller-confirmed tiers;08 removes repeated desk-space slogan while07 retains dimensions/office-scale role.",
+  "promptRecords": "review/revision-20261027-prompts.txt",
+  "productionRecipe": "Validate preview SHA-256 against approval records; copy original approved PNG bytes into existing asset paths; decode dimensions and recalculate hashes; update manifest/copy. No regeneration, resampling or source-photo changes.",
+  "qa": {
+    "styleApproval": "USER_APPROVED",
+    "visualReview": "Five active previews were viewed before approval; active per-image observations retained above. No pixel-exact OEM authenticity or Amazon eligibility PASS claimed.",
+    "structure": "Nine PNG files decoded and hashes/dimensions/byte counts checked against manifest before release.",
+    "privacy": "No raw serial used or available; no reference screenshots, prices, private account/customer information, credentials or signed download URLs included.",
+    "limitations": "No guarantee all16 RAM/SSD pairings stocked; no current-unit drive layout/installed capacity certification; generic Wi-Fi/Bluetooth only; USB props not included.",
+    "backend": "BACKEND_ADAPTATION_PENDING",
+    "amazonPublication": "NOT_PERFORMED",
+    "github": "Release candidate; publication confirmed separately against remote Git blobs after push."
+  }
+}
