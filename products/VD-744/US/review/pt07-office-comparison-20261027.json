@@ -1,0 +1,151 @@
+{
+  "productId": "VD-744",
+  "marketplace": "US",
+  "date": "2026-10-27",
+  "status": "USER_STYLE_APPROVED_FOR_PT07_REPLACEMENT",
+  "tool": "built-in imagegen",
+  "request": "User approved the displayed left-of-monitor preview and explicitly requested updating it to GitHub; replace only pt07 and its corresponding delivery/support records.",
+  "baselineRevision": "630aa1c2a19d0678494cc1c94f961c4417320328",
+  "baselineEvidence": "review/pt07-size-comparison-20261027.json",
+  "identity": {
+    "basis": "Current main project.md identifies VD-744 as Dell Pro Micro QCM1250; exact-model original angle photograph is present.",
+    "serial": "No serial/service tag in this project's sanitized inputs. No serial lookup attempted or raw serial used for this model-chassis-only comparison.",
+    "scope": "OEM external chassis geometry for the identified model, not a new sold-unit configuration or physical measurement certification."
+  },
+  "attributes": [
+    {
+      "attribute": "chassis_height",
+      "value": 182,
+      "unit": "mm",
+      "inches": 7.17,
+      "scope": "OEM exact-model chassis",
+      "status": "OFFICIAL_MODEL_VERIFIED",
+      "source": "dell_dimensions",
+      "accessDate": "2026-10-27",
+      "conflicts": [],
+      "resolution": "Use matching OEM dimension; previous project only recorded that ERP lacked dimensions, which is absence rather than conflicting evidence.",
+      "limitation": "No independent physical measurement of this sellable unit."
+    },
+    {
+      "attribute": "chassis_width",
+      "value": 36,
+      "unit": "mm",
+      "inches": 1.42,
+      "scope": "OEM exact-model chassis",
+      "status": "OFFICIAL_MODEL_VERIFIED",
+      "source": "dell_dimensions",
+      "accessDate": "2026-10-27",
+      "conflicts": [],
+      "resolution": "Use matching OEM dimension; previous project only recorded that ERP lacked dimensions, which is absence rather than conflicting evidence.",
+      "limitation": "No independent physical measurement of this sellable unit."
+    },
+    {
+      "attribute": "chassis_depth",
+      "value": 178,
+      "unit": "mm",
+      "inches": 7.01,
+      "scope": "OEM exact-model chassis",
+      "status": "OFFICIAL_MODEL_VERIFIED",
+      "source": "dell_dimensions",
+      "accessDate": "2026-10-27",
+      "conflicts": [],
+      "resolution": "Use matching OEM dimension; previous project only recorded that ERP lacked dimensions, which is absence rather than conflicting evidence.",
+      "limitation": "No independent physical measurement of this sellable unit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "dell_dimensions",
+      "priority": "manufacturer official",
+      "title": "Dell Pro Micro QCM1250 Owner's Manual — Dimensions and weight",
+      "url": "https://www.dell.com/support/manuals/en-us/dell-pro-qcm1250-micro/dell_pro_micro_qcm1250_om/dimensions-and-weight?guid=guid-476edaac-b30e-4ef6-b273-319a3db074b1&lang=en-us",
+      "observedRegionalRedirect": "https://www.dell.com/support/manuals/en-in/dell-pro-qcm1250-micro/dell_pro_micro_qcm1250_om/dimensions-and-weight?guid=guid-476edaac-b30e-4ef6-b273-319a3db074b1&lang=en-us",
+      "section": "Dimensions and weight table",
+      "excerpt": "Height 182.00 mm (7.17 in.); Width 36.00 mm (1.42 in.); Depth 178.00 mm (7.01 in.)",
+      "accessDate": "2026-10-27"
+    }
+  ],
+  "researchScope": "Reuse existing exact-model OEM chassis dimensions. Accessory research is only for representative same-brand styling and plausible geometry; it does not verify supplied accessories, their SKU, connection type or pack-out.",
+  "contextualReferences": [
+    {
+      "title": "Dell Pro 24 Plus P2425H",
+      "url": "https://www.dell.com/en-in/shop/dell-pro-24-plus-monitor-p2425h/apd/210-bmlz/",
+      "scope": "Representative same-brand office-monitor reference, not included product",
+      "observed": "Official product page opened. Official search result lists width538.64mm and adjustable stand height364.00-496.53mm; scene uses approximate mid-height410mm",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Dell KB216 / MS116 — KM300C datasheet",
+      "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-wired-keyboard-and-mouse-km300c-datasheet.pdf",
+      "scope": "Representative same-brand keyboard/mouse design and approximate keyboard scale only",
+      "observed": "Official indexed datasheet search excerpt identifies KB216 and MS116, keyboard442x127mm; direct PDF fetch returned403. No successful direct-PDF inspection claimed.",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Dell KB216 official keyboard product page",
+      "url": "https://www.dell.com/en-us/shop/dell-wired-keyboard-kb216-us-english-black/apd/580-admt/pc-accessories",
+      "scope": "Official search result lead for black full-size number-pad keyboard appearance, no exact supplied model claim",
+      "observed": "Official search result found; no exact accessory image pixels used as generation input",
+      "date": "2026-10-27"
+    }
+  ],
+  "scene": {
+    "items": [
+      "normal approximately24-inch Dell-style office monitor",
+      "full-size black Dell-style keyboard with numpad",
+      "matching ordinary black office mouse",
+      "exact-model Dell Pro Micro QCM1250"
+    ],
+    "purpose": "Intuitive office-equipment size context; monitor/keyboard/mouse shown for scale only, not included",
+    "geometry": "Chassis182mm high; representative monitor about539mm wide and410mm tall; full-size keyboard about442mm long. Styling targets only, not customer accessory specifications.",
+    "omissions": [
+      "beverage can",
+      "paper notebook",
+      "pen holder",
+      "writing pens"
+    ]
+  },
+  "promptRecords": "review/pt07-office-generation-prompts.txt",
+  "qa": {
+    "imageVisualReview": "Viewed generated result: upright micro PC is now to monitor left, keyboard centered in front, mouse on right as user reference. Whole setup is in frame with shared oak desk, natural daylight, contact shadows and discreet rear cable routing. Model line, all six dimensional values and exclusion footer retained correctly. No reference-interface, webcam, dumbbells, drinks or stationery copied.",
+    "physicalScale": "Illustrative monitor/keyboard context with matching OEM chassis dimensions printed. Relative scale and placement reviewed visually, not a calibrated photograph or measured sold unit.",
+    "userStyleApproval": "APPROVED_2026-10-27: 帮我更新上去吧",
+    "amazonBackendAdaptation": "NOT_PERFORMED",
+    "githubDeliveryAuthorization": "Authorized by user; approved image checksum must be verified against remote GitHub blob after push."
+  },
+  "revisionPromptRecords": "review/pt07-office-generation-prompts.txt",
+  "revisionScope": "Normal office equipment size context; final approved arrangement places upright PC left of monitor, keyboard centered, mouse right. Original chassis identity and dimension labels preserved; reference screenshot used for arrangement only.",
+  "priorFeedback": "Initial monitor/keyboard preview: user requested a more natural computer placement.",
+  "userLayoutReference": {
+    "fileName": "codex-clipboard-bd691015-2c4b-4b7b-9f8d-f364aa61969d.png",
+    "sha256": "8b873ba5e035b066e9160f08ba015871109407329d84d5f100153be719e5d79d",
+    "userInstruction": "这样子摆放比较好",
+    "scope": "User-selected arrangement: upright PC left of monitor, keyboard centered in front, mouse to right. Composition reference only; do not reproduce reference photo, interface, webcam, decorative objects or room."
+  },
+  "placementPromptRecords": "review/pt07-office-generation-prompts.txt",
+  "previousCandidate": {
+    "image": {
+      "width": 2172,
+      "height": 724,
+      "bytes": 1697029,
+      "sha256": "402411f90ed949b7067bef9a97606932cc7e249286947f6508fbe98ee72fc02e"
+    },
+    "status": "SUPERSEDED_BY_USER_PLACEMENT_REFERENCE",
+    "feedback": "User supplied a more natural left-of-monitor arrangement instead of the previous right-of-monitor placement.",
+    "retention": "Unapproved intermediate image; hash and feedback retained as provenance, not a current delivery artifact."
+  },
+  "approvedAsset": {
+    "file": "shared/assets/pt07.png",
+    "width": 2171,
+    "height": 724,
+    "bytes": 1672278,
+    "sha256": "522c6a61e900541f5b030e83bc694463ca64b202f4ed5ab76d9fc4a2d2b980c4"
+  },
+  "supersededPt07": {
+    "gitRevision": "630aa1c2a19d0678494cc1c94f961c4417320328",
+    "file": "shared/assets/pt07.png",
+    "sha256": "8ef1120c9c174b38f9417822328d5d476707066e3231b1f295d0b02f3ab687bb",
+    "evidence": "review/pt07-size-comparison-20261027.json",
+    "scope": "Prior beverage-can version, preserved with coherent bytes and records in this Git revision."
+  }
+}

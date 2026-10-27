@@ -76,18 +76,18 @@
     {
       "id": "pt07",
       "file": "shared/assets/pt07.png",
-      "width": 2172,
+      "width": 2171,
       "height": 724,
       "format": "PNG",
-      "bytes": 1667523,
-      "sha256": "8ef1120c9c174b38f9417822328d5d476707066e3231b1f295d0b02f3ab687bb",
+      "bytes": 1672278,
+      "sha256": "522c6a61e900541f5b030e83bc694463ca64b202f4ed5ab76d9fc4a2d2b980c4",
       "date": "2026-10-27",
       "state": "USER_STYLE_APPROVED",
-      "userApproval": "2026-10-27: User approved the selected preview and requested adding it as pt07.",
+      "userApproval": "2026-10-27: User selected the left-of-monitor arrangement and approved the resulting preview for GitHub replacement: 帮我更新上去吧.",
       "backendAdapted": false,
-      "purpose": "Illustrative chassis-size comparison against a generic standard 12 fl oz / 355 mL can; reference object not included.",
-      "evidence": "review/pt07-size-comparison-20261027.json",
-      "prompts": "review/pt07-generation-prompts.txt"
+      "purpose": "Natural office size context: micro PC left of a representative monitor, keyboard centered in front, mouse to right. Monitor, keyboard and mouse are contextual props, not included accessories.",
+      "evidence": "review/pt07-office-comparison-20261027.json",
+      "prompts": "review/pt07-office-generation-prompts.txt"
     }
   ],
   "sources": [
