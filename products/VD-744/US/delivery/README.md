@@ -7,6 +7,7 @@
 - [完整视频脚本与逐镜头提示词](../video/script.md)
 - [旁白文字](../video/voiceover.txt) · [字幕文件](../video/subtitles.srt)
 - [图片与来源清单](manifest.json) · [创意检查记录](../review/creative-review.md)
+- [九张图片逐图宣传效果评估](../review/nine-image-marketing-review-20261027.json)：03／04 优先换主题，06 补选购依据，07／08 区分宣传职责；本次只反馈建议，未重做既有图片。
 
 ## 图片预览
 

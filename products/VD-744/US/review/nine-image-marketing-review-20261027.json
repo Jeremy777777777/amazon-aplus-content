@@ -1,0 +1,237 @@
+{
+  "productId": "VD-744",
+  "marketplace": "US",
+  "date": "2026-10-27",
+  "reviewedGitRevision": "d44a4ce4f3f7115ce207030872ea54fc4d41f75e",
+  "status": "EDITORIAL_REVIEW_COMPLETE_REVISIONS_RECOMMENDED",
+  "request": "After uploading pt08/pt09, inspect each image's promotional purpose, repetition, and whether the PC's distinctive points are communicated; report feedback.",
+  "method": "Actually viewed all nine PNGs and their printed wording. Editorial judgment of message clarity, incremental information, product specificity and repetition. No conversion test, new fact-verification completion, licensing clearance, hardware authenticity PASS or Amazon approval is inferred.",
+  "summary": "风格统一，但紧凑省空间与泛办公场景重复较多；处理器、系统和RAM/SSD选择价值展开偏少。03/04是最应优先换主题的两张。07/08可以同时保留，但文案职责需要分开。",
+  "criteria": [
+    "单张是否回答一个明确购买问题",
+    "信息是否适用于当前PC并有具体内容",
+    "与其他图片相比是否有信息增量",
+    "文字与画面是否互相支持",
+    "是否以创意示意暗示未证实的重量、性能、配件或测试"
+  ],
+  "images": [
+    {
+      "id": "01",
+      "file": "shared/assets/01-hero-v1.png",
+      "role": "品牌、型号与产品主视觉",
+      "observation": "Dell Logo、DELL PRO MICRO QCM1250、Make Room for What Matters. 和 Compact design. Focused workspace.；主机三分之四大图。",
+      "clarity": "清楚",
+      "specificity": "型号具体，利益表达以紧凑/省空间为主。",
+      "overlap": [
+        "pt07",
+        "pt08"
+      ],
+      "assessment": "适合作开场，但不是额外一个硬件差异化卖点。与后面多张空间主题需要明确主次。",
+      "recommendation": "保留开场身份与整体定位，尺寸证据交给 pt07，托举记忆交给 pt08。",
+      "priority": "低",
+      "sourceUrl": "https://github.com/Jeremy777777777/amazon-aplus-content/blob/d44a4ce4f3f7115ce207030872ea54fc4d41f75e/products/VD-744/US/shared/assets/01-hero-v1.png"
+    },
+    {
+      "id": "02",
+      "file": "shared/assets/02-workday-v1.png",
+      "role": "处理器、Micro形态与系统总览",
+      "observation": "三栏分别写 Intel Core Ultra 7 265T、Micro Desktop Design、Windows 11 Pro；说明为 everyday office applications、compact fit、seller-delivered operating system。",
+      "clarity": "较强",
+      "specificity": "处理器型号与系统版本是全套中较具体的信息。",
+      "overlap": [
+        "pt09",
+        "01",
+        "pt07"
+      ],
+      "assessment": "三项信息清楚，但处理器/系统各只停留在名称，买家能得到的实际价值展开偏少。",
+      "recommendation": "保留概览；将后续弱场景图改为处理器/系统的独立价值说明，新增具体功能或性能参数前必须核实适用证据。",
+      "priority": "中",
+      "sourceUrl": "https://github.com/Jeremy777777777/amazon-aplus-content/blob/d44a4ce4f3f7115ce207030872ea54fc4d41f75e/products/VD-744/US/shared/assets/02-workday-v1.png"
+    },
+    {
+      "id": "03",
+      "file": "shared/assets/03-business-v1.png",
+      "role": "企业办公场景",
+      "observation": "标题 Business Workspace，说明 A compact desktop for everyday office work.；空桌上单独放大主机，背景为办公室。",
+      "clarity": "场景清楚，购买理由偏弱",
+      "specificity": "画面与文案可泛用于许多黑色商用小主机，没有增加该机型独立特点。",
+      "overlap": [
+        "04",
+        "pt09",
+        "01"
+      ],
+      "assessment": "高重复。主要变化是办公背景；缺少真实完整工作设置，既不如 pt07 解释尺寸，也不如 pt09 说明办公任务。",
+      "recommendation": "优先更换主题，建议改为经核实的处理器价值图，保持九张总数而非再加一张类似背景图。",
+      "priority": "高",
+      "sourceUrl": "https://github.com/Jeremy777777777/amazon-aplus-content/blob/d44a4ce4f3f7115ce207030872ea54fc4d41f75e/products/VD-744/US/shared/assets/03-business-v1.png"
+    },
+    {
+      "id": "04",
+      "file": "shared/assets/04-home-office-v1.png",
+      "role": "居家办公场景",
+      "observation": "标题 Home Office，说明 A restrained fit for your working day.；与03接近的主机角度、相似留白和木桌，改为居家书架背景。",
+      "clarity": "氛围清楚，卖点偏弱",
+      "specificity": "没有说明该PC为何特别适合居家办公；restrained fit用语偏抽象。",
+      "overlap": [
+        "03",
+        "pt09",
+        "01"
+      ],
+      "assessment": "高重复。地点变化有情绪价值，但当前单独占一张的新增信息不足。",
+      "recommendation": "优先换成另一项已核实的独立产品价值，例如单独说明卖家交付 Windows 11 Pro 的使用价值；不要补未经核实的系统功能承诺。",
+      "priority": "高",
+      "sourceUrl": "https://github.com/Jeremy777777777/amazon-aplus-content/blob/d44a4ce4f3f7115ce207030872ea54fc4d41f75e/products/VD-744/US/shared/assets/04-home-office-v1.png"
+    },
+    {
+      "id": "05",
+      "file": "shared/assets/05-connections-v1.png",
+      "role": "连接接口与外设适用性",
+      "observation": "前后视图与 Front/Rear 标签，列 USB-A + USB-C、HDMI + DisplayPort、Ethernet、Wi-Fi + Bluetooth、Everyday desk workflows。",
+      "clarity": "较强",
+      "specificity": "端口/连接类型提供明确的信息增量。此处观察图上写了什么，不等于重新核实每台售出配置。",
+      "overlap": [],
+      "assessment": "功能主题独立，帮助买家判断设备连接。当前仍是类型列表，缺少与具体用途的对应关系。",
+      "recommendation": "保留；后续可把显示器、外设、网络三类用途做清楚分组，区分实体接口与无线说明；精确端口/配置继续依原图和适用证据核对。",
+      "priority": "中",
+      "sourceUrl": "https://github.com/Jeremy777777777/amazon-aplus-content/blob/d44a4ce4f3f7115ce207030872ea54fc4d41f75e/products/VD-744/US/shared/assets/05-connections-v1.png"
+    },
+    {
+      "id": "06",
+      "file": "shared/assets/06-configuration-v1.png",
+      "role": "RAM/SSD选配",
+      "observation": "Choose Your Configuration with Confidence.；RAM Options / For your everyday applications.，SSD Options / For your files and storage needs.；底部要求下单前确认配置。",
+      "clarity": "一般",
+      "specificity": "RAM/SSD可选配置是有效主题，但图中没有实际选项或选择依据。",
+      "overlap": [
+        "pt09"
+      ],
+      "assessment": "当前更像购买提醒，标题承诺的with confidence没有充分兑现；买家仍不知道如何选择。",
+      "recommendation": "保留选配主题；在实际可售配置确认后提供精简选购依据。不可为增强宣传直接填未核实容量、组合或升级上限。",
+      "priority": "中",
+      "sourceUrl": "https://github.com/Jeremy777777777/amazon-aplus-content/blob/d44a4ce4f3f7115ce207030872ea54fc4d41f75e/products/VD-744/US/shared/assets/06-configuration-v1.png"
+    },
+    {
+      "id": "pt07",
+      "file": "shared/assets/pt07.png",
+      "role": "桌面占用与尺寸参照",
+      "observation": "主机左置、显示器居中、键盘和鼠标参照；明确 HEIGHT7.17in/182mm、WIDTH1.42in/36mm、DEPTH7.01in/178mm，标题 Small Size. More Desk Space.。",
+      "clarity": "较强",
+      "specificity": "具体尺寸与常见办公设备把Micro机身的紧凑性解释得直观。",
+      "overlap": [
+        "01",
+        "pt08",
+        "pt09"
+      ],
+      "assessment": "是全套中解释小巧最直接的证据型创意图之一；与09场景接近但任务不同，不必仅因场景接近删除。",
+      "recommendation": "保留，专门负责尺寸与桌面空间；避免再加入办公任务等第二主题，产品和参照物比例仍是示意摄影而非实机测量证明。",
+      "priority": "低",
+      "sourceUrl": "https://github.com/Jeremy777777777/amazon-aplus-content/blob/d44a4ce4f3f7115ce207030872ea54fc4d41f75e/products/VD-744/US/shared/assets/pt07.png"
+    },
+    {
+      "id": "pt08",
+      "file": "shared/assets/pt08.png",
+      "role": "手托形态的视觉记忆",
+      "observation": "横向主机由成人手部托举；Compact by Design. More Room to Work.，A micro desktop for everyday spaces.。",
+      "clarity": "画面强，文字分工不足",
+      "specificity": "手部尺度和横向前面板提供不同于站立主机图的视觉记忆，但不是重量/承重测试。",
+      "overlap": [
+        "pt07",
+        "01"
+      ],
+      "assessment": "值得保留的不同构图，但More Room to Work与07的More Desk Space语义重复。前面板微小标识有AI重绘痕迹，建议对照原图精修以提升可信度。",
+      "recommendation": "保留托举画面，只强调紧凑形态；减少重复省空间文案，不因托举补轻量/重量/携带承诺。微小产品标识需精修。",
+      "priority": "中",
+      "sourceUrl": "https://github.com/Jeremy777777777/amazon-aplus-content/blob/d44a4ce4f3f7115ce207030872ea54fc4d41f75e/products/VD-744/US/shared/assets/pt08.png"
+    },
+    {
+      "id": "pt09",
+      "file": "shared/assets/pt09.png",
+      "role": "具体日常办公任务",
+      "observation": "双手实际操作键鼠，屏幕通用文档/表格/网页；Ready for Your Workday.，Documents、Spreadsheets、Web browsing；有场景示意与外设不随附说明。",
+      "clarity": "较清楚",
+      "specificity": "任务表达明确，但均为常见PC用途，不能单独说明该机型比其他PC更强。",
+      "overlap": [
+        "03",
+        "04",
+        "02"
+      ],
+      "assessment": "比03/04单纯摆主机更能说明实际用途，适合作全套唯一主办公任务图；不是性能实测或软件捆绑证明。",
+      "recommendation": "保留任务职责，避免再添加其他泛办公场景；由02及重新分配的03/04解释该型号的具体选择理由。",
+      "priority": "低",
+      "sourceUrl": "https://github.com/Jeremy777777777/amazon-aplus-content/blob/d44a4ce4f3f7115ce207030872ea54fc4d41f75e/products/VD-744/US/shared/assets/pt09.png"
+    }
+  ],
+  "overlapGroups": [
+    {
+      "theme": "紧凑/省空间",
+      "main": [
+        "01",
+        "pt07",
+        "pt08"
+      ],
+      "alsoMentioned": [
+        "02",
+        "03"
+      ],
+      "resolution": "01建立品牌定位，07用实际标注尺寸和办公参照解释空间，08保留手托记忆。减少三张间相近口号，而不是机械删除所有紧凑主题。"
+    },
+    {
+      "theme": "泛办公/居家办公",
+      "main": [
+        "03",
+        "04",
+        "pt09"
+      ],
+      "alsoMentioned": [
+        "02"
+      ],
+      "resolution": "09保留具体任务；03、04优先替换为不同的、证据支持的产品价值主题。"
+    },
+    {
+      "theme": "独立功能信息",
+      "main": [
+        "02",
+        "05",
+        "06"
+      ],
+      "resolution": "处理器/系统、连接、选配这三类信息有独立作用，但需要更清楚解释使用价值或选择依据。"
+    }
+  ],
+  "recommendedOrderOfWork": [
+    {
+      "priority": 1,
+      "images": [
+        "03",
+        "04"
+      ],
+      "action": "以两项不同的已核实产品价值主题替换泛场景图，保留九张总数；处理器价值与Windows11Pro是可研究展开的方向，不是本次直接批准的新客户文案。"
+    },
+    {
+      "priority": 2,
+      "images": [
+        "06"
+      ],
+      "action": "在核实实际可售配置后补选购依据，避免只有RAM/SSD图标与下单提醒。"
+    },
+    {
+      "priority": 3,
+      "images": [
+        "pt08",
+        "pt07",
+        "01"
+      ],
+      "action": "保留不同视觉证明方式，去掉重复口号；优先精修08前面板微小标识。"
+    },
+    {
+      "priority": 4,
+      "images": [
+        "02",
+        "05",
+        "pt09"
+      ],
+      "action": "保留独立职责，随后优化利益解释和用途分组。"
+    }
+  ],
+  "scope": "This turn uploaded only the approved pt08/pt09 images and related delivery/support records. Existing seven images and Basic/Premium/video copy unchanged. Recommendations are feedback; no redesign was performed.",
+  "evidenceManifest": "delivery/manifest.json"
+}
