@@ -72,6 +72,22 @@
       "sha256": "6d18395fe70ab75ab1ae9e49b19f598b1f11e119b3c71defce5b5fe892a204c5",
       "state": "CREATIVE_V1_REVIEW_READY",
       "backendAdapted": false
+    },
+    {
+      "id": "pt07",
+      "file": "shared/assets/pt07.png",
+      "width": 2172,
+      "height": 724,
+      "format": "PNG",
+      "bytes": 1667523,
+      "sha256": "8ef1120c9c174b38f9417822328d5d476707066e3231b1f295d0b02f3ab687bb",
+      "date": "2026-10-27",
+      "state": "USER_STYLE_APPROVED",
+      "userApproval": "2026-10-27: User approved the selected preview and requested adding it as pt07.",
+      "backendAdapted": false,
+      "purpose": "Illustrative chassis-size comparison against a generic standard 12 fl oz / 355 mL can; reference object not included.",
+      "evidence": "review/pt07-size-comparison-20261027.json",
+      "prompts": "review/pt07-generation-prompts.txt"
     }
   ],
   "sources": [

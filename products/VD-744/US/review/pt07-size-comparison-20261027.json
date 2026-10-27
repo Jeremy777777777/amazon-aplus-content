@@ -1,0 +1,129 @@
+{
+  "productId": "VD-744",
+  "marketplace": "US",
+  "model": "Dell Pro Micro QCM1250",
+  "date": "2026-10-27",
+  "status": "USER_STYLE_APPROVED_FOR_PT07_DELIVERY",
+  "tool": "built-in imagegen",
+  "request": "User approved the corrected size-comparison preview and requested adding it as pt07; existing six images and copy remain unchanged.",
+  "identity": {
+    "basis": "Current main project.md identifies VD-744 as Dell Pro Micro QCM1250; exact-model original angle photograph is present.",
+    "serial": "No serial/service tag in this project's sanitized inputs. No serial lookup attempted or raw serial used for this model-chassis-only comparison.",
+    "scope": "OEM external chassis geometry for the identified model, not a new sold-unit configuration or physical measurement certification."
+  },
+  "attributes": [
+    {
+      "attribute": "chassis_height",
+      "value": 182,
+      "unit": "mm",
+      "inches": 7.17,
+      "scope": "OEM exact-model chassis",
+      "status": "OFFICIAL_MODEL_VERIFIED",
+      "source": "dell_dimensions",
+      "accessDate": "2026-10-27",
+      "conflicts": [],
+      "resolution": "Use matching OEM dimension; previous project only recorded that ERP lacked dimensions, which is absence rather than conflicting evidence.",
+      "limitation": "No independent physical measurement of this sellable unit."
+    },
+    {
+      "attribute": "chassis_width",
+      "value": 36,
+      "unit": "mm",
+      "inches": 1.42,
+      "scope": "OEM exact-model chassis",
+      "status": "OFFICIAL_MODEL_VERIFIED",
+      "source": "dell_dimensions",
+      "accessDate": "2026-10-27",
+      "conflicts": [],
+      "resolution": "Use matching OEM dimension; previous project only recorded that ERP lacked dimensions, which is absence rather than conflicting evidence.",
+      "limitation": "No independent physical measurement of this sellable unit."
+    },
+    {
+      "attribute": "chassis_depth",
+      "value": 178,
+      "unit": "mm",
+      "inches": 7.01,
+      "scope": "OEM exact-model chassis",
+      "status": "OFFICIAL_MODEL_VERIFIED",
+      "source": "dell_dimensions",
+      "accessDate": "2026-10-27",
+      "conflicts": [],
+      "resolution": "Use matching OEM dimension; previous project only recorded that ERP lacked dimensions, which is absence rather than conflicting evidence.",
+      "limitation": "No independent physical measurement of this sellable unit."
+    }
+  ],
+  "sources": [
+    {
+      "id": "dell_dimensions",
+      "priority": "manufacturer official",
+      "title": "Dell Pro Micro QCM1250 Owner's Manual — Dimensions and weight",
+      "url": "https://www.dell.com/support/manuals/en-us/dell-pro-qcm1250-micro/dell_pro_micro_qcm1250_om/dimensions-and-weight?guid=guid-476edaac-b30e-4ef6-b273-319a3db074b1&lang=en-us",
+      "observedRegionalRedirect": "https://www.dell.com/support/manuals/en-in/dell-pro-qcm1250-micro/dell_pro_micro_qcm1250_om/dimensions-and-weight?guid=guid-476edaac-b30e-4ef6-b273-319a3db074b1&lang=en-us",
+      "section": "Dimensions and weight table",
+      "excerpt": "Height 182.00 mm (7.17 in.); Width 36.00 mm (1.42 in.); Depth 178.00 mm (7.01 in.)",
+      "accessDate": "2026-10-27"
+    },
+    {
+      "id": "crown_standard_can",
+      "priority": "reference-object manufacturer official",
+      "title": "Crown 12oz./355ml Standard",
+      "url": "https://www.crowncork.com/beverage-packaging/products/beverage-cans/12oz-355ml-standard",
+      "section": "Specs",
+      "excerpt": "Metric Volume 355ml; Metric Diameter 66mm; Metric Height 122.22mm",
+      "accessDate": "2026-10-27"
+    }
+  ],
+  "routes": [
+    {
+      "query": "site.dell.com Dell Pro Micro QCM1250 dimensions height width depth 182 178",
+      "result": "Found matching Dell official owner manual; opened exact-model dimensions table."
+    },
+    {
+      "route": "Current GitHub main project and source photos",
+      "result": "Confirmed model linkage and existing silhouette; prior dimensions entry is ERP unfilled, no conflicting dimension value."
+    },
+    {
+      "query": "site.ball.com 12 oz standard can height 122.2 66",
+      "result": "Used to seek standardized reference geometry; no Ball dimensional claim adopted."
+    },
+    {
+      "query": "site.crowncork.com 12 oz beverage can 122 height standard",
+      "result": "Found and opened Crown manufacturer 12oz./355ml Standard specifications."
+    },
+    {
+      "route": "Amazon / additional technical deep research",
+      "result": "No unresolved size attribute after matching official model evidence, so not needed to establish these three chassis dimensions; no Amazon value overrides OEM."
+    }
+  ],
+  "referenceObject": {
+    "description": "Generic unbranded standard 12 US fl oz / 355mL beverage can, not slim format",
+    "heightMm": 122.22,
+    "diameterMm": 66,
+    "source": "crown_standard_can",
+    "purpose": "Illustrative size reference only; not supplied accessory",
+    "targetComputerToCanHeightRatio": 1.4891179839633448,
+    "sceneConstraint": "Same table plane and equal camera distance, no forced perspective"
+  },
+  "references": [
+    "shared/source/dell-qcm1250-angle.png",
+    "shared/assets/01-hero-v1.png",
+    "shared/source/dell-logo.png"
+  ],
+  "prompt": "Use case: ads-marketing / product-mockup. Create ONE new finished Amazon A+ SIZE COMPARISON banner for the Dell Pro Micro QCM1250, exactly 2172 x 724 pixels, wide 3:1 landscape. INPUT REFERENCES: Image 1 is the exact original product photograph, the physical appearance authority. Image 2 is the existing campaign hero, for white/navy/blue design continuity only; do not copy its wording. Image 3 is the authorized Dell circle logo. NEW BANNER TASK: make the micro desktop's small physical size immediately understandable by placing it next to a familiar standard 12 US fl oz / 355 mL beverage can, clean premium product photography plus concise typography. PHYSICAL SCALE, critical: the computer chassis is 182 mm tall, 36 mm wide across its narrow front, 178 mm deep along the large side panel; an ordinary STANDARD, NOT SLIM 12 fl oz can is approximately 122.22 mm tall, 66 mm diameter. Show both objects upright, side by side, feet/bottoms aligned on the very same tabletop plane, equal camera distance, NOT forced perspective. Computer overall height must be about 1.49 times the can height (can about 67% of the computer height); can's width about 54% of its own height. Preserve the reference computer three-quarter view exactly, tall narrow front and broad flat side, black enclosure, circular power button, headset jack, ONE USB-A above ONE USB-C, lower vertical grille, silver Dell mark, screws and feet. No hardware redesign, no large tower, no invented ports. Place computer center-right and can to its right with clear separation, both fully visible. A simple unbranded brushed silver soda can with a restrained pale-blue band and standard pull-tab shape, no drink brand or copied packaging, no extra text on can. Realistic soft shadows, controlled daylight, pale cool-white surface and subtle pale-blue architectural sweep echoing existing hero. Spacious LEFT 42% text block, objects on RIGHT 55%; balanced clear hierarchy and readable text. Small original blue Dell circle logo at upper left, then exact small model line 'DELL PRO MICRO QCM1250'. Exact large main headline over two lines: 'Small Size.' / 'More Desk Space.' In the lower left put three clean separated measurement blocks with exact text: 'HEIGHT' then '7.17 in' then '182 mm'; 'WIDTH' then '1.42 in' then '36 mm'; 'DEPTH' then '7.01 in' then '178 mm'. Do not mix the width and depth values. Beside or below the can place a concise clear label 'Standard 12 fl oz can'. At bottom in small but readable navy text: 'Can shown for size reference only. Not included.' Keep all text away from objects and edges. Navy #10243A / blue #246DDB, same restrained business editorial campaign. No other words, no Customized by MegaPC, no MegaPC logo, no numeric performance or capacities, no percentage smaller claims, no monitor, keyboard, mouse, cables, people, furniture clutter, neon lighting or collage. This is an illustrative photographic size comparison using OEM chassis dimensions, not a claim to have photographed a measured sellable unit.",
+  "qa": {
+    "imageVisualReview": "Viewed both outputs. Selected corrected version: all three dimension blocks match official values; can is an unbranded standard beverage-can reference; no added MegaPC footer; original campaign color and computer silhouette retained visually.",
+    "exactPhysicalScaleVerification": "Illustrative perspective comparison only. Corrected the visibly undersized first can; final can height is visually approximately two-thirds of the chassis. Not a calibrated photograph, pixel-exact scale certification, or sold-unit measurement.",
+    "existingImages": "All six SHA-256 values match current main delivery manifest; tracked delivery/copy/video files unchanged.",
+    "userStyleApproval": "APPROVED_2026-10-27: 可以，帮我加上变成pt07吧",
+    "amazonBackendAdaptation": "NOT_PERFORMED",
+    "githubUploadAuthorization": "User explicitly authorized adding the approved preview as pt07 to the same GitHub product delivery; remote bytes must be verified after push."
+  },
+  "promptRecords": "review/pt07-generation-prompts.txt",
+  "approvedAsset": {
+    "file": "shared/assets/pt07.png",
+    "width": 2172,
+    "height": 724,
+    "bytes": 1667523,
+    "sha256": "8ef1120c9c174b38f9417822328d5d476707066e3231b1f295d0b02f3ab687bb"
+  }
+}
