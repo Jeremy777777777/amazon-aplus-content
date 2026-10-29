@@ -1,6 +1,6 @@
 # 产品 A+ 项目模板
 
-复制到 `products/<Virtual-ID>/<marketplace>/project.md`，将所有待填写项替换为确认资料。
+在临时工作区恢复/建立 `products/<Virtual-ID>/<marketplace>/project.md`，填写后与全部产品输出交付Drive。GitHub仅保留此可复用模板，不提交新的产品副本。执行 [Drive交付规则](../references/google-drive-delivery.md)。
 
 ## 基础资料与来源
 

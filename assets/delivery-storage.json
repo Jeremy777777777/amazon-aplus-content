@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "effectiveDate": "2026-10-29",
+  "repository": "Jeremy777777777/amazon-aplus-content",
+  "productStorage": "GOOGLE_DRIVE_ONLY",
+  "workflowSource": "GITHUB_WITH_VERSIONED_DRIVE_BACKUP",
+  "projectRootId": "1Knp8RUWyw5N1MownbfJSSo-m6NgrqrQq",
+  "productsRootId": "1z14YEhGsDHXq1YbkuO5iG3t6uIuut4Lf",
+  "workflowsRootId": "1a65QcW3vyWBiKPFArlPERXQ9Xi9d4pPP",
+  "workflowBackupFolderId": "12ADXVFhIIXgtM89osg_r-GPIJT_WcU0b",
+  "runsRootId": "14CNYfpLg89iALFog3B_XfWf84akZqdzm",
+  "archiveRootId": "1FtH10zJlEi-lcqOeRg-yHbRa9iKttULa",
+  "roles": {
+    "listing": "01_LISTING/APLUS/<marketplace>",
+    "images": "02_IMAGES/APLUS/<marketplace>/{DESKTOP,MOBILE}",
+    "research": "03_RESEARCH/FINAL/APLUS/<marketplace>",
+    "qa": "04_QA/APLUS/<marketplace>",
+    "source": "90_SOURCE/APLUS/<marketplace>"
+  },
+  "preserveExistingGithubProductHistory": true,
+  "currentFileIds": "REUSE_AFTER_PREWRITE_VERSION_AND_ARCHIVE_CHECK",
+  "verification": "READ_BACK_PARENTS_NAME_MIME_SIZE_AND_ORIGINAL_BYTES_SHA256",
+  "workflowVersions": "Expanded immutable versions/<commit> snapshot, stable CURRENT.json points only to verified backup",
+  "localRetention": "TEMPORARY_ONLY_REMOVE_AFTER_VERIFIED_DRIVE_AND_WORKFLOW_BACKUP",
+  "sellerCentralPublicationAuthorized": false
+}

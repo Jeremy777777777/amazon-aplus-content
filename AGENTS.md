@@ -1,5 +1,7 @@
 # A+ 内容制作入口
 
+2026-10-29 输出渠道决定：先读 [Drive交付规则](references/google-drive-delivery.md)。所有产品输出（Basic/Premium/Mobile图片、文案、产品Markdown、配方、源素材、提示词及QA/回执）交付到现有Drive精确产品五类目录中的APLUS/站点子目录。GitHub仅维护可复用流程；所有规则Markdown及每次版本更新在Drive的A+ workflow版本快照备份。历史GitHub产品文件保留但不再更新，新任务从Drive当前清单恢复素材。复用当前ID，先归档旧版本，核对远端原字节与父目录后再清理临时缓存；无额外Seller Central发布授权。
+
 用户要求 Mobile、手机 A+ 或再次生成手机图片时，先读 [MOBILE.md](MOBILE.md) 和 [独立手机设计规范](references/mobile-aplus-design-system.md)，使用手机简报、任务结构和通用渲染器。默认复用本套白蓝手机排版方法，原始硬件/标识与批准摄影固定，文字确定性排版；1200×900、内部最小字号42px、原生Body/Alt、AI人物披露及手机预览分别检查。新产品重新核实事实和原图，重大风格变更由用户判断。不得把桌面宽图直接缩小当手机版，不覆盖桌面母版。字段适用范围另见 [手机导出规则](references/mobile-image-exports.md)；文件通过不等于后台接收或Amazon审核通过。
 
 先读取 [WORKFLOW.md](WORKFLOW.md)，定位用户指定产品的当前 project、事实、交付清单和审核记录，再修改。复用当前已批准素材；不把历史初稿、文件旧名称或过期 checkout 当成当前内容。

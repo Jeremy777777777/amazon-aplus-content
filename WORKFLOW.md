@@ -2,6 +2,8 @@
 
 版本：1.2 · 2026-10-29
 
+输出渠道已切换至 [Drive产品交付与版本备份](references/google-drive-delivery.md)：本页所有产品路径仅代表临时制作/恢复目录，产品成品、文案、Markdown、配方与QA必须到Drive；GitHub仅提交可复用流程并在Drive备份版本。历史GitHub产品副本不删除，也不再覆盖。
+
 **Mobile 独立入口：** 用户要求手机图片时，读取 [MOBILE.md](MOBILE.md)、[手机设计规范](references/mobile-aplus-design-system.md)，填写 [手机简报](templates/mobile-aplus-brief.md) 与 [任务结构](templates/mobile-aplus-job.json)，再使用通用渲染器。当前 VD-744 的完整配方、原生Body/Alt和九张手机成品均由该入口链接。复用排版方法，不将本例品牌/配置/风格批准转移给其他产品。
 
 2026-10-29 手机导出补充：[手机图片导出规则](references/mobile-image-exports.md) 规定如何沿用已批准设计/内容，使用原始硬件、原始标识和确定性文字另作手机图片。当前 VD-744 已有九张 1200×900 手机 PNG；桌面母版保留。图片技术规格、用户风格判断、模块/ASIN 可用性、后台上传与 Amazon 发布分别记录。
@@ -160,7 +162,7 @@
 - 文案和媒体按制作时目标站点当前 A+ 规则核实；不把内部设计清单当作已通过 Amazon 审核。
 - 交付清单明确区分已完成图片、脚本文件、待外部生成镜头、待剪辑成片和待后台验证模块。
 - 九图检查参考 [逐图检查矩阵](references/nine-image-business-pc.md#6-逐图检查与状态)。结构检查只能证明文件与引用一致；不证明事实、视觉、授权、移动适配或 Amazon 资格。用户风格批准单独记录，不覆盖未修视觉缺陷。
-- GitHub 替换前核对当前基线与授权范围，更新稳定图片路径、两套文案与 alt、交付 gallery／manifest、实际调用提示词及证据。提交后核对远端版本与文件字节，早期完整版本保留在 Git 历史；远端确认后清理本次缓存，不删除未交付的唯一副本。
+- Drive替换前读取当前产品清单、稳定file ID、父目录及字节，先归档旧的完整版本，再更新本次授权范围的图片、两套文案与Alt、清单、提示词及证据。逐个回读原文件核对SHA256和父目录。可复用流程单独提交GitHub，并备份全部Markdown和版本依赖到Drive。两项都核对完成后清理本次缓存，不删除未交付的唯一副本。
 
 目录：`source/`、`shared/`、`basic/`、`premium/`、`video/`、`delivery/`、`review/`，全部位于 `products/<Virtual-ID>/<marketplace>/`。
 

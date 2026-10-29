@@ -12,7 +12,7 @@
 - 资料证据入口：事实表／research ledger／现有 Research Review／Listing Draft（存在时关联，不无故重做）：待填写
 - 当前 ERP／制造商／Amazon 访问结果与限制：待填写
 - 新产品风格预览路径／用户选择原文／日期：待填写，未批准前不得标 USER_APPROVED
-- 本次 GitHub 交付范围／其他目的地授权：待填写；不预设 Seller Central 发布
+- 本次Drive产品目录、当前file ID与归档范围：待填写；可复用workflow提交GitHub并备份Drive，不预设Seller Central发布
 
 ## 参数与选项：先区分范围
 
@@ -72,7 +72,7 @@
 - [ ] Basic／Premium copy、alt、delivery gallery 与九图主题一致
 - [ ] manifest 记录真实宽高／字节／SHA-256；参考与提示词路径有效、正文完整
 - [ ] 敏感资料及签名链接筛查；授权／视觉／结构／后台状态分开记录
-- [ ] GitHub 上传授权、旧版本保留、远端字节核对和缓存清理分别记录
+- [ ] Drive产品交付、workflow版本备份、旧版本保留、远端字节/父目录核对和缓存清理分别记录
 
 ## 发布／适配记录
 

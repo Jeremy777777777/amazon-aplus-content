@@ -1,5 +1,7 @@
 # A+ 手机图片导出
 
+输出渠道已于2026-10-29切换为 [Drive产品存储与工作流版本备份](google-drive-delivery.md)。下文产品路径用于临时恢复/制作；当前产品文件到Drive，不继续更新历史GitHub产品副本。
+
 当前独立手机设计与再次生成从 [MOBILE.md](../MOBILE.md) 进入，详见 [手机设计系统](mobile-aplus-design-system.md)。本页保留字段尺寸与导出适用边界；新版还要求360/390/400px检查、内部42px字号底线、Alt与AI披露。
 
 2026-10-29 用户决定：沿用当前设计、内容和已批准产品画面，另做可上传手机图片，并更新 GitHub。桌面母版独立保留。示例见 [VD-744 手机交付](../products/VD-744/US/delivery/mobile.md)。
