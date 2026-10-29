@@ -2,6 +2,8 @@
 
 版本：1.1 · 2026-10-27
 
+2026-10-29 手机导出补充：[手机图片导出规则](references/mobile-image-exports.md) 规定如何沿用已批准设计/内容，使用原始硬件、原始标识和确定性文字另作手机图片。当前 VD-744 已有九张 1200×900 手机 PNG；桌面母版保留。图片技术规格、用户风格判断、模块/ASIN 可用性、后台上传与 Amazon 发布分别记录。
+
 ## 0. 快速复用已确认的九图方案
 
 用户要求“像 VD-744 这样生成九张”时，从 [九图商务 PC 规范](references/nine-image-business-pc.md) 开始，填写 [九图简报](templates/nine-image-brief.md)，逐张使用 [英文提示词模板](templates/nine-image-prompts.md)。建议设计值见 [机器可读 style profile](assets/nine-image-business-pc-style.json)，实际案例见 [VD-744 当前九图](products/VD-744/US/delivery/README.md)。

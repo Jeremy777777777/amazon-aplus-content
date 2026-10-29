@@ -5,6 +5,7 @@
 ## 工作流与模板入口
 
 - [完整制作工作流](WORKFLOW.md)：Listing / ERP → 事实核对 → 参考分析 → 两套 A+ 图文 → 视频 AI 脚本 → 验收与交付。
+- [手机图片导出规则](references/mobile-image-exports.md) · [VD-744 当前九张手机上传图](products/VD-744/US/delivery/mobile.md)：沿用现有设计/内容，1200×900 PNG；桌面母版另行保留。
 - [复用 VD-744 九图内容与视觉规范](references/nine-image-business-pc.md)：九图分工、配色、字号、图文占比、规格网格、配置表、自然办公摆位和逐图检查。
 - [九图项目简报](templates/nine-image-brief.md) · [九张英文提示词模板](templates/nine-image-prompts.md) · [设计参数 JSON](assets/nine-image-business-pc-style.json)。
 - [产品项目模板](templates/product-project.md)。
@@ -66,3 +67,5 @@ products/<Virtual-ID>/<marketplace>/
 
 
 2026-10-27：VD-744 已扩展为九张，并按用户批准替换 02／03／04／06／08，列出实际 RAM／SSD 销售档位；最新图文与证据见上述交付页。后台适配仍待完成。
+
+2026-10-29：VD-744 九张手机派生图已导出并检查，尺寸 1200×900、每张小于 2 MB，见手机交付页。原始产品/标识和批准场景作为固定图层，保留原有文案；桌面母版未改。仅确认图片文件规格，实际后台上传、整页手机预览及 Amazon 发布未执行。

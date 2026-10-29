@@ -1,5 +1,7 @@
 # A+ 内容制作入口
 
+手机上传图片先读 [手机导出规则](references/mobile-image-exports.md)。沿用当前设计与内容时另作 4:3 派生图，优先保留原始产品/标识与已批准摄影的固定像素、确定性排版文字；不覆盖桌面母版。只对观察到的模块字段声明适用性，不把单张文件规格通过写成已上传/发布或全部模块适配通过。
+
 先读取 [WORKFLOW.md](WORKFLOW.md)，定位用户指定产品的当前 project、事实、交付清单和审核记录，再修改。复用当前已批准素材；不把历史初稿、文件旧名称或过期 checkout 当成当前内容。
 
 用户要求类似 VD-744 的九图商务 PC 内容时，读取 [九图规范](references/nine-image-business-pc.md)，使用 [简报](templates/nine-image-brief.md) 与 [逐图提示词](templates/nine-image-prompts.md)；[style profile](assets/nine-image-business-pc-style.json) 提供建议设计值。该方法复用内容分工与视觉语言，不自动复制样本硬件参数、Dell 品牌或未来风格批准。

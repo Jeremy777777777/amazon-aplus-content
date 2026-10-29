@@ -1,0 +1,1360 @@
+{
+  "schemaVersion": 1,
+  "productId": "VD-744",
+  "asin": "B0HMY74CHD",
+  "marketplace": "US",
+  "date": "2026-10-29",
+  "baselineCommit": "706c3f64f4c004e66fe593549a3f2edc3875c59c",
+  "scope": "Nine mobile derivatives; existing desktop masters and buyer copy preserved.",
+  "target": {
+    "observedMobileMinimum": [
+      600,
+      450
+    ],
+    "observedDesktopMinimum": [
+      1464,
+      600
+    ],
+    "evidence": "User-supplied Seller Central screenshot 2026-10-29; no account-side upload/preview claimed.",
+    "export": [
+      1200,
+      900
+    ],
+    "maxBytesExclusive": 2000000
+  },
+  "production": "Original source hardware and frozen approved scene crops, original Dell source mark, deterministic text and layout. Imagegen mobile candidates were explored but not promoted as product/text layers.",
+  "font": "Arial regular/bold; supply local Arial TTFs via APLUS_FONT_DIR for rebuild.",
+  "assets": [
+    {
+      "id": "01",
+      "file": "premium/assets/mobile/01-hero-mobile.png",
+      "sourceDesktop": "shared/assets/01-hero-v1.png",
+      "sourceDesktopSha256": "82a5389fcb280f8e8363d8dd5179e7c0f8fcf1aee8e51c93454e9af2423611b0",
+      "width": 1200,
+      "height": 900,
+      "bytes": 258865,
+      "sha256": "e1ba38e3dea1395f2b66c534176ec3ca9b374339adb41b304366b41636780183",
+      "format": "PNG",
+      "colorSpace": "sRGB",
+      "density": 72,
+      "hasAlpha": false,
+      "role": "Product hero",
+      "textLayers": [
+        {
+          "text": "DELL PRO MICRO QCM1250",
+          "x": 175,
+          "y": 66,
+          "fontPx": 30,
+          "width": 404.5199890136719,
+          "maxWidth": 960,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Make Room for",
+          "x": 48,
+          "y": 190,
+          "fontPx": 72,
+          "width": 520.0700073242188,
+          "maxWidth": 785,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "What Matters.",
+          "x": 48,
+          "y": 280,
+          "fontPx": 72,
+          "width": 472.0400085449219,
+          "maxWidth": 785,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "Compact design.",
+          "x": 52,
+          "y": 420,
+          "fontPx": 37,
+          "width": 277.6400146484375,
+          "maxWidth": 680,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Focused workspace.",
+          "x": 52,
+          "y": 469,
+          "fontPx": 37,
+          "width": 339.32000732421875,
+          "maxWidth": 680,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        }
+      ],
+      "sourceLayers": [
+        {
+          "source": "shared/source/original-product",
+          "x": 835,
+          "y": 180,
+          "width": 325.82278481012656,
+          "height": 650,
+          "proportionPreserved": true
+        }
+      ],
+      "status": "TECHNICAL_CHECK_PASSED_VISUAL_REVIEW_RECORDED_SEPARATELY"
+    },
+    {
+      "id": "02",
+      "file": "premium/assets/mobile/02-workday-mobile.png",
+      "sourceDesktop": "shared/assets/02-workday-v1.png",
+      "sourceDesktopSha256": "a5e20a0af9f7c3ade3b5761313ee3e4cf8b1e94ba4256dc2f8d5f296fc0c03ef",
+      "width": 1200,
+      "height": 900,
+      "bytes": 524063,
+      "sha256": "c15d7e2c90d52144f04f88e0578ba66ba987415abe50fc027e01bbafe77ead39",
+      "format": "PNG",
+      "colorSpace": "sRGB",
+      "density": 72,
+      "hasAlpha": false,
+      "role": "Front-panel access",
+      "textLayers": [
+        {
+          "text": "DELL PRO MICRO QCM1250",
+          "x": 175,
+          "y": 66,
+          "fontPx": 30,
+          "width": 404.5199890136719,
+          "maxWidth": 960,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Connections Within Reach.",
+          "x": 48,
+          "y": 151,
+          "fontPx": 66,
+          "width": 853.780029296875,
+          "maxWidth": 1110,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Front-panel access for everyday devices.",
+          "x": 50,
+          "y": 237,
+          "fontPx": 34,
+          "width": 619.8400268554688,
+          "maxWidth": 1100,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "USB-A",
+          "x": 170,
+          "y": 754,
+          "fontPx": 34,
+          "width": 107.66000366210938,
+          "maxWidth": 220,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "USB-C",
+          "x": 535,
+          "y": 754,
+          "fontPx": 34,
+          "width": 107.66000366210938,
+          "maxWidth": 220,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "Headset jack",
+          "x": 850,
+          "y": 754,
+          "fontPx": 34,
+          "width": 207.89999389648438,
+          "maxWidth": 300,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "Illustrative use. USB drive and",
+          "x": 48,
+          "y": 808,
+          "fontPx": 34,
+          "width": 455.42999267578125,
+          "maxWidth": 1110,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "accessories not included.",
+          "x": 48,
+          "y": 848,
+          "fontPx": 34,
+          "width": 381.7699890136719,
+          "maxWidth": 1110,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        }
+      ],
+      "sourceLayers": [
+        {
+          "source": "shared/assets/02-workday-v1.png",
+          "crop": [
+            830,
+            0,
+            1340,
+            725
+          ],
+          "x": 180,
+          "y": 290,
+          "width": 840,
+          "height": 454.4776119402985,
+          "proportionPreserved": true
+        }
+      ],
+      "status": "TECHNICAL_CHECK_PASSED_VISUAL_REVIEW_RECORDED_SEPARATELY"
+    },
+    {
+      "id": "03",
+      "file": "premium/assets/mobile/03-business-mobile.png",
+      "sourceDesktop": "shared/assets/03-business-v1.png",
+      "sourceDesktopSha256": "6400151ff5f1054629bdf16340057aae55eac56ddbf0c8899d2758e8da916502",
+      "width": 1200,
+      "height": 900,
+      "bytes": 284980,
+      "sha256": "83efeb005bff3c7135e5fce65e8673993f5a059aafeedcc8f5144da8d21886bd",
+      "format": "PNG",
+      "colorSpace": "sRGB",
+      "density": 72,
+      "hasAlpha": false,
+      "role": "Processor specifications",
+      "textLayers": [
+        {
+          "text": "DELL PRO MICRO QCM1250",
+          "x": 175,
+          "y": 66,
+          "fontPx": 30,
+          "width": 404.5199890136719,
+          "maxWidth": 960,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "20-Core",
+          "x": 48,
+          "y": 160,
+          "fontPx": 74,
+          "width": 275.54998779296875,
+          "maxWidth": 740,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Processing.",
+          "x": 48,
+          "y": 248,
+          "fontPx": 74,
+          "width": 419.5,
+          "maxWidth": 740,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Intel Core Ultra 7 265T",
+          "x": 50,
+          "y": 356,
+          "fontPx": 39,
+          "width": 394.510009765625,
+          "maxWidth": 750,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "20",
+          "x": 50,
+          "y": 495,
+          "fontPx": 80,
+          "width": 88.9800033569336,
+          "maxWidth": 290,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "TOTAL CORES",
+          "x": 50,
+          "y": 577,
+          "fontPx": 30,
+          "width": 211.67999267578125,
+          "maxWidth": 290,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "8P + 12E",
+          "x": 290,
+          "y": 495,
+          "fontPx": 53,
+          "width": 218.57000732421875,
+          "maxWidth": 290,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "CORE DESIGN",
+          "x": 290,
+          "y": 577,
+          "fontPx": 30,
+          "width": 210.02999877929688,
+          "maxWidth": 290,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Up to",
+          "x": 610,
+          "y": 453,
+          "fontPx": 34,
+          "width": 81.26000213623047,
+          "maxWidth": 230,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "5.3 GHz",
+          "x": 610,
+          "y": 495,
+          "fontPx": 53,
+          "width": 194.39999389648438,
+          "maxWidth": 290,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "MAX TURBO",
+          "x": 610,
+          "y": 577,
+          "fontPx": 30,
+          "width": 181.66000366210938,
+          "maxWidth": 290,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "For everyday office applications",
+          "x": 50,
+          "y": 687,
+          "fontPx": 35,
+          "width": 491.55999755859375,
+          "maxWidth": 1080,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "and multitasking.",
+          "x": 50,
+          "y": 733,
+          "fontPx": 35,
+          "width": 262.6400146484375,
+          "maxWidth": 1080,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Maximum single-core turbo frequency.",
+          "x": 48,
+          "y": 803,
+          "fontPx": 34,
+          "width": 575.7100219726562,
+          "maxWidth": 1110,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Actual performance varies.",
+          "x": 48,
+          "y": 843,
+          "fontPx": 34,
+          "width": 404.3999938964844,
+          "maxWidth": 1110,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        }
+      ],
+      "sourceLayers": [
+        {
+          "source": "shared/source/original-product",
+          "x": 902,
+          "y": 185,
+          "width": 300.75949367088606,
+          "height": 600,
+          "proportionPreserved": true
+        }
+      ],
+      "status": "TECHNICAL_CHECK_PASSED_VISUAL_REVIEW_RECORDED_SEPARATELY"
+    },
+    {
+      "id": "04",
+      "file": "premium/assets/mobile/04-home-office-mobile.png",
+      "sourceDesktop": "shared/assets/04-home-office-v1.png",
+      "sourceDesktopSha256": "891e9e674cdfcfa95f519ffc502299cd6f8482209161b313a04b5b75d19a98b7",
+      "width": 1200,
+      "height": 900,
+      "bytes": 186864,
+      "sha256": "0aa46d05f0ea029d87dea0d5b5ad21970858aa4d6c490c5009cd9c25a8bb8113",
+      "format": "PNG",
+      "colorSpace": "sRGB",
+      "density": 72,
+      "hasAlpha": false,
+      "role": "Complete specification overview",
+      "textLayers": [
+        {
+          "text": "DELL PRO MICRO QCM1250",
+          "x": 175,
+          "y": 66,
+          "fontPx": 30,
+          "width": 404.5199890136719,
+          "maxWidth": 960,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Your PC, at a Glance.",
+          "x": 48,
+          "y": 151,
+          "fontPx": 73,
+          "width": 732.9199829101562,
+          "maxWidth": 1110,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Intel Core Ultra 7",
+          "x": 72,
+          "y": 287,
+          "fontPx": 35,
+          "width": 280.07000732421875,
+          "maxWidth": 490,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "265T",
+          "x": 72,
+          "y": 335,
+          "fontPx": 54,
+          "width": 123.08000183105469,
+          "maxWidth": 490,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "USB-A + USB-C",
+          "x": 638,
+          "y": 308,
+          "fontPx": 43,
+          "width": 319.7300109863281,
+          "maxWidth": 490,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Up to 64GB",
+          "x": 72,
+          "y": 599,
+          "fontPx": 46,
+          "width": 250.4600067138672,
+          "maxWidth": 490,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "DDR5 RAM OPTIONS",
+          "x": 72,
+          "y": 664,
+          "fontPx": 31,
+          "width": 311.739990234375,
+          "maxWidth": 490,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Up to 4TB",
+          "x": 638,
+          "y": 599,
+          "fontPx": 46,
+          "width": 217.1999969482422,
+          "maxWidth": 490,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "SSD STORAGE OPTIONS",
+          "x": 638,
+          "y": 664,
+          "fontPx": 31,
+          "width": 373.2099914550781,
+          "maxWidth": 490,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Wi-Fi",
+          "x": 65,
+          "y": 755,
+          "fontPx": 35,
+          "width": 85.20999908447266,
+          "maxWidth": 500,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "Bluetooth",
+          "x": 625,
+          "y": 755,
+          "fontPx": 35,
+          "width": 163.2899932861328,
+          "maxWidth": 500,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "RAM and SSD options vary by selection.",
+          "x": 48,
+          "y": 815,
+          "fontPx": 34,
+          "width": 612.280029296875,
+          "maxWidth": 1110,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Confirm your configuration before ordering.",
+          "x": 48,
+          "y": 854,
+          "fontPx": 34,
+          "width": 648.219970703125,
+          "maxWidth": 1110,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        }
+      ],
+      "sourceLayers": [
+        {
+          "source": "shared/assets/04-home-office-v1.png",
+          "crop": [
+            1270,
+            200,
+            872,
+            215
+          ],
+          "purpose": "Original Windows visual and edition lockup"
+        }
+      ],
+      "status": "TECHNICAL_CHECK_PASSED_VISUAL_REVIEW_RECORDED_SEPARATELY"
+    },
+    {
+      "id": "05",
+      "file": "premium/assets/mobile/05-connections-mobile.png",
+      "sourceDesktop": "shared/assets/05-connections-v1.png",
+      "sourceDesktopSha256": "bde743590b83930b5b96b95f59e84a332f2dca98b0603b08d7d4ac8be117ca6b",
+      "width": 1200,
+      "height": 900,
+      "bytes": 211096,
+      "sha256": "b2409c25f5c18bc7051195dc2f89b5dd2d393ff8eb044b03d816c8d471811c71",
+      "format": "PNG",
+      "colorSpace": "sRGB",
+      "density": 72,
+      "hasAlpha": false,
+      "role": "Front and rear connectivity",
+      "textLayers": [
+        {
+          "text": "DELL PRO MICRO QCM1250",
+          "x": 175,
+          "y": 66,
+          "fontPx": 30,
+          "width": 404.5199890136719,
+          "maxWidth": 960,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Connections",
+          "x": 48,
+          "y": 160,
+          "fontPx": 73,
+          "width": 442.05999755859375,
+          "maxWidth": 1110,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "You Can See.",
+          "x": 48,
+          "y": 245,
+          "fontPx": 73,
+          "width": 461.1000061035156,
+          "maxWidth": 1110,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Front",
+          "x": 100,
+          "y": 811,
+          "fontPx": 30,
+          "width": 76.63999938964844,
+          "maxWidth": 180,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Rear",
+          "x": 310,
+          "y": 811,
+          "fontPx": 30,
+          "width": 66.70999908447266,
+          "maxWidth": 180,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "USB-A + USB-C",
+          "x": 530,
+          "y": 398,
+          "fontPx": 35,
+          "width": 260.239990234375,
+          "maxWidth": 625,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "HDMI + DisplayPort",
+          "x": 530,
+          "y": 473,
+          "fontPx": 35,
+          "width": 323.82000732421875,
+          "maxWidth": 625,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Ethernet",
+          "x": 530,
+          "y": 548,
+          "fontPx": 35,
+          "width": 141.97000122070312,
+          "maxWidth": 625,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Wi-Fi + Bluetooth",
+          "x": 530,
+          "y": 623,
+          "fontPx": 35,
+          "width": 288.3900146484375,
+          "maxWidth": 625,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Everyday desk workflows",
+          "x": 530,
+          "y": 739,
+          "fontPx": 31,
+          "width": 348.010009765625,
+          "maxWidth": 625,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        }
+      ],
+      "sourceLayers": [
+        {
+          "source": "shared/source/original-product",
+          "x": 105,
+          "y": 375,
+          "width": 110.50218340611353,
+          "height": 420,
+          "proportionPreserved": true
+        },
+        {
+          "source": "shared/source/original-product",
+          "x": 285,
+          "y": 375,
+          "width": 109.35545628589662,
+          "height": 420,
+          "proportionPreserved": true
+        }
+      ],
+      "status": "TECHNICAL_CHECK_PASSED_VISUAL_REVIEW_RECORDED_SEPARATELY"
+    },
+    {
+      "id": "06",
+      "file": "premium/assets/mobile/06-configuration-mobile.png",
+      "sourceDesktop": "shared/assets/06-configuration-v1.png",
+      "sourceDesktopSha256": "4574eb9ca58f808e600d2e7728b665ff1d2de3e59fd28c607eb9ac2bbb12a2bd",
+      "width": 1200,
+      "height": 900,
+      "bytes": 148646,
+      "sha256": "a8b1f2ee00a870417e308d3408db43c220c4b8202f3ef11604904815540fc5d1",
+      "format": "PNG",
+      "colorSpace": "sRGB",
+      "density": 72,
+      "hasAlpha": false,
+      "role": "Seller RAM and SSD choices",
+      "textLayers": [
+        {
+          "text": "DELL PRO MICRO QCM1250",
+          "x": 175,
+          "y": 66,
+          "fontPx": 30,
+          "width": 404.5199890136719,
+          "maxWidth": 960,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Customize Your",
+          "x": 48,
+          "y": 151,
+          "fontPx": 70,
+          "width": 526.3699951171875,
+          "maxWidth": 1110,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Configuration",
+          "x": 48,
+          "y": 233,
+          "fontPx": 70,
+          "width": 458.7900085449219,
+          "maxWidth": 1110,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Choose the RAM and SSD options for your needs.",
+          "x": 50,
+          "y": 342,
+          "fontPx": 32,
+          "width": 715.0599975585938,
+          "maxWidth": 1100,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "DDR5 RAM OPTIONS",
+          "x": 50,
+          "y": 424,
+          "fontPx": 30,
+          "width": 301.67999267578125,
+          "maxWidth": 1100,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "8GB",
+          "x": 180,
+          "y": 497,
+          "fontPx": 43,
+          "width": 88.41000366210938,
+          "maxWidth": 250,
+          "bold": true,
+          "color": "#09244A",
+          "align": "center"
+        },
+        {
+          "text": "16GB",
+          "x": 460,
+          "y": 497,
+          "fontPx": 43,
+          "width": 112.33000183105469,
+          "maxWidth": 250,
+          "bold": true,
+          "color": "#09244A",
+          "align": "center"
+        },
+        {
+          "text": "32GB",
+          "x": 740,
+          "y": 497,
+          "fontPx": 43,
+          "width": 112.33000183105469,
+          "maxWidth": 250,
+          "bold": true,
+          "color": "#09244A",
+          "align": "center"
+        },
+        {
+          "text": "64GB",
+          "x": 1020,
+          "y": 497,
+          "fontPx": 43,
+          "width": 112.33000183105469,
+          "maxWidth": 250,
+          "bold": true,
+          "color": "#09244A",
+          "align": "center"
+        },
+        {
+          "text": "SSD STORAGE OPTIONS",
+          "x": 50,
+          "y": 605,
+          "fontPx": 30,
+          "width": 361.1700134277344,
+          "maxWidth": 1100,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "0.5TB",
+          "x": 180,
+          "y": 678,
+          "fontPx": 43,
+          "width": 117.0999984741211,
+          "maxWidth": 250,
+          "bold": true,
+          "color": "#09244A",
+          "align": "center"
+        },
+        {
+          "text": "1TB",
+          "x": 460,
+          "y": 678,
+          "fontPx": 43,
+          "width": 81.2300033569336,
+          "maxWidth": 250,
+          "bold": true,
+          "color": "#09244A",
+          "align": "center"
+        },
+        {
+          "text": "2TB",
+          "x": 740,
+          "y": 678,
+          "fontPx": 43,
+          "width": 81.2300033569336,
+          "maxWidth": 250,
+          "bold": true,
+          "color": "#09244A",
+          "align": "center"
+        },
+        {
+          "text": "4TB",
+          "x": 1020,
+          "y": 678,
+          "fontPx": 43,
+          "width": 81.2300033569336,
+          "maxWidth": 250,
+          "bold": true,
+          "color": "#09244A",
+          "align": "center"
+        },
+        {
+          "text": "Seller-configurable options. Confirm your selected",
+          "x": 48,
+          "y": 807,
+          "fontPx": 34,
+          "width": 752.1500244140625,
+          "maxWidth": 1110,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "RAM and SSD combination before ordering.",
+          "x": 48,
+          "y": 847,
+          "fontPx": 34,
+          "width": 663.3499755859375,
+          "maxWidth": 1110,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        }
+      ],
+      "sourceLayers": [
+        {
+          "source": "shared/source/original-product",
+          "x": 1020,
+          "y": 148,
+          "width": 87.72151898734177,
+          "height": 175,
+          "proportionPreserved": true
+        }
+      ],
+      "status": "TECHNICAL_CHECK_PASSED_VISUAL_REVIEW_RECORDED_SEPARATELY"
+    },
+    {
+      "id": "pt07",
+      "file": "premium/assets/mobile/pt07-mobile.png",
+      "sourceDesktop": "shared/assets/pt07.png",
+      "sourceDesktopSha256": "522c6a61e900541f5b030e83bc694463ca64b202f4ed5ab76d9fc4a2d2b980c4",
+      "width": 1200,
+      "height": 900,
+      "bytes": 417350,
+      "sha256": "6d0197099e4fd7a0dccdfeb56eef32cd9e55fc8a1781b35fa3619794fa568f07",
+      "format": "PNG",
+      "colorSpace": "sRGB",
+      "density": 72,
+      "hasAlpha": false,
+      "role": "Office scale and inch dimensions",
+      "textLayers": [
+        {
+          "text": "DELL PRO MICRO QCM1250",
+          "x": 175,
+          "y": 66,
+          "fontPx": 30,
+          "width": 404.5199890136719,
+          "maxWidth": 960,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Small Size.",
+          "x": 48,
+          "y": 151,
+          "fontPx": 65,
+          "width": 339.6000061035156,
+          "maxWidth": 1110,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "More Desk Space.",
+          "x": 48,
+          "y": 226,
+          "fontPx": 65,
+          "width": 556.3699951171875,
+          "maxWidth": 1110,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "HEIGHT",
+          "x": 85,
+          "y": 736,
+          "fontPx": 30,
+          "width": 113.33000183105469,
+          "maxWidth": 280,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "7.17 in",
+          "x": 85,
+          "y": 775,
+          "fontPx": 40,
+          "width": 124.51000213623047,
+          "maxWidth": 280,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "WIDTH",
+          "x": 475,
+          "y": 736,
+          "fontPx": 30,
+          "width": 98.30999755859375,
+          "maxWidth": 280,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "1.42 in",
+          "x": 475,
+          "y": 775,
+          "fontPx": 40,
+          "width": 124.51000213623047,
+          "maxWidth": 280,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "DEPTH",
+          "x": 865,
+          "y": 736,
+          "fontPx": 30,
+          "width": 101.66999816894531,
+          "maxWidth": 280,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "7.01 in",
+          "x": 865,
+          "y": 775,
+          "fontPx": 40,
+          "width": 124.51000213623047,
+          "maxWidth": 280,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "Monitor, keyboard and mouse shown for scale.",
+          "x": 48,
+          "y": 829,
+          "fontPx": 32,
+          "width": 661.6900024414062,
+          "maxWidth": 1110,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Not included.",
+          "x": 48,
+          "y": 865,
+          "fontPx": 32,
+          "width": 186.77999877929688,
+          "maxWidth": 1110,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        }
+      ],
+      "sourceLayers": [
+        {
+          "source": "shared/assets/pt07.png",
+          "crop": [
+            820,
+            0,
+            1351,
+            724
+          ],
+          "x": 220,
+          "y": 310,
+          "width": 760,
+          "height": 407.2834937083642,
+          "proportionPreserved": true
+        }
+      ],
+      "status": "TECHNICAL_CHECK_PASSED_VISUAL_REVIEW_RECORDED_SEPARATELY"
+    },
+    {
+      "id": "pt08",
+      "file": "premium/assets/mobile/pt08-mobile.png",
+      "sourceDesktop": "shared/assets/pt08.png",
+      "sourceDesktopSha256": "3eee2d2436319eeeb988493fb1d197a3bd5de3d34d6a595e202d5751f4719898",
+      "width": 1200,
+      "height": 900,
+      "bytes": 617730,
+      "sha256": "e56bf514ccb17df123ce03f7e368bda4bfd4f63abab87fa62c0b668926b8c9fd",
+      "format": "PNG",
+      "colorSpace": "sRGB",
+      "density": 72,
+      "hasAlpha": false,
+      "role": "Compact form in hand",
+      "textLayers": [
+        {
+          "text": "DELL PRO MICRO QCM1250",
+          "x": 175,
+          "y": 66,
+          "fontPx": 30,
+          "width": 404.5199890136719,
+          "maxWidth": 960,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Compact by Design.",
+          "x": 48,
+          "y": 151,
+          "fontPx": 74,
+          "width": 711.3499755859375,
+          "maxWidth": 1110,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "See the Micro Form Up Close.",
+          "x": 50,
+          "y": 248,
+          "fontPx": 37,
+          "width": 497.6000061035156,
+          "maxWidth": 1100,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        }
+      ],
+      "sourceLayers": [
+        {
+          "source": "shared/assets/pt08.png",
+          "crop": [
+            930,
+            80,
+            1240,
+            645
+          ],
+          "x": 70,
+          "y": 330,
+          "width": 1060,
+          "height": 551.3709677419355,
+          "proportionPreserved": true
+        }
+      ],
+      "status": "TECHNICAL_CHECK_PASSED_VISUAL_REVIEW_RECORDED_SEPARATELY"
+    },
+    {
+      "id": "pt09",
+      "file": "premium/assets/mobile/pt09-mobile.png",
+      "sourceDesktop": "shared/assets/pt09.png",
+      "sourceDesktopSha256": "c9176d0e136f58e5db1038a7a4fa9d6ae545723f07879a2b4f0e75b04ba8f234",
+      "width": 1200,
+      "height": 900,
+      "bytes": 606136,
+      "sha256": "9e16cb5946f35ac4344c7b1bc157f725dd8bfc3e5d1007a21606709e733e308f",
+      "format": "PNG",
+      "colorSpace": "sRGB",
+      "density": 72,
+      "hasAlpha": false,
+      "role": "Everyday office tasks",
+      "textLayers": [
+        {
+          "text": "DELL PRO MICRO QCM1250",
+          "x": 175,
+          "y": 66,
+          "fontPx": 30,
+          "width": 404.5199890136719,
+          "maxWidth": 960,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Ready for Your Workday.",
+          "x": 48,
+          "y": 151,
+          "fontPx": 68,
+          "width": 799.8300170898438,
+          "maxWidth": 1110,
+          "bold": true,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "Documents",
+          "x": 50,
+          "y": 244,
+          "fontPx": 36,
+          "width": 196.02999877929688,
+          "maxWidth": 350,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "Spreadsheets",
+          "x": 437,
+          "y": 244,
+          "fontPx": 36,
+          "width": 236.11000061035156,
+          "maxWidth": 380,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "Web browsing",
+          "x": 839,
+          "y": 244,
+          "fontPx": 36,
+          "width": 245.33999633789062,
+          "maxWidth": 330,
+          "bold": true,
+          "color": "#0876DD",
+          "align": "left"
+        },
+        {
+          "text": "Illustrative workspace. Monitor, keyboard and",
+          "x": 48,
+          "y": 821,
+          "fontPx": 32,
+          "width": 640.3099975585938,
+          "maxWidth": 1110,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        },
+        {
+          "text": "mouse not included.",
+          "x": 48,
+          "y": 859,
+          "fontPx": 32,
+          "width": 286.4100036621094,
+          "maxWidth": 1110,
+          "bold": false,
+          "color": "#09244A",
+          "align": "left"
+        }
+      ],
+      "sourceLayers": [
+        {
+          "source": "shared/assets/pt09.png",
+          "crop": [
+            760,
+            0,
+            1412,
+            724
+          ],
+          "x": 110,
+          "y": 304,
+          "width": 980,
+          "height": 502.4929178470255,
+          "proportionPreserved": true
+        }
+      ],
+      "status": "TECHNICAL_CHECK_PASSED_VISUAL_REVIEW_RECORDED_SEPARATELY"
+    }
+  ],
+  "sources": [
+    {
+      "file": "shared/source/dell-logo.png",
+      "bytes": 70396,
+      "sha256": "7022f17d03a2277b67ef40d26e30a7b7476daf7edbb450879c81ddd82e6f78d1"
+    },
+    {
+      "file": "shared/source/dell-qcm1250-angle.png",
+      "bytes": 1081826,
+      "sha256": "a60d609b269619d3a047cf7667e94e8c777b3d502e2f55ef99ac60aa27f312fe"
+    },
+    {
+      "file": "shared/source/dell-qcm1250-front.png",
+      "bytes": 272086,
+      "sha256": "8595c94bbf9a1efbaf502a561e0bde1cdbe3eec3125aa263ea6a146f51f70130"
+    },
+    {
+      "file": "shared/source/dell-qcm1250-rear.png",
+      "bytes": 827535,
+      "sha256": "7871f4056651112d31936e4a599bcf63bee3627ea8ed388582e75ef1bb452dad"
+    },
+    {
+      "file": "shared/assets/01-hero-v1.png",
+      "bytes": 1581632,
+      "sha256": "82a5389fcb280f8e8363d8dd5179e7c0f8fcf1aee8e51c93454e9af2423611b0"
+    },
+    {
+      "file": "shared/assets/02-workday-v1.png",
+      "bytes": 1707359,
+      "sha256": "a5e20a0af9f7c3ade3b5761313ee3e4cf8b1e94ba4256dc2f8d5f296fc0c03ef"
+    },
+    {
+      "file": "shared/assets/03-business-v1.png",
+      "bytes": 1487952,
+      "sha256": "6400151ff5f1054629bdf16340057aae55eac56ddbf0c8899d2758e8da916502"
+    },
+    {
+      "file": "shared/assets/04-home-office-v1.png",
+      "bytes": 1398019,
+      "sha256": "891e9e674cdfcfa95f519ffc502299cd6f8482209161b313a04b5b75d19a98b7"
+    },
+    {
+      "file": "shared/assets/05-connections-v1.png",
+      "bytes": 1383733,
+      "sha256": "bde743590b83930b5b96b95f59e84a332f2dca98b0603b08d7d4ac8be117ca6b"
+    },
+    {
+      "file": "shared/assets/06-configuration-v1.png",
+      "bytes": 1536951,
+      "sha256": "4574eb9ca58f808e600d2e7728b665ff1d2de3e59fd28c607eb9ac2bbb12a2bd"
+    },
+    {
+      "file": "shared/assets/pt07.png",
+      "bytes": 1672278,
+      "sha256": "522c6a61e900541f5b030e83bc694463ca64b202f4ed5ab76d9fc4a2d2b980c4"
+    },
+    {
+      "file": "shared/assets/pt08.png",
+      "bytes": 1681731,
+      "sha256": "3eee2d2436319eeeb988493fb1d197a3bd5de3d34d6a595e202d5751f4719898"
+    },
+    {
+      "file": "shared/assets/pt09.png",
+      "bytes": 1732469,
+      "sha256": "c9176d0e136f58e5db1038a7a4fa9d6ae545723f07879a2b4f0e75b04ba8f234"
+    }
+  ],
+  "knownLimitations": [
+    "Technical conformance is not Amazon moderation approval.",
+    "Screenshot establishes the shown image field only, not every module or account entitlement.",
+    "Nine assets do not establish nine available A+ modules.",
+    "Scene photographs retain existing illustrative/accessory/scale limitations.",
+    "No new current-unit configuration research or physical inspection."
+  ],
+  "amazonUpload": "NOT_PERFORMED",
+  "amazonPublication": "NOT_PERFORMED",
+  "style": "Existing approved direction reused at user request; mobile derivatives are not described as separately user-reviewed."
+}

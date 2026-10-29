@@ -1,5 +1,9 @@
 # VD-744 · 美国站 A+ / Premium A+ / 视频脚本项目
 
+## 2026-10-29 · 手机图片交付
+
+按用户要求沿用现有九图设计和内容，另作九张 1200×900 sRGB PNG，单张小于 2 MB；[手机图片与对应清单](delivery/mobile.md)、[实际字节/哈希/图层](delivery/mobile-manifest.json)、[制作和检查](review/mobile-export-20261029.json)。原始桌面九图和 Basic/Premium 买家文案保留。07 以英寸标签及正确的 for scale 限定导出，原始 mm 证据保留。图片尺寸检查完成；后台模块安排、实际上传、整页手机预览和 Amazon 发布未执行。新派生图按本次明确授权交付，不写成已获单独用户视觉审核。
+
 ## 2026-10-27 · 当前批准修订
 
 当前共九张；用户明确要求替换，已选定 02 前置接口、03 处理器、04 规格速览、06 配置档位、08 手托形态五张获批预览。01／05／07／09 原字节不变。Basic／Premium 文案同步，后台适配待完成。当前交付以 [delivery/README.md](delivery/README.md) 与 [修订证据](review/revision-20261027-evidence.json) 为准，早期方案保留为历史。
