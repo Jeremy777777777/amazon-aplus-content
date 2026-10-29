@@ -1,0 +1,12 @@
+const fs=require('node:fs'),path=require('node:path');
+const specPath=path.resolve(process.argv[2]),s=JSON.parse(fs.readFileSync(specPath,'utf8')),root=path.resolve(path.dirname(specPath),s.productRoot||'..');
+const m=JSON.parse(fs.readFileSync(path.join(root,s.manifest),'utf8'));
+let copy=`# ${s.productId} · Mobile A+ 原生文字与上传字段\n\n设计：${s.designId}；手机规格及逐图文件见 [交付页](../delivery/mobile.md)。以下正文和 Alt 与当前设计逐图对应；上传时逐字段填写，不把制作说明复制进买家正文。\n\n`;
+for(const a of m.assets)copy+=`## ${a.id}\n\n图片：[${path.basename(a.file)}](../${a.file})\n\n**Body:** ${a.nativeBody}\n\n**Alt text (${a.altText.length}/100):** ${a.altText}\n\n上传处理：${a.containsSyntheticPerson?'写实 AI 手部场景；原 PNG 已嵌入 contains-synthetic-performer 标签。A+ Creative Assets 的 AI-generated people 选项与此对应。':'无人物，不添加 AI-generated people 标记。'}\n\n`;
+fs.writeFileSync(path.join(root,'mobile/copy.md'),copy.trimEnd()+'\n');
+let gallery=`# ${s.productId} · 独立 Mobile A+ 图片\n\n2026-10-29 完善版：沿用原白蓝商务方向和九个内容主题，采用手机大字与独立排版。统一 **1200×900（4:3）sRGB PNG、72dpi、单张小于2MB**；最小图中文字42px，在360px宽预览中约12.6px。此字号是内部设计起点，不是冒充Amazon统一规定。\n\n已完善：放大正文/限定；独立 Dell Logo 仅在01；04使用原始Windows标识；08只修复两个乱码小字补丁；九条Alt均≤100字符；02/08/09原PNG嵌入AI人物披露标签。原桌面九图不覆盖，之前的手机版本保留在Git历史基线 ${s.baselineCommit}。\n\n[独立手机设计入口](../../../../MOBILE.md) · [逐图Body与Alt](../mobile/copy.md) · [当前配方](../mobile/design.json) · [文件/哈希/图层清单](mobile-manifest.json) · [修订与视觉记录](../review/mobile-refinement-20261029.json)\n\n点击文件后用 GitHub 的 **Download raw file** 下载原PNG。不要下载网页缩略图或截图，以免丢失像素和元数据。该包完成图片与上传字段准备；实际后台上传/整页预览/ASIN应用/发布未执行。九张素材不承诺九个后台模块。\n\n| 图 | 桌面原图 | 手机原文件 | 大小 | AI人物标签 |\n|---|---|---|---|---|\n`;
+for(const a of m.assets)gallery+=`| ${a.id} | [桌面](../${a.sourceDesktop}) | [${path.basename(a.file)}](../${a.file}) | ${(a.bytes/1000000).toFixed(2)} MB | ${a.xmpSyntheticPerformer?'已嵌入':'不适用'} |\n`;
+gallery+='\n## 手机图片\n\n';for(const a of m.assets)gallery+=`![${a.id} ${a.altText}](../${a.file})\n\n`;
+gallery+='## 使用范围\n\n完整容量选项、单核睿频限定、外设不随附及软件边界在图内或对应原生正文中保留。尺寸仅用英寸，原始mm证据保留在旧研究记录中。办公/手托照片为示意，不代表严格尺度校准、重量/承重测试或实机检验。所有文件技术与视觉检查状态独立于Amazon审核。\n';
+fs.writeFileSync(path.join(root,'delivery/mobile.md'),gallery);
+console.log('Mobile gallery and nine-image copy/alt upload map written.');

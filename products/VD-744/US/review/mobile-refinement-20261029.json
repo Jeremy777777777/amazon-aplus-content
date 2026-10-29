@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-29",
+  "productId": "VD-744",
+  "baselineCommit": "2545aff4496ed957031a248015db96d9546e8827",
+  "userRequest": "那就帮我完善一下吧，这个设计单独做成mobile的图片设计，然后写入github，下次我让你生成mobile的图片的时候你能够再次生成",
+  "scope": "Nine independent mobile layouts and reusable GitHub production route; existing product evidence and approved white/blue scenes reused.",
+  "designId": "MOBILE_APLUS_WHITE_BLUE_V1",
+  "recipe": "mobile/design.json",
+  "currentManifest": "delivery/mobile-manifest.json",
+  "previousExportRecord": "review/mobile-export-20261029.json",
+  "changes": [
+    "Raised minimum embedded font from 30px to42px; 12.6px at360px display width.",
+    "Reflowed text/qualifiers for mobile; complete native Body and alt upload fields saved.",
+    "Only01 has a standalone OEM logo; native chassis marks retained;04 uses original Windows master.",
+    "Nine alt texts are68–92 characters; shortened three legacy Basic alts exceeding100.",
+    "02/08/09 have embedded contains-synthetic-performer XMP metadata.",
+    "08 bounded texture patch removes malformed tiny USB legends; all other source-scene pixels preserved.",
+    "All nine desktop masters retain prior bytes."
+  ],
+  "boundedRepair": {
+    "mode": "Built-in imagegen edit of approved pt08 wide source; only a bounded candidate patch is used in deterministic final composition.",
+    "actualPrompt": "Use case: precise-object-edit. Edit target is the supplied approved 3:1 Dell Pro Micro QCM1250 compact-in-hand artwork. Make ONLY a microscopic cleanup on the hardware face: remove the two malformed tiny white speed legends above the USB-A and USB-C ports (the garbled 5Gbps/10Gbps lettering), replacing those two tiny patches with the matching clean dark-gray surface texture. Do not add replacement words, numerals or symbols. Keep the actual USB-A and USB-C sockets, their shapes and order, power button, headphone jack and icon, vent slats, Dell chassis mark, the supporting hand, every finger, perspective, shadows, all existing title/model/subtitle text, circular logo, pale blue background and the exact composition unchanged. No other retouching. Preserve the full wide canvas and all text. The intended result differs only in the two tiny malformed lettering patches. No new product claims or new design.",
+    "input": {
+      "file": "shared/assets/pt08.png",
+      "sha256": "3eee2d2436319eeeb988493fb1d197a3bd5de3d34d6a595e202d5751f4719898"
+    },
+    "candidate": {
+      "sha256": "d7cbd235f9696f8b711009dda21dba54094bb1637965cb2e488a1e718fe395ac",
+      "bytes": 1632696,
+      "width": 2169,
+      "height": 725,
+      "retention": "Temporary candidate; full generated image is not a final source."
+    },
+    "patch": {
+      "file": "shared/source/mobile/pt08-panel-clean.png",
+      "sha256": "ca7bb667cdaa8ea0d9f04a478b6272cfce1ddd0e7fff80a41b3f71b1876033cc",
+      "bytes": 11203,
+      "nativeBounds": [
+        1182,
+        232,
+        175,
+        37
+      ],
+      "candidateNormalizedTo": [
+        2170,
+        725
+      ],
+      "featherPx": 4,
+      "changedSourcePixelsInside": 5972,
+      "changedSourcePixelsOutside": 0
+    }
+  },
+  "technicalChecks": {
+    "state": "FILE_AND_METADATA_CHECKS_PASSED",
+    "images": 9,
+    "canvas": [
+      1200,
+      900
+    ],
+    "largestBytes": 609157,
+    "minimumEmbeddedFontPx": 42,
+    "standaloneBrandMarks": 1,
+    "taggedHandScenes": 3,
+    "altTextCharacters": [
+      {
+        "id": "01",
+        "length": 68
+      },
+      {
+        "id": "02",
+        "length": 75
+      },
+      {
+        "id": "03",
+        "length": 80
+      },
+      {
+        "id": "04",
+        "length": 91
+      },
+      {
+        "id": "05",
+        "length": 76
+      },
+      {
+        "id": "06",
+        "length": 82
+      },
+      {
+        "id": "07",
+        "length": 88
+      },
+      {
+        "id": "08",
+        "length": 92
+      },
+      {
+        "id": "09",
+        "length": 91
+      }
+    ],
+    "desktopOriginalsUnchanged": 9,
+    "manifestAssetDigest": "86d34be2170d240452890627065128f5f827a64fdaa0d453100e0da9e260cc0b",
+    "rawPixelHashes": [
+      {
+        "id": "01",
+        "sha256": "8bc241f1661d453ce3514f6eb60c46edfd9acd94f208946983f6b72f5cfb109a"
+      },
+      {
+        "id": "02",
+        "sha256": "5bbfde9e9e6128a3e0ef6693b204e8c701036722ab50ff22f9d9482741fb5ef9"
+      },
+      {
+        "id": "03",
+        "sha256": "0eab7f9d48a80ce6719e58c05d075cd334266a8d91bfd625e4f04fb3e866659f"
+      },
+      {
+        "id": "04",
+        "sha256": "5f8cc721cd317fb60e9fedfab9ba0051563515ffcb86f089320781c837cd7e87"
+      },
+      {
+        "id": "05",
+        "sha256": "94e53f9988a938ed657969906a7de2778c824a09a04452e854fd661b73a28e48"
+      },
+      {
+        "id": "06",
+        "sha256": "4eef24237c00426d9e52551819fc9600fcb9256f1173d212cc66ea711b9b0d3f"
+      },
+      {
+        "id": "07",
+        "sha256": "15822921b9168a3112e92602fcce2566a7a282128a74f27483bc4e5109e6ec64"
+      },
+      {
+        "id": "08",
+        "sha256": "cd0b87652963a995f226755bd2214d6e8905bcd69cddd7c3439b6b4ef8e8d80e"
+      },
+      {
+        "id": "09",
+        "sha256": "ebce444722ce67500b4fb82d4dca64b73f6cdc89e4412ceb562b95f483b48d33"
+      }
+    ],
+    "visualReview": "SEPARATE",
+    "amazonUpload": "NOT_PERFORMED",
+    "amazonPublication": "NOT_PERFORMED"
+  },
+  "reproduction": {
+    "state": "REPEATED_RENDER_IMAGE_BYTES_IDENTICAL",
+    "sameRecipeSameRuntime": true,
+    "imageSha256": [
+      {
+        "id": "01",
+        "sha256": "7e193058e108f3416a98b97ed059bda6df34a9c7776f53bcf30eef785550d4c8"
+      },
+      {
+        "id": "02",
+        "sha256": "edf8c8e47759f23f8ec27678dd150bbc0d366b456813bb74d0f4173f4f294044"
+      },
+      {
+        "id": "03",
+        "sha256": "725c096dd65215d2f1c0c53e81b76f23be5db0feb4c3016fdd8c533c6da5eb4e"
+      },
+      {
+        "id": "04",
+        "sha256": "6c20b2f49757172b9d726de467c9350a8c0cb1b685916f24ab8c154ad64fa161"
+      },
+      {
+        "id": "05",
+        "sha256": "63933d678f4d880630457543585ce5a49e19fa5961ae474fcad9c3ca82a6667d"
+      },
+      {
+        "id": "06",
+        "sha256": "a77c07c76516f70241612ec7d519ee4f84dda7bc191fc1dcc5efd815999df30a"
+      },
+      {
+        "id": "07",
+        "sha256": "dadc4f27ade23e4593146fcdac73f67fac0abac8dc3940eb65b0cf59f7d60002"
+      },
+      {
+        "id": "08",
+        "sha256": "c2bcdc4ce10986c8535a93996e9c5eba0d69ab439b23af827c6e82610ddefb34"
+      },
+      {
+        "id": "09",
+        "sha256": "4fae79af02d32c8ad4061a3d15bdd45538de87e6a3ba27404954dd3e014f0c55"
+      }
+    ]
+  },
+  "visualReview": {
+    "state": "REVIEWED_FINAL_FILES_BY_AGENT",
+    "scope": "All nine final1200px files plus360/390/400px and200px contact previews inspected. Layout/text/hardware/qualifiers/logo/crop/08 repair reviewed. At200px only recognition and main information were assessed.",
+    "observations": [
+      "No observed clipping, stretched hardware or text overlap.",
+      "Native scene photography retained in02/07/08/09.",
+      "Large labels, capacity options and limitations remain readable at360px review width;42px is a design target, not an official Amazon universal font minimum.",
+      "08 malformed white legends removed without replacing hand, sockets or chassis brand."
+    ],
+    "userPostRenderApproval": "NOT_REQUESTED_OR_CLAIMED"
+  },
+  "factualReview": "Existing exact-product evidence reused; no new current-unit/serial/BOM inspection or new product configuration claim.",
+  "sellerCentralUpload": "NOT_PERFORMED",
+  "amazonPublication": "NOT_PERFORMED",
+  "remoteVerification": "Performed separately after commit/push by verify-mobile.cjs --remote; this precommit record does not claim a future push succeeded."
+}

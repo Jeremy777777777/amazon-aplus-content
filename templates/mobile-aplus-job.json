@@ -1,0 +1,116 @@
+{
+  "template": true,
+  "schemaVersion": 1,
+  "designId": "MOBILE_APLUS_WHITE_BLUE_V1",
+  "productId": "FILL_EXACT_INTERNAL_ID",
+  "asin": "FILL_VERIFIED_ASIN",
+  "marketplace": "FILL_MARKETPLACE",
+  "date": "FILL_DATE",
+  "baselineCommit": "FILL_CURRENT_REMOTE_COMMIT",
+  "productRoot": "..",
+  "profile": "@repo/assets/mobile-aplus-design-system.json",
+  "outputDir": "premium/assets/mobile",
+  "manifest": "delivery/mobile-manifest.json",
+  "instructions": "Fill verified copy, actual source files/hashes/crops, evidence, per-image alt and AI flags, and measured text/image layers. Remove template:true only after review. The complete runnable VD-744 example is the geometry/reference implementation, not a source of new-product facts.",
+  "assets": [
+    {
+      "id": "01",
+      "role": "identity",
+      "filename": "01-identity-mobile.png",
+      "sourceDesktop": "FILL_CURRENT_MATCHING_ASSET",
+      "altText": "FILL_ACCURATE_DESCRIPTION_1_TO_100_CHARACTERS",
+      "nativeBody": "FILL_VERIFIED_NATIVE_BODY_AND_QUALIFIERS",
+      "containsSyntheticPerson": null,
+      "claimEvidence": [],
+      "layers": []
+    },
+    {
+      "id": "02",
+      "role": "practical-use",
+      "filename": "02-practical-use-mobile.png",
+      "sourceDesktop": "FILL_CURRENT_MATCHING_ASSET",
+      "altText": "FILL_ACCURATE_DESCRIPTION_1_TO_100_CHARACTERS",
+      "nativeBody": "FILL_VERIFIED_NATIVE_BODY_AND_QUALIFIERS",
+      "containsSyntheticPerson": null,
+      "claimEvidence": [],
+      "layers": []
+    },
+    {
+      "id": "03",
+      "role": "processor",
+      "filename": "03-processor-mobile.png",
+      "sourceDesktop": "FILL_CURRENT_MATCHING_ASSET",
+      "altText": "FILL_ACCURATE_DESCRIPTION_1_TO_100_CHARACTERS",
+      "nativeBody": "FILL_VERIFIED_NATIVE_BODY_AND_QUALIFIERS",
+      "containsSyntheticPerson": null,
+      "claimEvidence": [],
+      "layers": []
+    },
+    {
+      "id": "04",
+      "role": "spec-overview",
+      "filename": "04-spec-overview-mobile.png",
+      "sourceDesktop": "FILL_CURRENT_MATCHING_ASSET",
+      "altText": "FILL_ACCURATE_DESCRIPTION_1_TO_100_CHARACTERS",
+      "nativeBody": "FILL_VERIFIED_NATIVE_BODY_AND_QUALIFIERS",
+      "containsSyntheticPerson": null,
+      "claimEvidence": [],
+      "layers": []
+    },
+    {
+      "id": "05",
+      "role": "connectivity",
+      "filename": "05-connectivity-mobile.png",
+      "sourceDesktop": "FILL_CURRENT_MATCHING_ASSET",
+      "altText": "FILL_ACCURATE_DESCRIPTION_1_TO_100_CHARACTERS",
+      "nativeBody": "FILL_VERIFIED_NATIVE_BODY_AND_QUALIFIERS",
+      "containsSyntheticPerson": null,
+      "claimEvidence": [],
+      "layers": []
+    },
+    {
+      "id": "06",
+      "role": "configuration",
+      "filename": "06-configuration-mobile.png",
+      "sourceDesktop": "FILL_CURRENT_MATCHING_ASSET",
+      "altText": "FILL_ACCURATE_DESCRIPTION_1_TO_100_CHARACTERS",
+      "nativeBody": "FILL_VERIFIED_NATIVE_BODY_AND_QUALIFIERS",
+      "containsSyntheticPerson": null,
+      "claimEvidence": [],
+      "layers": []
+    },
+    {
+      "id": "07",
+      "role": "dimensions",
+      "filename": "07-dimensions-mobile.png",
+      "sourceDesktop": "FILL_CURRENT_MATCHING_ASSET",
+      "altText": "FILL_ACCURATE_DESCRIPTION_1_TO_100_CHARACTERS",
+      "nativeBody": "FILL_VERIFIED_NATIVE_BODY_AND_QUALIFIERS",
+      "containsSyntheticPerson": null,
+      "claimEvidence": [],
+      "layers": []
+    },
+    {
+      "id": "08",
+      "role": "detail",
+      "filename": "08-detail-mobile.png",
+      "sourceDesktop": "FILL_CURRENT_MATCHING_ASSET",
+      "altText": "FILL_ACCURATE_DESCRIPTION_1_TO_100_CHARACTERS",
+      "nativeBody": "FILL_VERIFIED_NATIVE_BODY_AND_QUALIFIERS",
+      "containsSyntheticPerson": null,
+      "claimEvidence": [],
+      "layers": []
+    },
+    {
+      "id": "09",
+      "role": "workload",
+      "filename": "09-workload-mobile.png",
+      "sourceDesktop": "FILL_CURRENT_MATCHING_ASSET",
+      "altText": "FILL_ACCURATE_DESCRIPTION_1_TO_100_CHARACTERS",
+      "nativeBody": "FILL_VERIFIED_NATIVE_BODY_AND_QUALIFIERS",
+      "containsSyntheticPerson": null,
+      "claimEvidence": [],
+      "layers": []
+    }
+  ]
+}

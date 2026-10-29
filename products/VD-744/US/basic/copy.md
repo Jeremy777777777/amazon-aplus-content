@@ -1,5 +1,7 @@
 # VD-744 · Basic A+ 内容 v1
 
+2026-10-29：以下保留Basic内容与候选模块规划；当前独立手机成品、逐图Body及Alt见 [手机交付](../delivery/mobile.md) 和 [手机字段](../mobile/copy.md)。本页“宽幅母版”状态不表示手机版未生成；实际模块可用性仍逐项核实。
+
 状态：NINE_IMAGE_USER_APPROVED_REVISION_20261027 / BACKEND_ADAPTATION_PENDING。图片为宽幅创意母版，尚未按后台模块尺寸与移动端规则导出。当前 ASIN：B0HMY74CHD；共用九张图片；容量为卖家可选档位，不固定单台已安装配置。
 
 ## B01 · 产品主视觉
@@ -34,11 +36,11 @@
 
 **Image 1:** [03-business-v1.png](../shared/assets/03-business-v1.png)
 
-**Image 1 alt:** Intel Core Ultra 7 265T processor overview showing 20 total cores, 8P plus 12E and up to 5.3 GHz maximum Turbo.
+**Image 1 alt:** Intel Core Ultra 7 265T: 20 cores, 8P plus 12E, and up to 5.3 GHz maximum Turbo.
 
 **Image 2:** [04-home-office-v1.png](../shared/assets/04-home-office-v1.png)
 
-**Image 2 alt:** Dell micro desktop specification grid with processor, USB-A and USB-C, Windows 11 Pro, RAM options up to 64GB, SSD options up to 4TB, Wi-Fi and Bluetooth.
+**Image 2 alt:** Dell micro desktop specs: CPU, ports, Windows 11 Pro, RAM/SSD options, Wi-Fi and Bluetooth.
 
 **事实与适配：**CPU 数值来自 Dell／Intel 匹配型号资料；5.3 GHz 非全核持续频率。容量上限仅指卖家列出的选项，不是当前安装配置或原厂存储上限。两图为组合候选，实际模块及数量待后台适配。
 
@@ -62,7 +64,7 @@
 
 **Image:** [06-configuration-v1.png](../shared/assets/06-configuration-v1.png)
 
-**Alt text:** Two independent option rows list 8GB, 16GB, 32GB and 64GB DDR5 RAM, and 0.5TB, 1TB, 2TB and 4TB SSD storage.
+**Alt text:** Independent choices: 8, 16, 32 or 64GB DDR5 RAM, and 0.5, 1, 2 or 4TB SSD storage.
 
 **事实依据：**卖家确认实际档位，与当前 ASIN 公开 Customizations 表核对；旧标题差异保留。不是预配的四组套餐，不保证全部组合有货，不确认单盘布局，不展示价格。
 

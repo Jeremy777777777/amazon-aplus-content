@@ -1,0 +1,16 @@
+{
+  "name": "amazon-aplus-content-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproducible Mobile A+ composition from verified original assets and text",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "mobile:build": "node scripts/render-mobile-aplus.cjs products/VD-744/US/mobile/design.json",
+    "mobile:check": "node scripts/validate-mobile-aplus.cjs products/VD-744/US/mobile/design.json",
+    "mobile:copy": "node scripts/write-mobile-delivery.cjs products/VD-744/US/mobile/design.json"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.100",
+    "sharp": "0.35.5"
+  }
+}

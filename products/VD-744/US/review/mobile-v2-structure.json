@@ -1,0 +1,93 @@
+{
+  "state": "FILE_AND_METADATA_CHECKS_PASSED",
+  "images": 9,
+  "canvas": [
+    1200,
+    900
+  ],
+  "largestBytes": 609157,
+  "minimumEmbeddedFontPx": 42,
+  "standaloneBrandMarks": 1,
+  "taggedHandScenes": 3,
+  "altTextCharacters": [
+    {
+      "id": "01",
+      "length": 68
+    },
+    {
+      "id": "02",
+      "length": 75
+    },
+    {
+      "id": "03",
+      "length": 80
+    },
+    {
+      "id": "04",
+      "length": 91
+    },
+    {
+      "id": "05",
+      "length": 76
+    },
+    {
+      "id": "06",
+      "length": 82
+    },
+    {
+      "id": "07",
+      "length": 88
+    },
+    {
+      "id": "08",
+      "length": 92
+    },
+    {
+      "id": "09",
+      "length": 91
+    }
+  ],
+  "desktopOriginalsUnchanged": 9,
+  "manifestAssetDigest": "86d34be2170d240452890627065128f5f827a64fdaa0d453100e0da9e260cc0b",
+  "rawPixelHashes": [
+    {
+      "id": "01",
+      "sha256": "8bc241f1661d453ce3514f6eb60c46edfd9acd94f208946983f6b72f5cfb109a"
+    },
+    {
+      "id": "02",
+      "sha256": "5bbfde9e9e6128a3e0ef6693b204e8c701036722ab50ff22f9d9482741fb5ef9"
+    },
+    {
+      "id": "03",
+      "sha256": "0eab7f9d48a80ce6719e58c05d075cd334266a8d91bfd625e4f04fb3e866659f"
+    },
+    {
+      "id": "04",
+      "sha256": "5f8cc721cd317fb60e9fedfab9ba0051563515ffcb86f089320781c837cd7e87"
+    },
+    {
+      "id": "05",
+      "sha256": "94e53f9988a938ed657969906a7de2778c824a09a04452e854fd661b73a28e48"
+    },
+    {
+      "id": "06",
+      "sha256": "4eef24237c00426d9e52551819fc9600fcb9256f1173d212cc66ea711b9b0d3f"
+    },
+    {
+      "id": "07",
+      "sha256": "15822921b9168a3112e92602fcce2566a7a282128a74f27483bc4e5109e6ec64"
+    },
+    {
+      "id": "08",
+      "sha256": "cd0b87652963a995f226755bd2214d6e8905bcd69cddd7c3439b6b4ef8e8d80e"
+    },
+    {
+      "id": "09",
+      "sha256": "ebce444722ce67500b4fb82d4dca64b73f6cdc89e4412ceb562b95f483b48d33"
+    }
+  ],
+  "visualReview": "SEPARATE",
+  "amazonUpload": "NOT_PERFORMED",
+  "amazonPublication": "NOT_PERFORMED"
+}

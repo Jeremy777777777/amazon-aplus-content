@@ -1,0 +1,38 @@
+{
+  "id": "MOBILE_APLUS_WHITE_BLUE_V1",
+  "version": "1.0",
+  "date": "2026-10-29",
+  "canvas": [1200, 900],
+  "minimumObservedUploadField": [600, 450],
+  "maxBytesExclusive": 2000000,
+  "safeBottomPx": 16,
+  "previewWidths": [360, 390, 400, 200],
+  "palette": {
+    "navy": "#09244A",
+    "blue": "#0876DD",
+    "white": "#FFFFFF",
+    "tint": "#E5F3FF",
+    "topTint": "#F2F8FF",
+    "wave": "#DBEEFF",
+    "card": "#EDF6FE"
+  },
+  "typography": {
+    "family": "Arial",
+    "minimumEmbeddedPx": 42,
+    "minimumDisplayedPxAt360": 12.6,
+    "headlinePx": [72, 82],
+    "bodyPx": [44, 48],
+    "qualifierPx": [42, 44],
+    "principalNumberPx": [52, 84],
+    "policy": "Internal readability targets, not claimed as an Amazon universal minimum font rule; reflow or move copy to native text instead of shrinking."
+  },
+  "layout": {
+    "readingOrder": "Model / headline / frozen product or scene / grouped facts / readable qualifier",
+    "standaloneBrandLogo": "One placement across the assembled image set, normally the hero; retain authentic chassis marks and applicable component/OS identities.",
+    "hardware": "Native original reference or exact approved scene pixels; proportional placement.",
+    "photoStyle": "Preserve this product's white/blue business studio and natural office scenes. Other product directions require their own style selection.",
+    "mobileIndependent": true,
+    "desktopMastersMutable": false
+  },
+  "reuseBoundary": "Reuse this mobile layout/typography/QA method; exact product identities, capacities, claims, included software, original brand masters and photographs are supplied and verified per product."
+}

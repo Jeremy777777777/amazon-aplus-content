@@ -1,5 +1,9 @@
 # VD-744 · 美国站 A+ / Premium A+ / 视频脚本项目
 
+## 2026-10-29 · 当前手机完善版
+
+用户要求独立Mobile设计并保存供下次生成。当前九张手机图采用 [独立手机规范](../../../references/mobile-aplus-design-system.md) 和 [完整配方](mobile/design.json)，最小字号42px、九条Alt≤100字符、02/08/09嵌入AI人物披露，08仅局部清理乱码；仅01保留独立Dell标识，04使用原始Windows标识。见 [当前手机交付](delivery/mobile.md) 和 [本次修订记录](review/mobile-refinement-20261029.json)。下方首次导出记录为历史；桌面九图未改。本次是用户授权的完善制作，不写成渲染后另获视觉批准或Amazon审核通过。
+
 ## 2026-10-29 · 手机图片交付
 
 按用户要求沿用现有九图设计和内容，另作九张 1200×900 sRGB PNG，单张小于 2 MB；[手机图片与对应清单](delivery/mobile.md)、[实际字节/哈希/图层](delivery/mobile-manifest.json)、[制作和检查](review/mobile-export-20261029.json)。原始桌面九图和 Basic/Premium 买家文案保留。07 以英寸标签及正确的 for scale 限定导出，原始 mm 证据保留。图片尺寸检查完成；后台模块安排、实际上传、整页手机预览和 Amazon 发布未执行。新派生图按本次明确授权交付，不写成已获单独用户视觉审核。

@@ -1,0 +1,8 @@
+{
+  "oemBrand": "Dell",
+  "osFamily": "Windows 11",
+  "osEdition": "Pro",
+  "verifiedSoftwareEntitlements": [],
+  "evidence": ["project.md", "review/revision-20261027-evidence.json"],
+  "scope": "Existing exact-product identity and seller-delivered OS assertion; not new serial/BOM/installed-unit verification."
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "authorization": {
+    "status": "USER_CONFIRMED_BRAND_ASSETS_2026_10_29",
+    "scope": "Existing authorized original hardware/OS masters for accurate product marketing.",
+    "softwareEntitlementSeparate": true
+  },
+  "assets": [
+    {
+      "id": "dell-blue-original",
+      "path": "assets/branding/library/dell-blue-original.png",
+      "brand": "Dell",
+      "identity": "Dell corporate blue circular logo",
+      "match": {"oemBrand": "Dell"},
+      "contentType": "image/png",
+      "byteLength": 70396,
+      "sha256": "7022f17d03a2277b67ef40d26e30a7b7476daf7edbb450879c81ddd82e6f78d1",
+      "provenanceReference": "Existing approved VD-744 shared/source/dell-logo.png; identical hash in products/VD-744/US/delivery/manifest.json sources at baseline 2545aff4496ed957031a248015db96d9546e8827.",
+      "authorization": "USER_CONFIRMED_BRAND_ASSETS_2026_10_29",
+      "status": "AVAILABLE_APPROVED_ORIGINAL",
+      "derivativeMethod": "Final compositor keys only neutral backdrop pixels to alpha and proportionally scales to 100px; original master remains unchanged."
+    },
+    {
+      "id": "windows-11-official",
+      "path": "assets/branding/library/windows-11-official.png",
+      "brand": "Microsoft",
+      "identity": "Windows 11",
+      "match": {"osFamily": "Windows 11"},
+      "sourcePage": "https://news.microsoft.com/june-24-2021/",
+      "url": "https://msftstories.thesourcemediaassets.com/sites/612/2021/06/Windows-11-Logo-1000x404.png",
+      "provenanceReference": "Matching maintained create-custom-pc-listing brand-library master and registry; helper source git blob 3d1a248900c50780b3acb1b77ee79bcbe3ce461a.",
+      "contentType": "image/png",
+      "byteLength": 78969,
+      "sha256": "6cbe028e90bbeb2758c8f43592f1fbe9354b13d484655ea8025f75f0abe7b5b8",
+      "authorization": "USER_CONFIRMED_BRAND_ASSETS_2026_10_29",
+      "status": "AVAILABLE_ORIGINAL",
+      "derivativeMethod": "Crop native four-pane symbol at [134,134,136,136], preserving original blue pixels; the separate Pro text is supported by product evidence, not by the generic master."
+    }
+  ]
+}

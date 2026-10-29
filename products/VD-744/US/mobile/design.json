@@ -1,0 +1,1256 @@
+{
+  "schemaVersion": 1,
+  "designId": "MOBILE_APLUS_WHITE_BLUE_V1",
+  "productId": "VD-744",
+  "asin": "B0HMY74CHD",
+  "marketplace": "US",
+  "date": "2026-10-29",
+  "baselineCommit": "2545aff4496ed957031a248015db96d9546e8827",
+  "productRoot": "..",
+  "profile": "@repo/assets/mobile-aplus-design-system.json",
+  "outputDir": "premium/assets/mobile",
+  "manifest": "delivery/mobile-manifest.json",
+  "sourceFactsScope": "Existing approved exact-product evidence and seller option assertions; no new installed-configuration claim or serial lookup.",
+  "assets": [
+    {
+      "id": "01",
+      "filename": "01-hero-mobile.png",
+      "sourceDesktop": "shared/assets/01-hero-v1.png",
+      "altText": "Dell Pro Micro QCM1250 micro desktop on a blue and white background.",
+      "nativeBody": "Compact design. Focused workspace.",
+      "containsSyntheticPerson": false,
+      "claimEvidence": [
+        "project.md",
+        "review/revision-20261027-evidence.json"
+      ],
+      "layers": [
+        {
+          "type": "image",
+          "file": "@repo/assets/branding/library/dell-blue-original.png",
+          "x": 48,
+          "y": 32,
+          "w": 100,
+          "h": 100,
+          "removeNeutralBackdrop": true,
+          "role": "standalone-brand",
+          "assetId": "dell-blue-original"
+        },
+        {
+          "type": "text",
+          "text": "Dell Pro Micro QCM1250",
+          "x": 180,
+          "y": 62,
+          "size": 42,
+          "maxWidth": 960,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Make Room for",
+          "x": 48,
+          "y": 190,
+          "size": 82,
+          "maxWidth": 760,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "What Matters.",
+          "x": 48,
+          "y": 286,
+          "size": 82,
+          "maxWidth": 760,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Compact design.",
+          "x": 52,
+          "y": 440,
+          "size": 44,
+          "maxWidth": 720,
+          "color": "navy",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Focused workspace.",
+          "x": 52,
+          "y": 496,
+          "size": 44,
+          "maxWidth": 720,
+          "color": "navy",
+          "bold": false
+        },
+        {
+          "type": "image",
+          "file": "shared/source/dell-qcm1250-angle.png",
+          "x": 830,
+          "y": 210,
+          "h": 610,
+          "trimAlpha": true,
+          "shadow": true,
+          "role": "native-hardware"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "filename": "02-workday-mobile.png",
+      "sourceDesktop": "shared/assets/02-workday-v1.png",
+      "altText": "A hand holds a USB drive near the front USB-A port of a Dell micro desktop.",
+      "nativeBody": "Front-panel access for everyday devices. Illustrative use. USB drive and accessories not included.",
+      "containsSyntheticPerson": true,
+      "claimEvidence": [
+        "project.md",
+        "review/revision-20261027-evidence.json"
+      ],
+      "layers": [
+        {
+          "type": "text",
+          "text": "Dell Pro Micro QCM1250",
+          "x": 48,
+          "y": 40,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Connections Within Reach.",
+          "x": 48,
+          "y": 118,
+          "size": 76,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Front-panel access for everyday devices.",
+          "x": 50,
+          "y": 222,
+          "size": 44,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": false
+        },
+        {
+          "type": "image",
+          "file": "shared/assets/02-workday-v1.png",
+          "x": 230,
+          "y": 290,
+          "w": 740,
+          "crop": [
+            830,
+            0,
+            1340,
+            725
+          ],
+          "radius": 20,
+          "role": "approved-scene"
+        },
+        {
+          "type": "text",
+          "text": "USB-A",
+          "x": 135,
+          "y": 718,
+          "size": 42,
+          "maxWidth": 250,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "USB-C",
+          "x": 495,
+          "y": 718,
+          "size": 42,
+          "maxWidth": 250,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Headset jack",
+          "x": 823,
+          "y": 718,
+          "size": 42,
+          "maxWidth": 340,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Illustrative use. USB drive and",
+          "x": 48,
+          "y": 780,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "accessories not included.",
+          "x": 48,
+          "y": 828,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "filename": "03-business-mobile.png",
+      "sourceDesktop": "shared/assets/03-business-v1.png",
+      "altText": "Intel Core Ultra 7 265T: 20 cores, 8P plus 12E, and up to 5.3 GHz maximum Turbo.",
+      "nativeBody": "Intel Core Ultra 7 265T. 20 total cores, 8P + 12E. Up to 5.3 GHz maximum single-core turbo frequency. For everyday office applications and multitasking. Actual performance varies.",
+      "containsSyntheticPerson": false,
+      "claimEvidence": [
+        "project.md",
+        "review/revision-20261027-evidence.json"
+      ],
+      "layers": [
+        {
+          "type": "text",
+          "text": "Dell Pro Micro QCM1250",
+          "x": 48,
+          "y": 40,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "20-Core Processing.",
+          "x": 48,
+          "y": 118,
+          "size": 76,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Intel Core Ultra 7 265T",
+          "x": 48,
+          "y": 225,
+          "size": 44,
+          "maxWidth": 880,
+          "color": "navy",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "20",
+          "x": 48,
+          "y": 350,
+          "size": 84,
+          "maxWidth": 280,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Total Cores",
+          "x": 48,
+          "y": 447,
+          "size": 42,
+          "maxWidth": 290,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "8P + 12E",
+          "x": 350,
+          "y": 365,
+          "size": 60,
+          "maxWidth": 300,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Core Design",
+          "x": 350,
+          "y": 447,
+          "size": 42,
+          "maxWidth": 310,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Up to",
+          "x": 665,
+          "y": 300,
+          "size": 42,
+          "maxWidth": 245,
+          "color": "navy",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "5.3 GHz",
+          "x": 665,
+          "y": 365,
+          "size": 60,
+          "maxWidth": 270,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Max Turbo",
+          "x": 665,
+          "y": 447,
+          "size": 42,
+          "maxWidth": 280,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "image",
+          "file": "shared/source/dell-qcm1250-angle.png",
+          "x": 965,
+          "y": 240,
+          "h": 405,
+          "trimAlpha": true,
+          "shadow": true,
+          "role": "native-hardware"
+        },
+        {
+          "type": "text",
+          "text": "For everyday office applications",
+          "x": 48,
+          "y": 610,
+          "size": 44,
+          "maxWidth": 870,
+          "color": "navy",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "and multitasking.",
+          "x": 48,
+          "y": 664,
+          "size": 44,
+          "maxWidth": 870,
+          "color": "navy",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Maximum single-core turbo frequency.",
+          "x": 48,
+          "y": 790,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Actual performance varies.",
+          "x": 48,
+          "y": 840,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "filename": "04-home-office-mobile.png",
+      "sourceDesktop": "shared/assets/04-home-office-v1.png",
+      "altText": "Dell micro desktop specs: CPU, ports, Windows 11 Pro, RAM/SSD options, Wi-Fi and Bluetooth.",
+      "nativeBody": "Intel Core Ultra 7 265T, USB-A and USB-C, Windows 11 Pro, Wi-Fi and Bluetooth. Up to 64GB DDR5 RAM and up to 4TB SSD storage are seller options. RAM and SSD options vary by selection. Confirm your configuration before ordering.",
+      "containsSyntheticPerson": false,
+      "claimEvidence": [
+        "project.md",
+        "review/revision-20261027-evidence.json"
+      ],
+      "layers": [
+        {
+          "type": "text",
+          "text": "Dell Pro Micro QCM1250",
+          "x": 48,
+          "y": 40,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Your PC, at a Glance.",
+          "x": 48,
+          "y": 116,
+          "size": 76,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "box",
+          "x": 48,
+          "y": 224,
+          "w": 535,
+          "h": 135
+        },
+        {
+          "type": "text",
+          "text": "Intel Core Ultra 7",
+          "x": 72,
+          "y": 242,
+          "size": 44,
+          "maxWidth": 487,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "265T",
+          "x": 72,
+          "y": 294,
+          "size": 62,
+          "maxWidth": 487,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "box",
+          "x": 607,
+          "y": 224,
+          "w": 545,
+          "h": 135
+        },
+        {
+          "type": "text",
+          "text": "USB-A + USB-C",
+          "x": 631,
+          "y": 268,
+          "size": 44,
+          "maxWidth": 497,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "box",
+          "x": 48,
+          "y": 380,
+          "w": 1104,
+          "h": 126
+        },
+        {
+          "type": "image",
+          "file": "@repo/assets/branding/library/windows-11-official.png",
+          "x": 80,
+          "y": 400,
+          "w": 80,
+          "h": 80,
+          "crop": [
+            134,
+            134,
+            136,
+            136
+          ],
+          "role": "applicable-os-identity",
+          "assetId": "windows-11-official"
+        },
+        {
+          "type": "text",
+          "text": "Windows 11 Pro",
+          "x": 205,
+          "y": 411,
+          "size": 60,
+          "maxWidth": 900,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "box",
+          "x": 48,
+          "y": 526,
+          "w": 535,
+          "h": 130
+        },
+        {
+          "type": "text",
+          "text": "Up to 64GB",
+          "x": 72,
+          "y": 541,
+          "size": 52,
+          "maxWidth": 487,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "DDR5 RAM Options",
+          "x": 72,
+          "y": 603,
+          "size": 42,
+          "maxWidth": 487,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "box",
+          "x": 607,
+          "y": 526,
+          "w": 545,
+          "h": 130
+        },
+        {
+          "type": "text",
+          "text": "Up to 4TB",
+          "x": 631,
+          "y": 541,
+          "size": 52,
+          "maxWidth": 497,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "SSD Storage Options",
+          "x": 631,
+          "y": 603,
+          "size": 42,
+          "maxWidth": 497,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Wi-Fi",
+          "x": 72,
+          "y": 684,
+          "size": 46,
+          "maxWidth": 487,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Bluetooth",
+          "x": 631,
+          "y": 684,
+          "size": 46,
+          "maxWidth": 497,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "RAM and SSD options vary by selection.",
+          "x": 48,
+          "y": 770,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Confirm your configuration before ordering.",
+          "x": 48,
+          "y": 824,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "filename": "05-connections-mobile.png",
+      "sourceDesktop": "shared/assets/05-connections-v1.png",
+      "altText": "Front and rear views of Dell Pro Micro QCM1250 with connection types listed.",
+      "nativeBody": "USB-A and USB-C, HDMI and DisplayPort, Ethernet, Wi-Fi and Bluetooth for everyday desk workflows.",
+      "containsSyntheticPerson": false,
+      "claimEvidence": [
+        "project.md",
+        "review/revision-20261027-evidence.json"
+      ],
+      "layers": [
+        {
+          "type": "text",
+          "text": "Dell Pro Micro QCM1250",
+          "x": 48,
+          "y": 40,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Connections",
+          "x": 48,
+          "y": 118,
+          "size": 76,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "You Can See.",
+          "x": 48,
+          "y": 204,
+          "size": 76,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "image",
+          "file": "shared/source/dell-qcm1250-front.png",
+          "x": 92,
+          "y": 320,
+          "h": 430,
+          "trimAlpha": true,
+          "shadow": true,
+          "role": "native-hardware"
+        },
+        {
+          "type": "image",
+          "file": "shared/source/dell-qcm1250-rear.png",
+          "x": 285,
+          "y": 320,
+          "h": 430,
+          "trimAlpha": true,
+          "shadow": true,
+          "role": "native-hardware"
+        },
+        {
+          "type": "text",
+          "text": "Front",
+          "x": 90,
+          "y": 773,
+          "size": 42,
+          "maxWidth": 180,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Rear",
+          "x": 292,
+          "y": 773,
+          "size": 42,
+          "maxWidth": 180,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "USB-A + USB-C",
+          "x": 530,
+          "y": 345,
+          "size": 44,
+          "maxWidth": 625,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "HDMI + DisplayPort",
+          "x": 530,
+          "y": 425,
+          "size": 44,
+          "maxWidth": 625,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Ethernet",
+          "x": 530,
+          "y": 505,
+          "size": 44,
+          "maxWidth": 625,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Wi-Fi + Bluetooth",
+          "x": 530,
+          "y": 585,
+          "size": 44,
+          "maxWidth": 625,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Everyday desk workflows",
+          "x": 530,
+          "y": 708,
+          "size": 42,
+          "maxWidth": 625,
+          "color": "navy",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "filename": "06-configuration-mobile.png",
+      "sourceDesktop": "shared/assets/06-configuration-v1.png",
+      "altText": "Independent choices: 8, 16, 32 or 64GB DDR5 RAM, and 0.5, 1, 2 or 4TB SSD storage.",
+      "nativeBody": "Choose the RAM and SSD options for your needs. Seller-configurable options. Confirm your selected RAM and SSD combination before ordering. Available combinations may vary.",
+      "containsSyntheticPerson": false,
+      "claimEvidence": [
+        "project.md",
+        "review/revision-20261027-evidence.json"
+      ],
+      "layers": [
+        {
+          "type": "text",
+          "text": "Dell Pro Micro QCM1250",
+          "x": 48,
+          "y": 40,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Customize Your",
+          "x": 48,
+          "y": 118,
+          "size": 76,
+          "maxWidth": 930,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Configuration",
+          "x": 48,
+          "y": 206,
+          "size": 76,
+          "maxWidth": 930,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "image",
+          "file": "shared/source/dell-qcm1250-angle.png",
+          "x": 1020,
+          "y": 120,
+          "h": 175,
+          "trimAlpha": true,
+          "shadow": true,
+          "role": "native-hardware"
+        },
+        {
+          "type": "text",
+          "text": "Choose the RAM and SSD options",
+          "x": 48,
+          "y": 319,
+          "size": 44,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "for your needs.",
+          "x": 48,
+          "y": 373,
+          "size": 44,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "DDR5 RAM Options",
+          "x": 48,
+          "y": 439,
+          "size": 44,
+          "maxWidth": 1104,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "box",
+          "x": 48,
+          "y": 496,
+          "w": 264,
+          "h": 90
+        },
+        {
+          "type": "text",
+          "text": "8GB",
+          "x": 180,
+          "y": 511,
+          "size": 60,
+          "maxWidth": 250,
+          "color": "navy",
+          "bold": true,
+          "align": "center"
+        },
+        {
+          "type": "box",
+          "x": 328,
+          "y": 496,
+          "w": 264,
+          "h": 90
+        },
+        {
+          "type": "text",
+          "text": "16GB",
+          "x": 460,
+          "y": 511,
+          "size": 60,
+          "maxWidth": 250,
+          "color": "navy",
+          "bold": true,
+          "align": "center"
+        },
+        {
+          "type": "box",
+          "x": 608,
+          "y": 496,
+          "w": 264,
+          "h": 90
+        },
+        {
+          "type": "text",
+          "text": "32GB",
+          "x": 740,
+          "y": 511,
+          "size": 60,
+          "maxWidth": 250,
+          "color": "navy",
+          "bold": true,
+          "align": "center"
+        },
+        {
+          "type": "box",
+          "x": 888,
+          "y": 496,
+          "w": 264,
+          "h": 90
+        },
+        {
+          "type": "text",
+          "text": "64GB",
+          "x": 1020,
+          "y": 511,
+          "size": 60,
+          "maxWidth": 250,
+          "color": "navy",
+          "bold": true,
+          "align": "center"
+        },
+        {
+          "type": "text",
+          "text": "SSD Storage Options",
+          "x": 48,
+          "y": 605,
+          "size": 44,
+          "maxWidth": 1104,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "box",
+          "x": 48,
+          "y": 662,
+          "w": 264,
+          "h": 90
+        },
+        {
+          "type": "text",
+          "text": "0.5TB",
+          "x": 180,
+          "y": 677,
+          "size": 60,
+          "maxWidth": 250,
+          "color": "navy",
+          "bold": true,
+          "align": "center"
+        },
+        {
+          "type": "box",
+          "x": 328,
+          "y": 662,
+          "w": 264,
+          "h": 90
+        },
+        {
+          "type": "text",
+          "text": "1TB",
+          "x": 460,
+          "y": 677,
+          "size": 60,
+          "maxWidth": 250,
+          "color": "navy",
+          "bold": true,
+          "align": "center"
+        },
+        {
+          "type": "box",
+          "x": 608,
+          "y": 662,
+          "w": 264,
+          "h": 90
+        },
+        {
+          "type": "text",
+          "text": "2TB",
+          "x": 740,
+          "y": 677,
+          "size": 60,
+          "maxWidth": 250,
+          "color": "navy",
+          "bold": true,
+          "align": "center"
+        },
+        {
+          "type": "box",
+          "x": 888,
+          "y": 662,
+          "w": 264,
+          "h": 90
+        },
+        {
+          "type": "text",
+          "text": "4TB",
+          "x": 1020,
+          "y": 677,
+          "size": 60,
+          "maxWidth": 250,
+          "color": "navy",
+          "bold": true,
+          "align": "center"
+        },
+        {
+          "type": "text",
+          "text": "Seller-configurable options. Confirm your selected",
+          "x": 48,
+          "y": 790,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "RAM and SSD combination before ordering.",
+          "x": 48,
+          "y": 840,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "filename": "pt07-mobile.png",
+      "sourceDesktop": "shared/assets/pt07.png",
+      "altText": "Dell micro desktop beside a monitor, keyboard and mouse; dimensions are shown in inches.",
+      "nativeBody": "Height 7.17 in, width 1.42 in, depth 7.01 in. Monitor, keyboard and mouse shown for scale. Not included.",
+      "containsSyntheticPerson": false,
+      "claimEvidence": [
+        "project.md",
+        "review/pt07-office-comparison-20261027.json"
+      ],
+      "layers": [
+        {
+          "type": "text",
+          "text": "Dell Pro Micro QCM1250",
+          "x": 48,
+          "y": 40,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Small Size.",
+          "x": 48,
+          "y": 110,
+          "size": 72,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "More Desk Space.",
+          "x": 48,
+          "y": 190,
+          "size": 72,
+          "maxWidth": 1104,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "image",
+          "file": "shared/assets/pt07.png",
+          "x": 220,
+          "y": 280,
+          "w": 760,
+          "crop": [
+            820,
+            0,
+            1351,
+            724
+          ],
+          "radius": 20,
+          "role": "approved-scene"
+        },
+        {
+          "type": "text",
+          "text": "Height",
+          "x": 75,
+          "y": 704,
+          "size": 42,
+          "maxWidth": 290,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "7.17 in",
+          "x": 75,
+          "y": 756,
+          "size": 52,
+          "maxWidth": 290,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Width",
+          "x": 465,
+          "y": 704,
+          "size": 42,
+          "maxWidth": 290,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "1.42 in",
+          "x": 465,
+          "y": 756,
+          "size": 52,
+          "maxWidth": 290,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Depth",
+          "x": 855,
+          "y": 704,
+          "size": 42,
+          "maxWidth": 290,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "7.01 in",
+          "x": 855,
+          "y": 756,
+          "size": 52,
+          "maxWidth": 290,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Shown for scale. Peripherals not included.",
+          "x": 48,
+          "y": 835,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "filename": "pt08-mobile.png",
+      "sourceDesktop": "shared/assets/pt08.png",
+      "altText": "A hand supports a Dell micro desktop horizontally, showing its compact form and front ports.",
+      "nativeBody": "Compact by Design. See the Micro Form Up Close.",
+      "containsSyntheticPerson": true,
+      "claimEvidence": [
+        "project.md",
+        "review/revision-20261027-evidence.json"
+      ],
+      "layers": [
+        {
+          "type": "text",
+          "text": "Dell Pro Micro QCM1250",
+          "x": 48,
+          "y": 40,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Compact by Design.",
+          "x": 48,
+          "y": 118,
+          "size": 76,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "See the Micro Form Up Close.",
+          "x": 48,
+          "y": 222,
+          "size": 44,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": false
+        },
+        {
+          "type": "image",
+          "file": "shared/assets/pt08.png",
+          "x": 70,
+          "y": 310,
+          "w": 1060,
+          "crop": [
+            930,
+            80,
+            1240,
+            645
+          ],
+          "radius": 20,
+          "role": "approved-scene",
+          "patches": [
+            {
+              "file": "shared/source/mobile/pt08-panel-clean.png",
+              "left": 1182,
+              "top": 232
+            }
+          ],
+          "repair": "Only the two malformed tiny speed-legend patches are replaced with clean dark surface texture; all other approved scene pixels remain frozen."
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "filename": "pt09-mobile.png",
+      "sourceDesktop": "shared/assets/pt09.png",
+      "altText": "Hands use a keyboard and mouse beside a Dell micro desktop and generic office-task screens.",
+      "nativeBody": "Ready for Your Workday. Documents, spreadsheets and web browsing. Illustrative workspace. Monitor, keyboard and mouse not included.",
+      "containsSyntheticPerson": true,
+      "claimEvidence": [
+        "project.md",
+        "review/revision-20261027-evidence.json"
+      ],
+      "layers": [
+        {
+          "type": "text",
+          "text": "Dell Pro Micro QCM1250",
+          "x": 48,
+          "y": 40,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Ready for Your Workday.",
+          "x": 48,
+          "y": 118,
+          "size": 72,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Documents",
+          "x": 48,
+          "y": 222,
+          "size": 44,
+          "maxWidth": 350,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Spreadsheets",
+          "x": 425,
+          "y": 222,
+          "size": 44,
+          "maxWidth": 380,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Web browsing",
+          "x": 840,
+          "y": 222,
+          "size": 44,
+          "maxWidth": 330,
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "type": "image",
+          "file": "shared/assets/pt09.png",
+          "x": 120,
+          "y": 290,
+          "w": 960,
+          "crop": [
+            760,
+            0,
+            1412,
+            724
+          ],
+          "radius": 20,
+          "role": "approved-scene"
+        },
+        {
+          "type": "text",
+          "text": "Illustrative workspace. Peripherals not included.",
+          "x": 48,
+          "y": 815,
+          "size": 42,
+          "maxWidth": 1104,
+          "color": "navy",
+          "bold": false
+        }
+      ]
+    }
+  ]
+}

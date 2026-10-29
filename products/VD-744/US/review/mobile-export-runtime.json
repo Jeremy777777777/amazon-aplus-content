@@ -6,9 +6,12 @@
   },
   "font": "Legally available Arial regular and bold TTF; font files are not redistributed.",
   "fontDirectoryOverride": "APLUS_FONT_DIR",
-  "build": "node products/VD-744/US/review/build-mobile.cjs <temporary-QA-directory>",
-  "verify": "node products/VD-744/US/review/verify-mobile.cjs",
+  "build": "node scripts/render-mobile-aplus.cjs products/VD-744/US/mobile/design.json <temporary-QA-directory>",
+  "verify": "node scripts/validate-mobile-aplus.cjs products/VD-744/US/mobile/design.json",
   "verifyFetchedRemote": "node products/VD-744/US/review/verify-mobile.cjs --remote",
   "installation": "Install the two exact dependency versions in the repository root or an ancestor supported by Node resolution; do not commit node_modules.",
-  "sourceManifest": "delivery/mobile-manifest.json"
+  "sourceManifest": "delivery/mobile-manifest.json",
+  "designId": "MOBILE_APLUS_WHITE_BLUE_V1",
+  "copyAndGallery": "node scripts/write-mobile-delivery.cjs products/VD-744/US/mobile/design.json",
+  "repeatedRenderImageBytes": "IDENTICAL"
 }

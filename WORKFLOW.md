@@ -1,6 +1,8 @@
 # Listing / ERP → A+、Premium A+ 与视频 AI 脚本
 
-版本：1.1 · 2026-10-27
+版本：1.2 · 2026-10-29
+
+**Mobile 独立入口：** 用户要求手机图片时，读取 [MOBILE.md](MOBILE.md)、[手机设计规范](references/mobile-aplus-design-system.md)，填写 [手机简报](templates/mobile-aplus-brief.md) 与 [任务结构](templates/mobile-aplus-job.json)，再使用通用渲染器。当前 VD-744 的完整配方、原生Body/Alt和九张手机成品均由该入口链接。复用排版方法，不将本例品牌/配置/风格批准转移给其他产品。
 
 2026-10-29 手机导出补充：[手机图片导出规则](references/mobile-image-exports.md) 规定如何沿用已批准设计/内容，使用原始硬件、原始标识和确定性文字另作手机图片。当前 VD-744 已有九张 1200×900 手机 PNG；桌面母版保留。图片技术规格、用户风格判断、模块/ASIN 可用性、后台上传与 Amazon 发布分别记录。
 

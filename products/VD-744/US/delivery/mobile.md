@@ -1,43 +1,45 @@
-# VD-744 · Mobile 上传图片
+# VD-744 · 独立 Mobile A+ 图片
 
-2026-10-29：沿用当前九图的内容、白/深蓝/蓝色视觉、原始产品和批准场景，重排为 **1200 × 900 px（4:3）**。九张均为 **sRGB PNG、72 dpi、不透明、单张小于 2 MB**，对应用户截图中的 `Add mobile image [600px x 450px min]`。
+2026-10-29 完善版：沿用原白蓝商务方向和九个内容主题，采用手机大字与独立排版。统一 **1200×900（4:3）sRGB PNG、72dpi、单张小于2MB**；最小图中文字42px，在360px宽预览中约12.6px。此字号是内部设计起点，不是冒充Amazon统一规定。
 
-点击下面文件，使用 GitHub 的 **Download raw file** 下载原文件，再选入对应模块的 **Add mobile image**。不要下载页面缩略图或网页截图。现有桌面图保留在 `shared/assets/`。
+已完善：放大正文/限定；独立 Dell Logo 仅在01；04使用原始Windows标识；08只修复两个乱码小字补丁；九条Alt均≤100字符；02/08/09原PNG嵌入AI人物披露标签。原桌面九图不覆盖，之前的手机版本保留在Git历史基线 2545aff4496ed957031a248015db96d9546e8827。
 
-当前完成的是九张图片文件的手机尺寸适配。没有上传 Seller Central、保存/应用 ASIN 或发布 Amazon 内容；最终模块选择、整页预览与审核状态继续独立记录。九张素材不等于九个后台模块。
+[独立手机设计入口](../../../../MOBILE.md) · [逐图Body与Alt](../mobile/copy.md) · [当前配方](../mobile/design.json) · [文件/哈希/图层清单](mobile-manifest.json) · [修订与视觉记录](../review/mobile-refinement-20261029.json)
 
-| 图片 | 现有桌面母版 | 手机上传文件 |
-|---|---|---|
-| 01 产品主视觉 | [桌面](../shared/assets/01-hero-v1.png) | [01-hero-mobile.png](../premium/assets/mobile/01-hero-mobile.png) |
-| 02 前置接口使用 | [桌面](../shared/assets/02-workday-v1.png) | [02-workday-mobile.png](../premium/assets/mobile/02-workday-mobile.png) |
-| 03 处理器信息 | [桌面](../shared/assets/03-business-v1.png) | [03-business-mobile.png](../premium/assets/mobile/03-business-mobile.png) |
-| 04 整机规格速览 | [桌面](../shared/assets/04-home-office-v1.png) | [04-home-office-mobile.png](../premium/assets/mobile/04-home-office-mobile.png) |
-| 05 前后连接 | [桌面](../shared/assets/05-connections-v1.png) | [05-connections-mobile.png](../premium/assets/mobile/05-connections-mobile.png) |
-| 06 配置选择 | [桌面](../shared/assets/06-configuration-v1.png) | [06-configuration-mobile.png](../premium/assets/mobile/06-configuration-mobile.png) |
-| 07 办公尺度 | [桌面](../shared/assets/pt07.png) | [pt07-mobile.png](../premium/assets/mobile/pt07-mobile.png) |
-| 08 手托形态 | [桌面](../shared/assets/pt08.png) | [pt08-mobile.png](../premium/assets/mobile/pt08-mobile.png) |
-| 09 日常办公 | [桌面](../shared/assets/pt09.png) | [pt09-mobile.png](../premium/assets/mobile/pt09-mobile.png) |
+点击文件后用 GitHub 的 **Download raw file** 下载原PNG。不要下载网页缩略图或截图，以免丢失像素和元数据。该包完成图片与上传字段准备；实际后台上传/整页预览/ASIN应用/发布未执行。九张素材不承诺九个后台模块。
 
-[字节/尺寸/哈希/图层清单](mobile-manifest.json) · [制作与检查记录](../review/mobile-export-20261029.json) · [可重建配方](../review/build-mobile.cjs) · [通用手机导出说明](../../../../references/mobile-image-exports.md)
+| 图 | 桌面原图 | 手机原文件 | 大小 | AI人物标签 |
+|---|---|---|---|---|
+| 01 | [桌面](../shared/assets/01-hero-v1.png) | [01-hero-mobile.png](../premium/assets/mobile/01-hero-mobile.png) | 0.25 MB | 不适用 |
+| 02 | [桌面](../shared/assets/02-workday-v1.png) | [02-workday-mobile.png](../premium/assets/mobile/02-workday-mobile.png) | 0.45 MB | 已嵌入 |
+| 03 | [桌面](../shared/assets/03-business-v1.png) | [03-business-mobile.png](../premium/assets/mobile/03-business-mobile.png) | 0.21 MB | 不适用 |
+| 04 | [桌面](../shared/assets/04-home-office-v1.png) | [04-home-office-mobile.png](../premium/assets/mobile/04-home-office-mobile.png) | 0.13 MB | 不适用 |
+| 05 | [桌面](../shared/assets/05-connections-v1.png) | [05-connections-mobile.png](../premium/assets/mobile/05-connections-mobile.png) | 0.22 MB | 不适用 |
+| 06 | [桌面](../shared/assets/06-configuration-v1.png) | [06-configuration-mobile.png](../premium/assets/mobile/06-configuration-mobile.png) | 0.17 MB | 不适用 |
+| 07 | [桌面](../shared/assets/pt07.png) | [pt07-mobile.png](../premium/assets/mobile/pt07-mobile.png) | 0.42 MB | 不适用 |
+| 08 | [桌面](../shared/assets/pt08.png) | [pt08-mobile.png](../premium/assets/mobile/pt08-mobile.png) | 0.61 MB | 已嵌入 |
+| 09 | [桌面](../shared/assets/pt09.png) | [pt09-mobile.png](../premium/assets/mobile/pt09-mobile.png) | 0.59 MB | 已嵌入 |
 
 ## 手机图片
 
-![01 产品主视觉](../premium/assets/mobile/01-hero-mobile.png)
+![01 Dell Pro Micro QCM1250 micro desktop on a blue and white background.](../premium/assets/mobile/01-hero-mobile.png)
 
-![02 前置接口](../premium/assets/mobile/02-workday-mobile.png)
+![02 A hand holds a USB drive near the front USB-A port of a Dell micro desktop.](../premium/assets/mobile/02-workday-mobile.png)
 
-![03 处理器](../premium/assets/mobile/03-business-mobile.png)
+![03 Intel Core Ultra 7 265T: 20 cores, 8P plus 12E, and up to 5.3 GHz maximum Turbo.](../premium/assets/mobile/03-business-mobile.png)
 
-![04 规格速览](../premium/assets/mobile/04-home-office-mobile.png)
+![04 Dell micro desktop specs: CPU, ports, Windows 11 Pro, RAM/SSD options, Wi-Fi and Bluetooth.](../premium/assets/mobile/04-home-office-mobile.png)
 
-![05 连接说明](../premium/assets/mobile/05-connections-mobile.png)
+![05 Front and rear views of Dell Pro Micro QCM1250 with connection types listed.](../premium/assets/mobile/05-connections-mobile.png)
 
-![06 配置选择](../premium/assets/mobile/06-configuration-mobile.png)
+![06 Independent choices: 8, 16, 32 or 64GB DDR5 RAM, and 0.5, 1, 2 or 4TB SSD storage.](../premium/assets/mobile/06-configuration-mobile.png)
 
-![07 办公尺度](../premium/assets/mobile/pt07-mobile.png)
+![07 Dell micro desktop beside a monitor, keyboard and mouse; dimensions are shown in inches.](../premium/assets/mobile/pt07-mobile.png)
 
-![08 手托形态](../premium/assets/mobile/pt08-mobile.png)
+![08 A hand supports a Dell micro desktop horizontally, showing its compact form and front ports.](../premium/assets/mobile/pt08-mobile.png)
 
-![09 日常办公](../premium/assets/mobile/pt09-mobile.png)
+![09 Hands use a keyboard and mouse beside a Dell micro desktop and generic office-task screens.](../premium/assets/mobile/pt09-mobile.png)
 
-保留 CPU、RAM/SSD 可选档位、无线未指明代际、配件不随附和性能限定。07 新尺寸标签仅保留 7.17 / 1.42 / 7.01 in，原始 182 / 36 / 178 mm 及换算依据继续保存在既有证据；将旧图的 `shown for sale` 按原提示词原意更正为 `shown for scale`。08 保留批准手托摄影，旧图微小 USB 机身字样的生成痕迹继续列为来源局限，不将其当成新确认的端口速率。
+## 使用范围
+
+完整容量选项、单核睿频限定、外设不随附及软件边界在图内或对应原生正文中保留。尺寸仅用英寸，原始mm证据保留在旧研究记录中。办公/手托照片为示意，不代表严格尺度校准、重量/承重测试或实机检验。所有文件技术与视觉检查状态独立于Amazon审核。

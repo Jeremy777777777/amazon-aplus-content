@@ -6,7 +6,7 @@
   "date": "2026-10-16",
   "lastUpdated": "2026-10-29",
   "mobileExport": {
-    "status": "NINE_MOBILE_FILES_EXPORTED_TECHNICAL_CHECKED",
+    "status": "NINE_INDEPENDENT_MOBILE_LAYOUTS_FILE_METADATA_AND_VISUAL_REVIEWED",
     "date": "2026-10-29",
     "manifest": "delivery/mobile-manifest.json",
     "gallery": "delivery/mobile.md",
@@ -14,7 +14,17 @@
     "height": 900,
     "desktopAssetsUnchanged": true,
     "sellerCentralUpload": "NOT_PERFORMED",
-    "amazonPublication": "NOT_PERFORMED"
+    "amazonPublication": "NOT_PERFORMED",
+    "designId": "MOBILE_APLUS_WHITE_BLUE_V1",
+    "recipe": "mobile/design.json",
+    "review": "review/mobile-refinement-20261029.json",
+    "minEmbeddedFontPx": 42,
+    "taggedHandScenes": [
+      "02",
+      "08",
+      "09"
+    ],
+    "maxAltTextCharacters": 92
   },
   "generator": "built-in imagegen",
   "contentStatus": "NINE_IMAGE_USER_APPROVED_REVISION_20261027",
