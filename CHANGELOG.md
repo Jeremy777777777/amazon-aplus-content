@@ -9,3 +9,6 @@ Reusable workflow source remains in GitHub. Every Markdown and every workflow ve
 ## 2026-10-29 · Independent Mobile A+ design
 
 Introduced MOBILE_APLUS_WHITE_BLUE_V1, 1200×900 mobile composition,42px internal minimum embedded font, native Body/Alt, applicable AI-person metadata, original reusable brand masters and a portable renderer. Product facts, styles and publication states remain separately scoped.
+
+## 2026-10-30
+Hard integer-multiple image policy, default 2× observed minimum: desktop 2928×1200 and mobile 1200×900. Enforced in mobile generation/validation and Drive planning/readback; other modules require their own observed minima. Existing product outputs stay Drive-only.

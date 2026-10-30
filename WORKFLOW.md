@@ -1,5 +1,7 @@
 # Listing / ERP → A+、Premium A+ 与视频 AI 脚本
 
+2026-10-30 硬性生产规则：先读 [图片像素规则](references/image-dimensions.md)。网页/手机均为各自 minimum 宽高的同一个正整数倍，默认2倍；当前字段网页2928×1200、手机1200×900。生成、交付及远端回读必须验证实际像素；其他模块先核实minimum。此规则优先于历史任意创意母版尺寸。
+
 版本：1.2 · 2026-10-29
 
 输出渠道已切换至 [Drive产品交付与版本备份](references/google-drive-delivery.md)：本页所有产品路径仅代表临时制作/恢复目录，产品成品、文案、Markdown、配方与QA必须到Drive；GitHub仅提交可复用流程并在Drive备份版本。历史GitHub产品副本不删除，也不再覆盖。

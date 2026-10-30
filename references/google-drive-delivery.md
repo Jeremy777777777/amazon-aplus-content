@@ -1,5 +1,7 @@
 # A+ output and version storage
 
+2026-10-30 硬性生产规则：先读 [图片像素规则](image-dimensions.md)。网页/手机均为各自 minimum 宽高的同一个正整数倍，默认2倍；当前字段网页2928×1200、手机1200×900。生成、交付及远端回读必须验证实际像素；其他模块先核实minimum。此规则优先于历史任意创意母版尺寸。
+
 Effective2026-10-29, the user changed all A+ outputs to the same Drive project used by create-custom-pc-listing. This supersedes GitHub product-output delivery directions in older documents, historical product copies and prompts.
 
 ## Current storage

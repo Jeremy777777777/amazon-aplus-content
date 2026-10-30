@@ -1,5 +1,7 @@
 # Mobile A+ 图片制作入口
 
+2026-10-30 硬性生产规则：先读 [图片像素规则](references/image-dimensions.md)。网页/手机均为各自 minimum 宽高的同一个正整数倍，默认2倍；当前字段网页2928×1200、手机1200×900。生成、交付及远端回读必须验证实际像素；其他模块先核实minimum。此规则优先于历史任意创意母版尺寸。
+
 当前输出以 [Drive交付规则](references/google-drive-delivery.md) 为准：手机成品进产品02_IMAGES/APLUS/站点/MOBILE，文案进01_LISTING、配方/原图进90_SOURCE、QA/清单进04_QA；全部产品Markdown同样存Drive。下列GitHub产品示例为2026-10-29历史基线，再次制作先从Drive当前账本恢复相同相对路径，不能覆盖历史GitHub产品副本。可复用规则/模板和每次版本在Drive备份。
 
 以后用户说“生成 Mobile 图片”“做手机 A+”或“沿用这套 Mobile 设计”，先走本入口。

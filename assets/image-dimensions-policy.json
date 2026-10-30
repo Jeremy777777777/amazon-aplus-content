@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "effectiveDate": "2026-10-30",
+  "authority": "User production decision; observed Seller Central field minima, not universal Amazon module requirements",
+  "defaultMultiplier": 2,
+  "sameIntegerForBothAxes": true,
+  "targets": {
+    "desktop": {"minimum": [1464, 600], "evidence": "User supplied Seller Central screenshot 2026-10-30: Add desktop image [1464px x 600px min]"},
+    "mobile": {"minimum": [600, 450], "evidence": "User supplied Seller Central screenshot 2026-10-30: Add mobile image [600px x 450px min]"}
+  },
+  "otherModules": "Require observed applicable minimum and evidence; never silently inherit these minima",
+  "geometry": "Preserve product, text and logo proportions; recompose or contain, never stretch or crop meaningful content"
+}

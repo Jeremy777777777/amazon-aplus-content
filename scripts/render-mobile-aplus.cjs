@@ -10,9 +10,9 @@ function xmpSynthetic(){return '<?xpacket begin="\uFEFF" id="W5M0MpCehiHzreSzNTc
 async function render(specPath,qaPath){
  specPath=path.resolve(specPath);const spec=readJSON(specPath);if(spec.template)throw new Error('Fill and verify the mobile template before rendering.');const root=path.resolve(path.dirname(specPath),spec.productRoot||'..');
  if(!within(root,repo))throw new Error('Product root must be inside repository');
- const resolve=rel=>{const r=rel.startsWith('@repo/')?repo:root,p=path.resolve(r,rel.replace(/^@repo\//,''));if(!within(p,r))throw new Error('Escaping source path');return p;};
+ const resolve=rel=>{rel=spec.sourceOverrides?.[rel]||rel;const r=rel.startsWith('@repo/')?repo:root,p=path.resolve(r,rel.replace(/^@repo\//,''));if(!within(p,r))throw new Error('Escaping source path');return p;};
  const profile=readJSON(resolve(spec.profile));if(spec.designId!==profile.id)throw new Error('Design/profile mismatch');
- const [W,H]=profile.canvas,output=resolve(spec.outputDir);fs.mkdirSync(output,{recursive:true});
+ const [W,H]=profile.canvas,output=resolve(spec.outputDir);require('./image-dimensions.cjs').dimensions('mobile',W,H);fs.mkdirSync(output,{recursive:true});
  const fontDir=process.env.APLUS_FONT_DIR||'C:/Windows/Fonts',fonts=[];
  for(const [name,family] of [['arial.ttf','MobileAplus'],['arialbd.ttf','MobileAplus Bold']]){const p=path.join(fontDir,name);if(!GlobalFonts.registerFromPath(p,family))throw new Error('Missing licensed Arial font; set APLUS_FONT_DIR');fonts.push({file:name,sha256:sha(fs.readFileSync(p))});}
  const sources=new Map(),cache=new Map(),records=[];

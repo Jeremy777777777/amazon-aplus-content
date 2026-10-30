@@ -1,5 +1,7 @@
 # Amazon A+ Content
 
+2026-10-30 硬性生产规则：先读 [图片像素规则](references/image-dimensions.md)。网页/手机均为各自 minimum 宽高的同一个正整数倍，默认2倍；当前字段网页2928×1200、手机1200×900。生成、交付及远端回读必须验证实际像素；其他模块先核实minimum。此规则优先于历史任意创意母版尺寸。
+
 **当前交付渠道（2026-10-29）：**所有产品输出存入 [Drive产品区](https://drive.google.com/drive/folders/1z14YEhGsDHXq1YbkuO5iG3t6uIuut4Lf) 的准确产品目录。所有可复用Markdown、脚本、模板和每次版本更新另在 [A+工作流备份](https://drive.google.com/drive/folders/12ADXVFhIIXgtM89osg_r-GPIJT_WcU0b) 保留展开快照。GitHub产品目录是历史基线，不能作为下次任务的最新输入；详见 [Drive交付规则](references/google-drive-delivery.md)。
 
 从已有 Listing 信息或 ERP 产品链接出发，为同一产品制作 Basic A+（普通 A+）和 Premium A+（A++）两套内容。
